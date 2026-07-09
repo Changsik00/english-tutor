@@ -8,7 +8,7 @@
 ## 전체 구성
 
 ```
-middle_school_grammar/
+english_grammar_notes/
 ├── README.md                    (이 파일)
 ├── 00_영어의원리.md               문법을 관통하는 5가지 핵심 원리 (암기 대신 이해)
 ├── 00_학습가이드.md               학습 순서, 12주 진도표, 복습 주기, 오답노트 템플릿
