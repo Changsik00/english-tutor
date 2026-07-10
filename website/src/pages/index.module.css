@@ -1,0 +1,97 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whySection {
+  padding: 3rem 0;
+}
+
+.whyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.whyCard {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.whyCard h3 {
+  margin-bottom: 0.5rem;
+}
+
+.whyCard p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.partsSection {
+  padding: 1rem 0 4rem;
+}
+
+.partsHeading {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.partsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.partCard {
+  display: block;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  text-decoration: none !important;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.partCard:hover {
+  transform: translateY(-2px);
+  border-color: var(--ifm-color-primary);
+}
+
+.partCard h3 {
+  margin-bottom: 0.4rem;
+  color: var(--ifm-color-primary);
+}
+
+.partCard p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+@media screen and (max-width: 768px) {
+  .whyGrid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,231 @@
+/* 공통 다이어그램 스타일 */
+
+.patternWrap,
+.timelineWrap,
+.compareWrap,
+.scaleWrap,
+.flowWrap {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.patternTitle,
+.timelineTitle,
+.compareTitle,
+.scaleTitle,
+.flowTitle {
+  font-weight: 700;
+  margin-bottom: 0.9rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* SentencePattern */
+.patternRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: stretch;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 64px;
+  padding: 0.5rem 0.9rem;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.boxLabel {
+  font-size: 0.75rem;
+  opacity: 0.85;
+  letter-spacing: 0.05em;
+}
+
+.boxText {
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+.role-s { background: #2563eb; }
+.role-v { background: #dc2626; }
+.role-o { background: #16a34a; }
+.role-c { background: #d97706; }
+.role-io { background: #0d9488; }
+.role-do { background: #4f46e5; }
+.role-oc { background: #c026d3; }
+.role-adv { background: #64748b; }
+
+.patternTranslation {
+  margin-top: 0.75rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+/* TenseTimeline */
+.timelineTrack {
+  position: relative;
+  height: 64px;
+  margin: 1.5rem 0.5rem 0.5rem;
+  border-top: 2px solid var(--ifm-color-emphasis-400);
+}
+
+.timelinePoint {
+  position: absolute;
+  top: -8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+.timelineDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+}
+
+.timelineLabel {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+  white-space: nowrap;
+}
+
+.timelineRange {
+  position: absolute;
+  top: -3px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--ifm-color-primary-lighter);
+  opacity: 0.7;
+}
+
+.timelineAxisLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.timelineCaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* WordOrderCompare */
+.compareGrid {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 0.5rem 0.75rem;
+  align-items: center;
+}
+
+.compareLangLabel {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.compareChunks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.compareChunk {
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  background: var(--ifm-color-emphasis-200);
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.compareChunk[data-highlight="true"] {
+  background: var(--ifm-color-primary);
+  color: white;
+  font-weight: 600;
+}
+
+/* NuanceScale */
+.scaleBar {
+  position: relative;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #93c5fd, #2563eb, #1e3a8a);
+  margin: 1.75rem 0.5rem 0.75rem;
+}
+
+.scalePoint {
+  position: absolute;
+  top: -22px;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.scalePointMark {
+  width: 2px;
+  height: 18px;
+  background: var(--ifm-color-emphasis-600);
+  margin-top: 4px;
+}
+
+.scaleEnds {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.25rem;
+}
+
+/* CompressionFlow */
+.flowRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.flowStep {
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  font-size: 0.95rem;
+}
+
+.flowArrow {
+  font-size: 1.3rem;
+  color: var(--ifm-color-primary);
+}
+
+.flowNote {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+@media (max-width: 640px) {
+  .compareGrid {
+    grid-template-columns: 1fr;
+  }
+  .patternRow {
+    gap: 0.4rem;
+  }
+  .box {
+    min-width: 52px;
+    padding: 0.4rem 0.6rem;
+  }
+}
