@@ -63,6 +63,8 @@ const config = {
             position: 'left',
             label: '교재',
           },
+          {to: '/dashboard', label: '📊 대시보드', position: 'left'},
+          {to: '/mistakes', label: '📝 오답노트', position: 'left'},
           {
             href: 'https://github.com/Changsik00/english-tutor',
             label: 'GitHub',
