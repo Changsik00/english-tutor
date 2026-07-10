@@ -1,0 +1,50 @@
+.searchInput {
+  width: 100%;
+  max-width: 420px;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  background: var(--ifm-background-surface-color);
+  color: inherit;
+  font-size: 1rem;
+  margin: 0.5rem 0 2rem;
+}
+
+.empty {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.partBlock {
+  margin-bottom: 2rem;
+}
+
+.chapterBlock {
+  margin: 0.75rem 0 1.25rem;
+}
+
+.chapterBlock h3 {
+  margin-bottom: 0.4rem;
+}
+
+.unitList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.35rem 1.5rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.unitList li a {
+  text-decoration: none;
+}
+
+.unitList li a:hover {
+  text-decoration: underline;
+}
+
+.unitCode {
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-right: 0.35rem;
+}

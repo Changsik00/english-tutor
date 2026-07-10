@@ -46,6 +46,9 @@ function HomepageHeader() {
           <Link className="button button--secondary button--lg" to="/docs/chapters/ch01">
             1장부터 시작하기 →
           </Link>
+          <Link className="button button--outline button--lg" to="/units" style={{marginLeft: '0.75rem'}}>
+            📖 전체 목차 보기
+          </Link>
         </div>
       </div>
     </header>
