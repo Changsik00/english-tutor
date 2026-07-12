@@ -61,7 +61,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'mainSidebar',
             position: 'left',
-            label: '교재',
+            label: '📚 교재',
           },
           {to: '/units', label: '📖 전체 목차', position: 'left'},
           {to: '/dashboard', label: '📊 대시보드', position: 'left'},
