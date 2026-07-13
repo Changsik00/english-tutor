@@ -44,8 +44,6 @@ const config = {
     ],
   ],
 
-  clientModules: [require.resolve('./src/clientModules/ttsInjector.js')],
-
   presets: [
     [
       'classic',
