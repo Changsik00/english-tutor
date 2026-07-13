@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import {useAllProgress} from '@site/src/hooks/useAppData';
+import {useAllProgress, useStreak} from '@site/src/hooks/useAppData';
 import {isDueForReview, REVIEW_STAGE_DAYS} from '@site/src/utils/storage';
 import styles from '@site/src/components/progress/progress.module.css';
 
@@ -33,6 +33,7 @@ function formatDate(ts) {
 
 function DashboardInner() {
   const {all} = useAllProgress();
+  const {streak} = useStreak();
   const chapters = all.chapters || {};
 
   const completedCount = Object.keys(chapters).length;
@@ -43,6 +44,10 @@ function DashboardInner() {
   return (
     <>
       <div className={styles.dashboardGrid}>
+        <div className={styles.statCard}>
+          <div className={styles.statNumber}>🔥 {streak.current}</div>
+          <div className={styles.statLabel}>연속 학습일 (최고 {streak.longest}일)</div>
+        </div>
         <div className={styles.statCard}>
           <div className={styles.statNumber}>{completedCount}/{CHAPTERS.length}</div>
           <div className={styles.statLabel}>학습 완료 챕터</div>

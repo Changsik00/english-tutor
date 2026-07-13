@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import {useChapterProgress} from '@site/src/hooks/useAppData';
-import {REVIEW_STAGE_DAYS} from '@site/src/utils/storage';
+import {REVIEW_STAGE_DAYS, recordActivity} from '@site/src/utils/storage';
 import styles from './progress.module.css';
 
 function formatDate(ts) {
@@ -12,6 +12,10 @@ function formatDate(ts) {
 
 function ChapterProgressInner({chapterId}) {
   const {entry, markComplete, markReviewed, reset, isDue} = useChapterProgress(chapterId);
+
+  useEffect(() => {
+    recordActivity();
+  }, []);
 
   if (!entry) {
     return (

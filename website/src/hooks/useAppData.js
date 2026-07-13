@@ -85,5 +85,24 @@ export function useAllMistakes() {
     all,
     ready,
     remove: (id) => store.removeMistake(id),
+    markReviewed: (id) => store.markMistakeReviewed(id),
   };
+}
+
+// 학습 스트릭(연속 학습일) 구독 훅.
+export function useStreak() {
+  const [streak, setStreak] = useState({current: 0, longest: 0, lastActiveDay: null});
+  const [ready, setReady] = useState(false);
+
+  const refresh = useCallback(() => {
+    setStreak(store.getStreak());
+    setReady(true);
+  }, []);
+
+  useEffect(() => {
+    refresh();
+    return store.subscribe(refresh);
+  }, [refresh]);
+
+  return {streak, ready};
 }

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 import {useAllMistakes} from '@site/src/hooks/useAppData';
+import {isDueForReview, REVIEW_STAGE_DAYS} from '@site/src/utils/storage';
 import styles from '@site/src/components/progress/progress.module.css';
 
 function formatDateTime(ts) {
@@ -21,12 +22,62 @@ function groupByChapter(items) {
   return groups;
 }
 
+function MistakeRow({item, remove, markReviewed}) {
+  const [justGraduated, setJustGraduated] = useState(false);
+  const due = isDueForReview(item);
+
+  const handleReview = () => {
+    const {graduated} = markReviewed(item.id);
+    if (graduated) setJustGraduated(true);
+  };
+
+  if (justGraduated) {
+    return (
+      <div className={styles.mistakeRow}>
+        <span className={styles.masteredLabel}>🎓 졸업! 오답노트에서 제거되었습니다.</span>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.mistakeRow}>
+      <div>
+        <div>{item.prompt}</div>
+        <div className={styles.mistakeMeta}>
+          저장일: {formatDateTime(item.addedAt)}
+          {' · '}
+          {due ? (
+            <span className={styles.dueLabel}>🔔 오늘 복습 ({REVIEW_STAGE_DAYS[item.stage]}일 주기)</span>
+          ) : (
+            <>다음 복습: {formatDateTime(item.nextReviewAt)}</>
+          )}
+        </div>
+      </div>
+      <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap'}}>
+        <Link className="button button--sm button--secondary" to={`/docs/chapters/${item.chapter}#${item.anchor}`}>
+          문제로 이동
+        </Link>
+        {due && (
+          <button className="button button--sm button--primary" onClick={handleReview}>
+            복습 완료
+          </button>
+        )}
+        <button className="button button--sm button--outline button--danger" onClick={() => remove(item.id)}>
+          이해했어요, 삭제
+        </button>
+      </div>
+    </div>
+  );
+}
+
 function MistakesInner() {
-  const {all, remove} = useAllMistakes();
+  const {all, remove, markReviewed} = useAllMistakes();
   const items = all.items || {};
+  const itemList = Object.values(items);
+  const total = itemList.length;
+  const dueItems = itemList.filter((i) => isDueForReview(i));
   const groups = groupByChapter(items);
   const chapterIds = Object.keys(groups).sort();
-  const total = Object.keys(items).length;
 
   if (total === 0) {
     return (
@@ -38,34 +89,33 @@ function MistakesInner() {
 
   return (
     <>
-      <p>총 <strong>{total}개</strong>의 문제가 저장되어 있습니다. 다시 이해했다면 목록에서 지워보세요.</p>
+      <p>
+        총 <strong>{total}개</strong>의 문제가 저장되어 있습니다. 챕터와 마찬가지로 1→3→7→30일 주기로 복습하면
+        자동으로 "졸업"되어 목록에서 사라집니다.
+      </p>
+
+      <h2>🔔 오늘 복습할 오답 ({dueItems.length}개)</h2>
+      {dueItems.length === 0 ? (
+        <div className={styles.emptyState}>오늘 복습할 오답이 없습니다.</div>
+      ) : (
+        <div className={styles.mistakeList}>
+          {dueItems.map((item) => (
+            <MistakeRow key={item.id} item={item} remove={remove} markReviewed={markReviewed} />
+          ))}
+        </div>
+      )}
+
+      <h2>📚 챕터별 전체 오답노트</h2>
       {chapterIds.map((chapterId) => {
         const group = groups[chapterId];
         return (
           <div key={chapterId}>
-            <h2>{group.chapterTitle || chapterId}</h2>
+            <h3>{group.chapterTitle || chapterId}</h3>
             <div className={styles.mistakeList}>
               {group.items
                 .sort((a, b) => b.addedAt - a.addedAt)
                 .map((item) => (
-                  <div key={item.id} className={styles.mistakeRow}>
-                    <div>
-                      <div>{item.prompt}</div>
-                      <div className={styles.mistakeMeta}>저장일: {formatDateTime(item.addedAt)}</div>
-                    </div>
-                    <div style={{display: 'flex', gap: '0.5rem'}}>
-                      <Link
-                        className="button button--sm button--secondary"
-                        to={`/docs/chapters/${item.chapter}#${item.anchor}`}>
-                        문제로 이동
-                      </Link>
-                      <button
-                        className="button button--sm button--outline button--danger"
-                        onClick={() => remove(item.id)}>
-                        이해했어요, 삭제
-                      </button>
-                    </div>
-                  </div>
+                  <MistakeRow key={item.id} item={item} remove={remove} markReviewed={markReviewed} />
                 ))}
             </div>
           </div>
@@ -77,7 +127,7 @@ function MistakesInner() {
 
 export default function Mistakes() {
   return (
-    <Layout title="오답노트" description="틀린 문제를 모아서 다시 복습합니다.">
+    <Layout title="오답노트" description="틀린 문제를 모아서 복습주기에 맞춰 다시 복습합니다.">
       <main className="container margin-vert--lg">
         <h1>📝 오답노트</h1>
         <BrowserOnly>{() => <MistakesInner />}</BrowserOnly>

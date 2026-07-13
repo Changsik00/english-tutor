@@ -52,3 +52,22 @@ details summary {
 details[open] summary {
   margin-bottom: 0.5rem;
 }
+
+.egn-tts-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.85em;
+  padding: 0 0.2em;
+  vertical-align: middle;
+  opacity: 0.7;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.egn-tts-btn:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}

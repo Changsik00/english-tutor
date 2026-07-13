@@ -29,7 +29,22 @@ const config = {
   markdown: {
     mermaid: true,
   },
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        language: ['en', 'ko'],
+        indexDocs: true,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+      }),
+    ],
+  ],
+
+  clientModules: [require.resolve('./src/clientModules/ttsInjector.js')],
 
   presets: [
     [
@@ -64,6 +79,7 @@ const config = {
             label: '📚 교재',
           },
           {to: '/units', label: '📖 전체 목차', position: 'left'},
+          {to: '/quiz', label: '🎯 퀴즈', position: 'left'},
           {to: '/dashboard', label: '📊 대시보드', position: 'left'},
           {to: '/mistakes', label: '📝 오답노트', position: 'left'},
           {
