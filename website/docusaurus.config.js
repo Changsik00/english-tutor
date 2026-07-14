@@ -77,7 +77,6 @@ const config = {
             label: '📚 교재',
           },
           {to: '/units', label: '📖 전체 목차', position: 'left'},
-          {to: '/quiz', label: '🎯 퀴즈', position: 'left'},
           {to: '/dashboard', label: '📊 대시보드', position: 'left'},
           {to: '/mistakes', label: '📝 오답노트', position: 'left'},
           {
