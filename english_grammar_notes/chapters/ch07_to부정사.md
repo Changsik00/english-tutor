@@ -162,6 +162,18 @@ to부정사(to + 동사원형)가 문장에서 명사처럼 **주어, 목적어,
 - 동사에 따라 to부정사만 목적어로 쓸 수 있는 것(want, decide, hope, plan, wish, expect, promise, refuse, agree, learn 등)과 동명사만 목적어로 쓸 수 있는 것(enjoy, finish, mind, avoid, give up, keep, quit, practice 등)이 다르므로 헷갈리지 않도록 주의해야 합니다.
 - 명사적 용법의 to부정사는 문장 성분(주어/목적어/보어)이지 수식어가 아니므로, 형용사적·부사적 용법과 구별할 때는 "그 자리에 명사를 넣어도 말이 되는가"를 확인하면 됩니다.
 
+**단어장: to부정사만 목적어로 취하는 동사**
+
+동명사만 목적어로 취하는 동사(ch08 참고)와 정반대로, 아래 동사들은 반드시 to부정사만 목적어로 취합니다.
+
+| 단어 | 뜻 | 예문 |
+|---|---|---|
+| want | ~하고 싶다 | I want to travel to Japan next year. (나는 내년에 일본을 여행하고 싶다.) |
+| decide | ~하기로 결정하다 | They decided to postpone the meeting. (그들은 회의를 연기하기로 결정했다.) |
+| hope | ~하기를 바라다 | She hopes to become a doctor. (그녀는 의사가 되기를 바란다.) |
+| plan | ~할 계획이다 | We plan to launch the product in March. (우리는 3월에 제품을 출시할 계획이다.) |
+| promise | ~하기로 약속하다 | He promised to call me back. (그는 나에게 다시 전화하겠다고 약속했다.) |
+
 ### 연습문제
 
 1. 다음 문장에서 to부정사가 하는 역할(주어/목적어/보어)을 쓰시오.
