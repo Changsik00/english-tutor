@@ -52,6 +52,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/Changsik00/english-tutor/tree/main/website/',
+          // 기본 admonition 키워드(tip/info/warning 등)에 커스텀 콜아웃 3종을 추가.
+          // design.md '콜아웃 5종' 참고.
+          admonitions: {
+            keywords: ['definition', 'myth', 'principle'],
+            extendDefaults: true,
+          },
         },
         blog: false,
         theme: {
@@ -77,8 +83,9 @@ const config = {
             label: '📚 교재',
           },
           {to: '/units', label: '📖 전체 목차', position: 'left'},
+          {to: '/vocabulary', label: '🗂 단어장', position: 'left'},
           {to: '/dashboard', label: '📊 대시보드', position: 'left'},
-          {to: '/mistakes', label: '📝 오답노트', position: 'left'},
+          {to: '/review', label: '🔁 복습', position: 'left'},
           {
             href: 'https://github.com/Changsik00/english-tutor',
             label: 'GitHub',

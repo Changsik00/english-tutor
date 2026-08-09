@@ -46,32 +46,67 @@
   margin-left: auto;
 }
 
-.mistakeBtn,
-.mistakeBtnSaved {
-  display: inline-block;
-  margin: 0.6rem 0 1rem;
+.reviewCheckBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.75rem 0 1.1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  border: 1px dashed var(--ifm-color-emphasis-400);
+  font-size: 0.88rem;
+}
+
+.reviewCheckLabel {
+  color: var(--ifm-color-emphasis-700);
+  flex-basis: 100%;
+}
+
+.gradeRow {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.gradeBtn {
   border-radius: 8px;
   padding: 0.4rem 0.85rem;
   font-size: 0.85rem;
-  cursor: pointer;
-}
-
-.mistakeBtn {
-  border: 1px solid var(--ifm-color-emphasis-400);
-  background: var(--ifm-background-surface-color);
-  color: var(--ifm-color-emphasis-700);
-}
-
-.mistakeBtn:hover {
-  border-color: var(--ifm-color-danger, #dc2626);
-  color: var(--ifm-color-danger, #dc2626);
-}
-
-.mistakeBtnSaved {
-  border: 1px solid var(--ifm-color-success, #16a34a);
-  background: var(--ifm-color-success-contrast-background, rgba(22, 163, 74, 0.1));
-  color: var(--ifm-color-success-darkest, #15803d);
   font-weight: 600;
+  cursor: pointer;
+  background: transparent;
+}
+
+.gradeAgain {
+  border: 1px solid var(--egn-color-review-again);
+  color: var(--egn-color-review-again);
+}
+
+.gradeUnsure {
+  border: 1px solid var(--egn-color-review-unsure);
+  color: var(--egn-color-review-unsure);
+}
+
+.gradeGood {
+  border: 1px solid var(--egn-color-review-good);
+  color: var(--egn-color-review-good);
+}
+
+.gradeBtn.gradeBtnActive.gradeAgain {
+  background: var(--egn-color-review-again);
+  color: white;
+}
+
+.gradeBtn.gradeBtnActive.gradeUnsure {
+  background: var(--egn-color-review-unsure);
+  color: white;
+}
+
+.gradeBtn.gradeBtnActive.gradeGood {
+  background: var(--egn-color-review-good);
+  color: white;
 }
 
 .dashboardGrid {

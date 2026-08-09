@@ -2,8 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import {useAllProgress, useStreak} from '@site/src/hooks/useAppData';
-import {isDueForReview, REVIEW_STAGE_DAYS} from '@site/src/utils/storage';
+import {useAllProgress, useAllReviewItems, useStreak} from '@site/src/hooks/useAppData';
+import {isDueForReview} from '@site/src/utils/storage';
 import styles from '@site/src/components/progress/progress.module.css';
 
 const CHAPTERS = [
@@ -23,6 +23,8 @@ const CHAPTERS = [
   {id: 'ch14', title: '14. 관계사'},
   {id: 'ch15', title: '15. 가정법'},
   {id: 'ch16', title: '16. 특수구문'},
+  {id: 'ch17', title: '17. 실생활 표현과 오류패턴'},
+  {id: 'ch18', title: '18. 실용 글쓰기 가이드'},
 ];
 
 function formatDate(ts) {
@@ -33,13 +35,20 @@ function formatDate(ts) {
 
 function DashboardInner() {
   const {all} = useAllProgress();
+  const {all: reviewAll} = useAllReviewItems();
   const {streak} = useStreak();
   const chapters = all.chapters || {};
+  const reviewItems = Object.values(reviewAll.items || {});
 
   const completedCount = Object.keys(chapters).length;
-  const masteredCount = Object.values(chapters).filter((c) => c.mastered).length;
   const now = Date.now();
-  const due = CHAPTERS.filter((c) => isDueForReview(chapters[c.id], now));
+  const dueItems = reviewItems.filter((item) => isDueForReview(item, now));
+
+  const dueByChapter = {};
+  for (const item of dueItems) {
+    dueByChapter[item.chapter] = (dueByChapter[item.chapter] || 0) + 1;
+  }
+  const chaptersWithDue = CHAPTERS.filter((c) => dueByChapter[c.id]);
 
   return (
     <>
@@ -53,33 +62,30 @@ function DashboardInner() {
           <div className={styles.statLabel}>학습 완료 챕터</div>
         </div>
         <div className={styles.statCard}>
-          <div className={styles.statNumber}>{due.length}</div>
-          <div className={styles.statLabel}>오늘 복습할 챕터</div>
+          <div className={styles.statNumber}>{dueItems.length}</div>
+          <div className={styles.statLabel}>오늘 복습할 문제</div>
         </div>
         <div className={styles.statCard}>
-          <div className={styles.statNumber}>{masteredCount}</div>
-          <div className={styles.statLabel}>마스터한 챕터</div>
+          <div className={styles.statNumber}>{reviewItems.length}</div>
+          <div className={styles.statLabel}>복습 목록 전체 문제 수</div>
         </div>
       </div>
 
-      <h2>🔔 오늘 복습할 챕터</h2>
-      {due.length === 0 ? (
-        <div className={styles.emptyState}>오늘 복습할 챕터가 없습니다. 새 챕터를 진행해보세요.</div>
+      <h2>🔔 오늘 복습할 문제가 있는 챕터</h2>
+      {chaptersWithDue.length === 0 ? (
+        <div className={styles.emptyState}>오늘 복습할 문제가 없습니다. 새 챕터를 진행해보세요.</div>
       ) : (
         <div className={styles.reviewList}>
-          {due.map((c) => {
-            const entry = chapters[c.id];
-            return (
-              <div key={c.id} className={styles.reviewRow}>
-                <span>
-                  <strong>{c.title}</strong> · {REVIEW_STAGE_DAYS[entry.stage]}일 복습 주기
-                </span>
-                <Link className="button button--sm button--primary" to={`/docs/chapters/${c.id}`}>
-                  복습하러 가기
-                </Link>
-              </div>
-            );
-          })}
+          {chaptersWithDue.map((c) => (
+            <div key={c.id} className={styles.reviewRow}>
+              <span>
+                <strong>{c.title}</strong> · {dueByChapter[c.id]}개 복습 대기
+              </span>
+              <Link className="button button--sm button--primary" to="/review">
+                복습하러 가기
+              </Link>
+            </div>
+          ))}
         </div>
       )}
 
@@ -87,9 +93,7 @@ function DashboardInner() {
       <div className={styles.reviewList}>
         {CHAPTERS.map((c) => {
           const entry = chapters[c.id];
-          let status = '학습 전';
-          if (entry?.mastered) status = '🏆 마스터';
-          else if (entry) status = `✅ 완료 · 다음 복습 ${formatDate(entry.nextReviewAt)}`;
+          const status = entry ? `✅ 완료 (${formatDate(entry.completedAt)})` : '학습 전';
           return (
             <div key={c.id} className={styles.reviewRow}>
               <span>{c.title}</span>
@@ -104,10 +108,10 @@ function DashboardInner() {
 
 export default function Dashboard() {
   return (
-    <Layout title="학습 대시보드" description="챕터별 학습 진행과 복습 주기를 확인합니다.">
+    <Layout title="학습 대시보드" description="챕터별 학습 진행과 오늘 복습할 문제를 확인합니다.">
       <main className="container margin-vert--lg">
         <h1>📊 학습 대시보드</h1>
-        <p>챕터를 "학습 완료"로 표시하면 1일 → 3일 → 7일 → 30일 주기로 복습 시점을 자동으로 알려드립니다.</p>
+        <p>챕터를 다 보면 "학습 완료"로 표시하세요. 복습 일정은 챕터가 아니라 문제 단위로 따로 관리됩니다 — 연습문제를 풀고 자기채점하면 자동으로 쌓입니다.</p>
         <BrowserOnly>{() => <DashboardInner />}</BrowserOnly>
       </main>
     </Layout>

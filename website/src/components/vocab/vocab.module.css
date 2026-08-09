@@ -1,0 +1,67 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.9rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.card {
+  padding: 1rem 1.1rem;
+  border-radius: 10px;
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.wordRow {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.35rem;
+}
+
+.word {
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+.pos {
+  display: inline-block;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.meaning {
+  margin: 0 0 0.5rem;
+}
+
+.example {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.exampleKo {
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.patternPill {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  padding: 0.15rem 0.65rem;
+  border-radius: 999px;
+  background: var(--egn-color-principle-bg);
+  color: var(--egn-color-principle);
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.empty {
+  color: var(--ifm-color-emphasis-600);
+}

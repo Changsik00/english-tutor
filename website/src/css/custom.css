@@ -1,46 +1,117 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * 디자인 규칙은 website/design.md 를 따릅니다. 새 토큰/패턴이 필요하면
+ * 이 파일보다 먼저 design.md를 갱신하세요.
  */
 
-/* You can override the default Infima variables here. */
+@import 'pretendard/dist/web/variable/pretendardvariable.css';
+
+/* 간격 스케일 (design.md) */
 :root {
-  --ifm-color-primary: #2563eb;
-  --ifm-color-primary-dark: #1d4fd1;
-  --ifm-color-primary-darker: #1c4ac6;
-  --ifm-color-primary-darkest: #173da3;
-  --ifm-color-primary-light: #4278ee;
-  --ifm-color-primary-lighter: #5285f0;
-  --ifm-color-primary-lightest: #7fa4f4;
+  --egn-space-1: 4px;
+  --egn-space-2: 8px;
+  --egn-space-3: 12px;
+  --egn-space-4: 16px;
+  --egn-space-5: 24px;
+  --egn-space-6: 32px;
+  --egn-space-7: 48px;
+}
+
+/* 브랜드 컬러: 인디고. 원리(:::info) 콜아웃의 파랑과 구분하기 위해
+   기존 파랑에서 옮김 (design.md '색 토큰' 표 참고). */
+:root {
+  --ifm-color-primary: #4f46e5;
+  --ifm-color-primary-dark: #372fd6;
+  --ifm-color-primary-darker: #342cc9;
+  --ifm-color-primary-darkest: #2b24a5;
+  --ifm-color-primary-light: #6a62e9;
+  --ifm-color-primary-lighter: #7b73eb;
+  --ifm-color-primary-lightest: #a29cf1;
   --ifm-code-font-size: 95%;
+  --ifm-container-width: 1140px;
+  --ifm-container-width-xl: 1280px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --egn-color-definition: #2563eb;
+  --egn-color-definition-bg: #eff4ff;
+  --egn-color-myth: #d97706;
+  --egn-color-myth-bg: #fef8ec;
+  --egn-color-principle: #0d9488;
+  --egn-color-principle-bg: #edf9f7;
+
+  --egn-color-review-again: #dc2626;
+  --egn-color-review-unsure: #d97706;
+  --egn-color-review-good: #16a34a;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #6d9bf7;
-  --ifm-color-primary-dark: #4c84f4;
-  --ifm-color-primary-darker: #3b78f3;
-  --ifm-color-primary-darkest: #175fea;
-  --ifm-color-primary-light: #8eb2f9;
-  --ifm-color-primary-lighter: #9fbffa;
-  --ifm-color-primary-lightest: #cddcfd;
+  --ifm-color-primary: #a5b4fc;
+  --ifm-color-primary-dark: #8593f5;
+  --ifm-color-primary-darker: #7581f2;
+  --ifm-color-primary-darkest: #4b57ea;
+  --ifm-color-primary-light: #c5d0fe;
+  --ifm-color-primary-lighter: #d5ddfe;
+  --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --egn-color-definition: #7dabfb;
+  --egn-color-definition-bg: #16233d;
+  --egn-color-myth: #fbbf24;
+  --egn-color-myth-bg: #332508;
+  --egn-color-principle: #5eead4;
+  --egn-color-principle-bg: #0d2521;
+
+  --egn-color-review-again: #f87171;
+  --egn-color-review-unsure: #fbbf24;
+  --egn-color-review-good: #4ade80;
 }
 
-/* 한국어 본문 가독성 */
+/* 타이포그래피 (design.md '타이포그래피') */
+html {
+  font-family: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont,
+    'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+}
+
 article {
-  font-size: 1.02rem;
-  line-height: 1.85;
+  font-size: 1.05rem;
+  line-height: 1.9;
 }
 
+article p {
+  margin-bottom: 1.1em;
+}
+
+article h2 {
+  font-size: 1.55rem;
+  margin-top: var(--egn-space-7);
+  padding-top: var(--egn-space-5);
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+article h3 {
+  font-size: 1.2rem;
+}
+
+/* Unit 제목 배지: "## Unit 0XX. 제목" 형태를 시각적으로 강조 */
+article h2 {
+  display: flex;
+  align-items: baseline;
+  gap: var(--egn-space-3);
+}
+
+/* 예문 문장(볼드 처리된 영어 문장)을 본문보다 살짝 키움 */
+article li strong,
+article p strong {
+  font-size: 1.03em;
+}
+
+/* 연습문제/정답 카드 */
 details {
-  margin: 0.75rem 0;
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
+  margin: var(--egn-space-4) 0;
+  padding: var(--egn-space-4) var(--egn-space-5);
+  border-radius: 10px;
   background: var(--ifm-color-emphasis-100);
   border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
 }
 
 details summary {
@@ -50,5 +121,26 @@ details summary {
 }
 
 details[open] summary {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--egn-space-3);
+}
+
+/* 커스텀 콜아웃 3종: definition / myth / principle
+   (실제로 생성되는 클래스명은 Docusaurus 버전에 따라 theme-admonition-<type>
+   형태이며, 등록되지 않은 타입은 기본적으로 note 스타일로 폴백한다) */
+.theme-admonition-definition {
+  --ifm-alert-background-color: var(--egn-color-definition-bg);
+  --ifm-alert-border-color: var(--egn-color-definition);
+  --ifm-alert-foreground-color: var(--egn-color-definition);
+}
+
+.theme-admonition-myth {
+  --ifm-alert-background-color: var(--egn-color-myth-bg);
+  --ifm-alert-border-color: var(--egn-color-myth);
+  --ifm-alert-foreground-color: var(--egn-color-myth);
+}
+
+.theme-admonition-principle {
+  --ifm-alert-background-color: var(--egn-color-principle-bg);
+  --ifm-alert-border-color: var(--egn-color-principle);
+  --ifm-alert-foreground-color: var(--egn-color-principle);
 }

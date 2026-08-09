@@ -1,11 +1,15 @@
-// localStorage 기반 학습 진행/오답노트 저장소.
+// localStorage 기반 학습 진행/복습 저장소.
 // 브라우저 환경에서만 동작 (Docusaurus 빌드 시 Node에는 window/localStorage가 없음).
+//
+// v2: 챕터 단위 진행과 복습 항목(구 오답노트)이 각자 독립적인 1/3/7/30일 스케줄을
+// 갖던 v1 구조를 정리했다. 이제 스케줄은 "문제 단위 복습 항목"에만 존재하고,
+// 챕터 진행은 단순 완료 체크로 축소했다(중복 시스템 제거).
 
-const PROGRESS_KEY = 'egn:progress:v1';
-const MISTAKES_KEY = 'egn:mistakes:v1';
+const PROGRESS_KEY = 'egn:progress:v2';
+const REVIEW_KEY = 'egn:review:v2';
 const STREAK_KEY = 'egn:streak:v1';
 
-// 완료 후 복습 간격(일 단위): 1일 -> 3일 -> 7일 -> 30일 -> 그 뒤로는 마스터 처리
+// 복습 간격(일 단위): 1일 -> 3일 -> 7일 -> 30일 -> 그 뒤로는 "기억남" 선택 시 졸업(목록에서 제거)
 export const REVIEW_STAGE_DAYS = [1, 3, 7, 30];
 const DAY_MS = 24 * 60 * 60 * 1000;
 
@@ -38,7 +42,7 @@ function emitChange() {
   }
 }
 
-// ---------- 진행/복습 ----------
+// ---------- 챕터 진행 (단순 완료 체크) ----------
 
 export function getAllProgress() {
   return readJSON(PROGRESS_KEY, {chapters: {}});
@@ -51,32 +55,7 @@ export function getChapterProgress(chapterId) {
 
 export function markChapterComplete(chapterId) {
   const all = getAllProgress();
-  const now = Date.now();
-  all.chapters[chapterId] = {
-    completedAt: now,
-    stage: 0,
-    lastReviewedAt: now,
-    nextReviewAt: now + REVIEW_STAGE_DAYS[0] * DAY_MS,
-    mastered: false,
-  };
-  writeJSON(PROGRESS_KEY, all);
-  emitChange();
-}
-
-export function markChapterReviewed(chapterId) {
-  const all = getAllProgress();
-  const entry = all.chapters[chapterId];
-  if (!entry) return;
-  const nextStage = entry.stage + 1;
-  const now = Date.now();
-  if (nextStage >= REVIEW_STAGE_DAYS.length) {
-    entry.mastered = true;
-    entry.nextReviewAt = null;
-  } else {
-    entry.stage = nextStage;
-    entry.nextReviewAt = now + REVIEW_STAGE_DAYS[nextStage] * DAY_MS;
-  }
-  entry.lastReviewedAt = now;
+  all.chapters[chapterId] = {completedAt: Date.now()};
   writeJSON(PROGRESS_KEY, all);
   emitChange();
 }
@@ -88,75 +67,89 @@ export function resetChapterProgress(chapterId) {
   emitChange();
 }
 
-export function isDueForReview(entry, now = Date.now()) {
-  if (!entry || entry.mastered) return false;
-  return entry.nextReviewAt != null && entry.nextReviewAt <= now;
+// ---------- 복습 (문제 단위 능동회상 SRS) ----------
+//
+// 문제 하나(연습문제 항목)마다 "정답을 다시 떠올려본 뒤" 3단계로 자기 채점한다.
+//   again(다시)   : 아직 모름 -> 1단계로 리셋, 내일 다시 노출
+//   unsure(헷갈림): 애매함    -> 현재 단계 유지, 같은 간격으로 다시 노출
+//   good(기억남)  : 잘 기억함 -> 다음 단계로 승급, 마지막 단계 이후엔 "졸업"(목록에서 제거)
+
+export function getAllReviewItems() {
+  return readJSON(REVIEW_KEY, {items: {}});
 }
 
-// ---------- 오답노트 ----------
-
-export function getAllMistakes() {
-  return readJSON(MISTAKES_KEY, {items: {}});
+export function getReviewItem(id) {
+  const all = getAllReviewItems();
+  return all.items[id] || null;
 }
 
-export function isMistakeSaved(id) {
-  const all = getAllMistakes();
-  return Boolean(all.items[id]);
+export function isDueForReview(item, now = Date.now()) {
+  if (!item) return false;
+  return item.nextReviewAt != null && item.nextReviewAt <= now;
 }
 
-export function addMistake({id, chapter, chapterTitle, prompt, anchor}) {
-  const all = getAllMistakes();
-  const now = Date.now();
-  all.items[id] = {
-    id,
-    chapter,
-    chapterTitle,
-    prompt,
-    anchor: anchor || id,
-    addedAt: now,
-    stage: 0,
-    lastReviewedAt: now,
-    nextReviewAt: now + REVIEW_STAGE_DAYS[0] * DAY_MS,
-  };
-  writeJSON(MISTAKES_KEY, all);
-  emitChange();
-}
-
-export function removeMistake(id) {
-  const all = getAllMistakes();
+export function removeReviewItem(id) {
+  const all = getAllReviewItems();
   delete all.items[id];
-  writeJSON(MISTAKES_KEY, all);
+  writeJSON(REVIEW_KEY, all);
   emitChange();
 }
 
-export function toggleMistake(meta) {
-  if (isMistakeSaved(meta.id)) {
-    removeMistake(meta.id);
-    return false;
-  }
-  addMistake(meta);
-  return true;
-}
+// meta: {id, chapter, chapterTitle, prompt, anchor}, grade: 'again' | 'unsure' | 'good'
+export function gradeReviewItem(meta, grade) {
+  const all = getAllReviewItems();
+  const now = Date.now();
+  const existing = all.items[meta.id];
+  const stage = existing ? existing.stage : 0;
 
-// 오답 하나를 복습 완료 처리. 마지막 단계(30일)까지 통과하면 "졸업"으로 보고
-// 오답노트에서 자동으로 제거됨.
-export function markMistakeReviewed(id) {
-  const all = getAllMistakes();
-  const entry = all.items[id];
-  if (!entry) return {graduated: false};
-  const nextStage = entry.stage + 1;
-  if (nextStage >= REVIEW_STAGE_DAYS.length) {
-    delete all.items[id];
-    writeJSON(MISTAKES_KEY, all);
-    emitChange();
-    return {graduated: true};
+  if (grade === 'good') {
+    const nextStage = stage + 1;
+    if (nextStage >= REVIEW_STAGE_DAYS.length) {
+      delete all.items[meta.id];
+      writeJSON(REVIEW_KEY, all);
+      emitChange();
+      return {graduated: true};
+    }
+    all.items[meta.id] = {
+      ...meta,
+      stage: nextStage,
+      lastGrade: grade,
+      addedAt: existing ? existing.addedAt : now,
+      lastReviewedAt: now,
+      nextReviewAt: now + REVIEW_STAGE_DAYS[nextStage] * DAY_MS,
+    };
+  } else if (grade === 'unsure') {
+    all.items[meta.id] = {
+      ...meta,
+      stage,
+      lastGrade: grade,
+      addedAt: existing ? existing.addedAt : now,
+      lastReviewedAt: now,
+      nextReviewAt: now + REVIEW_STAGE_DAYS[stage] * DAY_MS,
+    };
+  } else {
+    // again
+    all.items[meta.id] = {
+      ...meta,
+      stage: 0,
+      lastGrade: grade,
+      addedAt: existing ? existing.addedAt : now,
+      lastReviewedAt: now,
+      nextReviewAt: now + REVIEW_STAGE_DAYS[0] * DAY_MS,
+    };
   }
-  entry.stage = nextStage;
-  entry.lastReviewedAt = Date.now();
-  entry.nextReviewAt = Date.now() + REVIEW_STAGE_DAYS[nextStage] * DAY_MS;
-  writeJSON(MISTAKES_KEY, all);
+  writeJSON(REVIEW_KEY, all);
   emitChange();
   return {graduated: false};
+}
+
+export function getDueReviewItems(now = Date.now()) {
+  const all = getAllReviewItems();
+  return Object.values(all.items).filter((item) => isDueForReview(item, now));
+}
+
+export function getDueReviewCountForChapter(chapterId, now = Date.now()) {
+  return getDueReviewItems(now).filter((item) => item.chapter === chapterId).length;
 }
 
 // ---------- 학습 스트릭 ----------

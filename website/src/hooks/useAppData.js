@@ -1,7 +1,7 @@
 import {useState, useEffect, useCallback} from 'react';
 import * as store from '@site/src/utils/storage';
 
-// 챕터 하나의 진행 상태를 구독하는 훅.
+// 챕터 하나의 완료 여부를 구독하는 훅.
 export function useChapterProgress(chapterId) {
   const [entry, setEntry] = useState(null);
   const [ready, setReady] = useState(false);
@@ -19,9 +19,7 @@ export function useChapterProgress(chapterId) {
   return {
     entry,
     ready,
-    isDue: store.isDueForReview(entry),
     markComplete: () => store.markChapterComplete(chapterId),
-    markReviewed: () => store.markChapterReviewed(chapterId),
     reset: () => store.resetChapterProgress(chapterId),
   };
 }
@@ -44,13 +42,13 @@ export function useAllProgress() {
   return {all, ready};
 }
 
-// 문제 하나의 오답 저장 여부를 구독하는 훅.
-export function useMistakeToggle(meta) {
-  const [saved, setSaved] = useState(false);
+// 문제 하나의 복습 상태를 구독하는 훅. meta: {id, chapter, chapterTitle, prompt, anchor}
+export function useReviewItem(meta) {
+  const [item, setItem] = useState(null);
   const [ready, setReady] = useState(false);
 
   const refresh = useCallback(() => {
-    setSaved(store.isMistakeSaved(meta.id));
+    setItem(store.getReviewItem(meta.id));
     setReady(true);
   }, [meta.id]);
 
@@ -59,20 +57,19 @@ export function useMistakeToggle(meta) {
     return store.subscribe(refresh);
   }, [refresh]);
 
-  const toggle = () => {
-    store.toggleMistake(meta);
-  };
+  const grade = (g) => store.gradeReviewItem(meta, g);
+  const remove = () => store.removeReviewItem(meta.id);
 
-  return {saved, ready, toggle};
+  return {item, ready, grade, remove};
 }
 
-// 오답노트 전체(오답노트 페이지용).
-export function useAllMistakes() {
+// 복습 항목 전체(복습 페이지용).
+export function useAllReviewItems() {
   const [all, setAll] = useState({items: {}});
   const [ready, setReady] = useState(false);
 
   const refresh = useCallback(() => {
-    setAll(store.getAllMistakes());
+    setAll(store.getAllReviewItems());
     setReady(true);
   }, []);
 
@@ -84,8 +81,8 @@ export function useAllMistakes() {
   return {
     all,
     ready,
-    remove: (id) => store.removeMistake(id),
-    markReviewed: (id) => store.markMistakeReviewed(id),
+    remove: (id) => store.removeReviewItem(id),
+    grade: (meta, g) => store.gradeReviewItem(meta, g),
   };
 }
 
