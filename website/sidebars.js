@@ -53,6 +53,7 @@ const sidebars = {
       ],
     },
     'glossary',
+    'reading-strategy',
   ],
 };
 

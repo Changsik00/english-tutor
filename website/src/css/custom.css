@@ -124,6 +124,24 @@ details[open] summary {
   margin-bottom: var(--egn-space-3);
 }
 
+/* 예문 카드 (blockquote). 정답 카드(details, 인디고 왼쪽 보더)나 콜아웃(색상 배경)과
+   시각적으로 구분되는, 중립 색조의 "예문 전용" 카드로 취급한다. */
+article blockquote {
+  background: var(--ifm-color-emphasis-100);
+  border-left: 4px solid var(--ifm-color-emphasis-400);
+  border-radius: 8px;
+  padding: var(--egn-space-4) var(--egn-space-5);
+  box-shadow: none;
+  color: inherit;
+}
+
+/* 블록쿼트 하나에 예문 여러 개가 빈 줄로 이어질 때, 각 예문 사이를 점선으로 구분 */
+article blockquote p + p {
+  margin-top: var(--egn-space-4);
+  padding-top: var(--egn-space-4);
+  border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
 /* 커스텀 콜아웃 3종: definition / myth / principle
    (실제로 생성되는 클래스명은 Docusaurus 버전에 따라 theme-admonition-<type>
    형태이며, 등록되지 않은 타입은 기본적으로 note 스타일로 폴백한다) */

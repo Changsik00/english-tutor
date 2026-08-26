@@ -101,6 +101,7 @@ const config = {
             items: [
               {label: '1장부터 시작', to: '/docs/chapters/ch01'},
               {label: '용어사전', to: '/docs/glossary'},
+              {label: '독해원리', to: '/docs/reading-strategy'},
             ],
           },
           {

@@ -1,23 +1,30 @@
-# 실전 독해 전략 — 긴 문장을 빠르게 읽는 법
+---
+id: reading-strategy
+title: "독해원리"
+---
 
-## 이 문서가 다루는 것
+# 실전 독해 전략 — 긴 문장을 빠르게 읽는 법
 
 ch01~18은 "왜 이 규칙이 존재하는가"를 5가지 원리(어순, 정보흐름, 동사중심성, 압축과 확장, 심리적 거리)로 설명하는 데 집중합니다. 이 문서는 그 지식을 가지고 **실제 시험 지문처럼 길고 복잡한 문장을 만났을 때 어떻게 빠르게 끊어 읽고 매끄럽게 해석하는가**를 다루는 실전 전략 노트입니다. 새로 배우는 문법 항목은 없고, 이미 ch01~18에서 배운 접속사·관계사·전치사·준동사 지식을 "지문 앞에서 실제로 어떻게 꺼내 쓰는가"에 초점을 맞춥니다.
 
-이 문서는 우리 책의 챕터 구성(ch07 to부정사, ch09 분사, ch12 전치사, ch13 접속사, ch14 관계사 등)을 기준으로 정리했고, 문단·지문 단위 독해 요령은 영어 독해 지도에서 일반적으로 쓰이는 방법을 정리했습니다. 예문은 전부 이 문서를 위해 새로 작성했습니다.
+:::tip[📖 이 문서 사용법]
+
+이 문서는 이 책의 챕터 구성(ch07 to부정사, ch09 분사, ch12 전치사, ch13 접속사, ch14 관계사 등)을 기준으로 정리했고, 문단·지문 단위 독해 요령은 영어 독해 지도에서 일반적으로 쓰이는 방법을 정리했습니다. 예문은 전부 이 문서를 위해 새로 작성했습니다.
 
 - **1부**: 문장이 길어지는 원리와, 문법 표지별로 어디서 끊고 어떻게 해석하는가
-- **2부**: 문장 하나를 매끄러운 한국어로 옮길 때 자주 막히는 지점들
+- **2부**: 문장 하나를 매끄러운 한국어로 옮길 때 자주 막히는 지점들 (+ 패턴별 집중 연습)
 - **3부**: 문장을 넘어 지문 전체의 흐름을 따라가는 법
 - **4부**: 교재 챕터와의 연결, 실전 적용 순서
+
+:::
 
 ---
 
 ## 1부. 문장이 길어지는 원리와 표지별 끊어읽기
 
-### 왜 문장이 길어지는가
+:::info[💡 원리 4(압축과 확장)와의 연결]
 
-우리 책의 **원리 4(압축과 확장)**에서 다뤘듯, 영어 문장은 절(주어+동사를 갖춘 완전한 문장)이 더 작은 단위로 압축되어 원래 뼈대(S+V) 옆에 덧붙는 방식으로 길어집니다. 압축이 일어나는 통로는 아래 표의 다섯 가지 문법 범주뿐이며, 이 표지가 보이는 자리부터 새로운 의미 덩어리가 시작된다고 보면 됩니다.
+이 책의 **원리 4(압축과 확장)**에서 다뤘듯, 영어 문장은 절(주어+동사를 갖춘 완전한 문장)이 더 작은 단위로 압축되어 원래 뼈대(S+V) 옆에 덧붙는 방식으로 길어집니다. 압축이 일어나는 통로는 아래 표의 다섯 가지 문법 범주뿐이며, 이 표지가 보이는 자리부터 새로운 의미 덩어리가 시작된다고 보면 됩니다.
 
 | 문법 범주 | 표지 | 관련 챕터 |
 |---|---|---|
@@ -28,6 +35,8 @@ ch01~18은 "왜 이 규칙이 존재하는가"를 5가지 원리(어순, 정보�
 | 분사(구) | 동사원형+ing / 동사원형+ed(불규칙 포함) | ch09 |
 
 다만 이 표지들은 문법적으로 생략되기도 합니다. 아래에서 각 문법 범주마다 "어디서 끊는가"와 "생략될 때는 어떻게 알아채는가"를 함께 정리합니다.
+
+:::
 
 ### 접속사 (ch13)
 
@@ -243,109 +252,197 @@ was not enough
 
 ### 자주 헷갈리는 구문 (ch14·ch16)
 
-두 채널이 특별히 강조하지는 않았지만, 실제 지문에서 자주 걸려 넘어지는 구문들입니다.
+:::myth[💭 흔한 오해: "명사 뒤에 that절이 오면 무조건 관계대명사다"]
+
+fact, belief, idea, news, possibility 같은 추상명사 뒤에 that절이 오면 반사적으로 관계대명사절로 해석해서, 문장 성분이 하나 빠진 "불완전한 문장"을 찾으려다 실패하는 경우가 많습니다.
+
+:::
+
+:::definition[📘 정의부터 다시 세우기: that절이 완전한 문장인지부터 확인한다]
+
+ch14에서 관계대명사절과 관계부사절을 구별할 때 썼던 것과 같은 기준을 그대로 적용하면 됩니다. that 뒤에 주어·목적어가 모두 갖춰진 **완전한 문장**이 이어지면 동격("~라는")이고, 명사 하나가 빠진 **불완전한 문장**이 이어지면 관계대명사("~하는")입니다.
+
+:::
 
 | 구문 | 해석 방향 | 예문 |
 |---|---|---|
-| 동격의 that vs 관계대명사 that (ch14) | fact/belief/idea/news/possibility 등 추상명사 바로 뒤 that절이 **완전한 문장**이면 동격("~라는"), **불완전한 문장**(주어나 목적어가 빠짐)이면 관계대명사("~하는") | The **belief that** the economy would recover quickly turned out to be wrong. (that절이 완전한 문장 → 동격: "경제가 빠르게 회복될 것이라는 믿음") |
+| 동격의 that vs 관계대명사 that (ch14) | that절이 완전한 문장이면 동격("~라는"), 불완전한 문장이면 관계대명사("~하는") | The **belief that** the economy would recover quickly turned out to be wrong. (완전한 문장 → 동격: "경제가 빠르게 회복될 것이라는 믿음") |
 | 가정법 도치 (if 생략, ch15) | Had/Were/Should가 문두에 나오면 if가 생략되고 주어-동사가 도치된 조건절이다 | **Had I known** about the delay, I would have left earlier. (= If I had known) |
 | the + 형용사 (ch10) | "그 ~한 사람들"이라는 복수보통명사로 해석한다 | **The elderly** often require additional support during emergencies. |
 | 도치를 유발하는 표현 (Only ~, 부정어, 장소부사구가 문두, ch16) | 문두로 나온 요소를 강조하고 있음을 감안해 해석하고, 뒤의 주어-동사 도치에 당황하지 않는다 | **Only after the merger** did the company become profitable. |
 
 ### 패턴별 집중 연습
 
-위 세 표에 나온 패턴마다 예문을 2개씩 더 모았습니다. 표는 "이럴 때 이렇게 해석한다"를 빠르게 찾아보는 용도로 쓰고, 실제 연습은 아래에서 하세요.
+위 세 표에 나온 패턴마다 예문을 2개씩 더 모았습니다. 표는 "이럴 때 이렇게 해석한다"를 빠르게 찾아보는 용도로 쓰고, 아래 문장들은 먼저 스스로 해석해본 뒤 "해석 확인"을 눌러서 맞춰보세요.
 
 **가주어 It ~ to부정사/that절**
-> It is impossible to finish this project without additional funding.
-> → 추가 자금 없이는 이 프로젝트를 끝내는 것이 불가능하다.
->
-> It is widely believed that regular exercise improves mental health.
-> → 규칙적인 운동이 정신 건강을 향상시킨다고 널리 믿어진다.
+
+1. It is impossible to finish this project without additional funding.
+2. It is widely believed that regular exercise improves mental health.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 추가 자금 없이는 이 프로젝트를 끝내는 것이 불가능하다.
+2. 규칙적인 운동이 정신 건강을 향상시킨다고 널리 믿어진다.
+
+</details>
 
 **전체부정 표현**
-> None of the applicants met all the requirements.
-> → 지원자들 중 누구도 모든 요건을 충족하지 못했다.
->
-> Neither of the two proposals addressed the rising costs.
-> → 두 제안서 중 어느 것도 상승하는 비용을 다루지 않았다.
+
+1. None of the applicants met all the requirements.
+2. Neither of the two proposals addressed the rising costs.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 지원자들 중 누구도 모든 요건을 충족하지 못했다.
+2. 두 제안서 중 어느 것도 상승하는 비용을 다루지 않았다.
+
+</details>
 
 **콤마+명사·세미콜론·콜론 (부연 설명)**
-> The museum's newest exhibit focuses on a single theme: sustainability.
-> → 그 박물관의 최신 전시는 하나의 주제, 즉 지속가능성에 초점을 맞춘다.
->
-> The plan had one major flaw; it ignored the rising cost of materials.
-> → 그 계획에는 한 가지 큰 결함이 있었다. 즉 상승하는 자재 비용을 무시했다는 것이다.
+
+1. The museum's newest exhibit focuses on a single theme: sustainability.
+2. The plan had one major flaw; it ignored the rising cost of materials.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 그 박물관의 최신 전시는 하나의 주제, 즉 지속가능성에 초점을 맞춘다.
+2. 그 계획에는 한 가지 큰 결함이 있었다. 즉 상승하는 자재 비용을 무시했다는 것이다.
+
+</details>
 
 **It is ~ that 강조구문**
-> It was the new intern who noticed the error in the report.
-> → 보고서에서 오류를 발견한 것은 바로 그 신입 인턴이었다.
->
-> It was not until last year that the company finally turned a profit.
-> → 그 회사가 마침내 흑자를 낸 것은 바로 작년이 되어서였다.
+
+1. It was the new intern who noticed the error in the report.
+2. It was not until last year that the company finally turned a profit.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 보고서에서 오류를 발견한 것은 바로 그 신입 인턴이었다.
+2. 그 회사가 마침내 흑자를 낸 것은 바로 작년이 되어서였다.
+
+</details>
 
 **find + 목적어 + that절/to부정사**
-> I find it surprising that so few people attended the meeting.
-> → 나는 그렇게 적은 사람들이 회의에 참석했다는 것이 놀랍다고 생각한다.
->
-> She found the new software difficult to use at first.
-> → 그녀는 처음에 새 소프트웨어가 사용하기 어렵다고 생각했다.
+
+1. I find it surprising that so few people attended the meeting.
+2. She found the new software difficult to use at first.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 나는 그렇게 적은 사람들이 회의에 참석했다는 것이 놀랍다고 생각한다.
+2. 그녀는 처음에 새 소프트웨어가 사용하기 어렵다고 생각했다.
+
+</details>
 
 **조동사 + have p.p.**
-> They must have left already; the lights are off.
-> → 그들은 이미 떠났음에 틀림없다. 불이 꺼져 있다.
->
-> I shouldn't have sent that email without double-checking it first.
-> → 나는 먼저 다시 확인하지 않고 그 이메일을 보내지 말았어야 했다.
+
+1. They must have left already; the lights are off.
+2. I shouldn't have sent that email without double-checking it first.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 그들은 이미 떠났음에 틀림없다. 불이 꺼져 있다.
+2. 나는 먼저 다시 확인하지 않고 그 이메일을 보내지 말았어야 했다.
+
+</details>
 
 **as + 원급 + as**
-> The exam was not as difficult as we had expected.
-> → 그 시험은 우리가 예상했던 것만큼 어렵지 않았다.
->
-> Her presentation was just as persuasive as the CEO's.
-> → 그녀의 발표는 CEO의 발표만큼이나 설득력 있었다.
+
+1. The exam was not as difficult as we had expected.
+2. Her presentation was just as persuasive as the CEO's.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 그 시험은 우리가 예상했던 것만큼 어렵지 않았다.
+2. 그녀의 발표는 CEO의 발표만큼이나 설득력 있었다.
+
+</details>
 
 **병렬구조 (A and B)**
-> The workshop covers time management, delegation, and conflict resolution.
-> → 그 워크숍은 시간 관리, 위임, 그리고 갈등 해결을 다룬다. (delegation을 몰라도 나머지 두 단어로 "업무 능력 관련 주제"임을 추론 가능)
->
-> The new policy was designed to cut expenses and boost employee morale.
-> → 그 새 정책은 비용을 줄이고 직원 사기를 높이기 위해 고안되었다.
+
+1. The workshop covers time management, delegation, and conflict resolution.
+2. The new policy was designed to cut expenses and boost employee morale.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 그 워크숍은 시간 관리, 위임, 그리고 갈등 해결을 다룬다. (delegation을 몰라도 나머지 두 단어로 "업무 능력 관련 주제"임을 추론 가능)
+2. 그 새 정책은 비용을 줄이고 직원 사기를 높이기 위해 고안되었다.
+
+</details>
 
 **how + 명사/대명사 vs 형용사/부사**
-> Nobody explained how the refund process actually works.
-> → 아무도 환불 절차가 실제로 어떻게 작동하는지 설명하지 않았다.
->
-> I never realized how expensive raising a child could be.
-> → 나는 아이를 키우는 것이 얼마나 비쌀 수 있는지 전혀 몰랐다.
+
+1. Nobody explained how the refund process actually works.
+2. I never realized how expensive raising a child could be.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 아무도 환불 절차가 실제로 어떻게 작동하는지 설명하지 않았다.
+2. 나는 아이를 키우는 것이 얼마나 비쌀 수 있는지 전혀 몰랐다.
+
+</details>
 
 **동격의 that vs 관계대명사 that**
-> The rumor that the factory would close spread quickly among the workers. (that 뒤가 완전한 문장 → 동격)
-> → 공장이 문을 닫을 것이라는 소문이 노동자들 사이에 빠르게 퍼졌다.
->
-> The evidence that the police collected was insufficient. (collected 뒤에 목적어가 없는 불완전한 문장 → 관계대명사)
-> → 경찰이 수집한 증거는 불충분했다.
+
+1. The rumor that the factory would close spread quickly among the workers. (that 뒤가 완전한 문장 → 동격)
+2. The evidence that the police collected was insufficient. (collected 뒤에 목적어가 없는 불완전한 문장 → 관계대명사)
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 공장이 문을 닫을 것이라는 소문이 노동자들 사이에 빠르게 퍼졌다.
+2. 경찰이 수집한 증거는 불충분했다.
+
+</details>
 
 **가정법 도치 (if 생략)**
-> Were it not for your help, I would have failed the project.
-> → 너의 도움이 없었다면, 나는 그 프로젝트에서 실패했을 것이다.
->
-> Should you have any questions, please contact our support team.
-> → 혹시 질문이 있으시다면, 저희 지원팀에 연락해 주세요.
+
+1. Were it not for your help, I would have failed the project.
+2. Should you have any questions, please contact our support team.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 너의 도움이 없었다면, 나는 그 프로젝트에서 실패했을 것이다.
+2. 혹시 질문이 있으시다면, 저희 지원팀에 연락해 주세요.
+
+</details>
 
 **the + 형용사**
-> The government introduced new benefits for the unemployed.
-> → 정부는 실업자들을 위한 새로운 혜택을 도입했다.
->
-> The wealthy often have access to resources unavailable to others.
-> → 부유한 사람들은 종종 다른 사람들이 이용할 수 없는 자원에 접근할 수 있다.
+
+1. The government introduced new benefits for the unemployed.
+2. The wealthy often have access to resources unavailable to others.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 정부는 실업자들을 위한 새로운 혜택을 도입했다.
+2. 부유한 사람들은 종종 다른 사람들이 이용할 수 없는 자원에 접근할 수 있다.
+
+</details>
 
 **도치를 유발하는 표현**
-> Never before had the company faced such a serious crisis.
-> → 그 회사는 이전에 결코 이렇게 심각한 위기에 직면한 적이 없었다.
->
-> Not only did she finish the report early, but she also reviewed it twice.
-> → 그녀는 보고서를 일찍 끝냈을 뿐만 아니라, 그것을 두 번 검토하기도 했다.
+
+1. Never before had the company faced such a serious crisis.
+2. Not only did she finish the report early, but she also reviewed it twice.
+
+<details>
+<summary>💡 해석 확인</summary>
+
+1. 그 회사는 이전에 결코 이렇게 심각한 위기에 직면한 적이 없었다.
+2. 그녀는 보고서를 일찍 끝냈을 뿐만 아니라, 그것을 두 번 검토하기도 했다.
+
+</details>
 
 ---
 
@@ -461,29 +558,29 @@ was not enough
 
 ### 이 문서와 ch01~18의 관계
 
-이 문서의 모든 항목은 이미 우리 교재에서 배운 문법입니다. 해석이 막히는 항목이 있으면 아래 챕터로 돌아가 원리부터 다시 확인하세요.
+이 문서의 모든 항목은 이미 이 책에서 배운 문법입니다. 해석이 막히는 항목이 있으면 아래 챕터로 돌아가 원리부터 다시 확인하세요.
 
 | 이 문서의 내용 | 관련 챕터 |
 |---|---|
-| 접속사절 끊어읽기, 종속절 주어 표시, as의 의미, 병렬구조 | ch13 접속사 |
-| 관계사절 끊어읽기, 관계대명사 생략, 수식어 누적 | ch14 관계사 |
-| 전치사 끊어읽기, 조사 대응 | ch12 전치사 |
-| to부정사 끊어읽기, 의미상 주어, 문두 to부정사 | ch07 to부정사 |
-| 분사 끊어읽기, with+목적어+분사 | ch09 분사 |
-| 가주어 it | ch07 to부정사(Unit 047), ch02 문장의 종류(비인칭 it과 구별) |
-| 전체부정 표현, 동격, 강조구문 | ch16 특수구문 |
-| how(간접의문문의 어떻게/얼마나) | ch13 접속사(간접의문문), ch02 문장의 종류(의문문) |
-| find(5형식) | ch03 문장의 형식 |
-| 조동사+have p.p. | ch06 조동사 |
-| as 원급 as | ch11 비교 |
-| in -ing / by -ing | ch12 전치사, ch08 동명사 |
-| 문장이 길어지는 원리 전체, 명사화 | 원리 4(압축과 확장) — README 참고 |
-| 지시어·대용어 추적 | ch01 인칭·지시대명사 |
-| 연결어로 흐름 예측 | ch13 접속사, 부사 |
-| 동격의 that vs 관계대명사 that | ch14 관계사, ch16 특수구문(동격) |
-| 가정법 도치 (if 생략) | ch15 가정법의 확장 개념 — 현재 별도 유닛으로 다루지 않음 |
-| the + 형용사 (복수보통명사) | ch10 관사·대명사·형용사·부사 |
-| 도치를 유발하는 표현 | ch16 특수구문(도치) |
+| 접속사절 끊어읽기, 종속절 주어 표시, as의 의미, 병렬구조 | [ch13 접속사](/docs/chapters/ch13) |
+| 관계사절 끊어읽기, 관계대명사 생략, 수식어 누적 | [ch14 관계사](/docs/chapters/ch14) |
+| 전치사 끊어읽기, 조사 대응 | [ch12 전치사](/docs/chapters/ch12) |
+| to부정사 끊어읽기, 의미상 주어, 문두 to부정사 | [ch07 to부정사](/docs/chapters/ch07) |
+| 분사 끊어읽기, with+목적어+분사 | [ch09 분사](/docs/chapters/ch09) |
+| 가주어 it | [ch07 to부정사](/docs/chapters/ch07)(Unit 047), [ch02 문장의 종류](/docs/chapters/ch02)(비인칭 it과 구별) |
+| 전체부정 표현, 동격, 강조구문 | [ch16 특수구문](/docs/chapters/ch16) |
+| how(간접의문문의 어떻게/얼마나) | [ch13 접속사](/docs/chapters/ch13)(간접의문문), [ch02 문장의 종류](/docs/chapters/ch02)(의문문) |
+| find(5형식) | [ch03 문장의 형식](/docs/chapters/ch03) |
+| 조동사+have p.p. | [ch06 조동사](/docs/chapters/ch06) |
+| as 원급 as | [ch11 비교](/docs/chapters/ch11) |
+| in -ing / by -ing | [ch12 전치사](/docs/chapters/ch12), [ch08 동명사](/docs/chapters/ch08) |
+| 문장이 길어지는 원리 전체, 명사화 | 원리 4(압축과 확장) |
+| 지시어·대용어 추적 | [ch01 인칭·지시대명사](/docs/chapters/ch01) |
+| 연결어로 흐름 예측 | [ch13 접속사](/docs/chapters/ch13), 부사 |
+| 동격의 that vs 관계대명사 that | [ch14 관계사](/docs/chapters/ch14), [ch16 특수구문](/docs/chapters/ch16)(동격) |
+| 가정법 도치 (if 생략) | [ch15 가정법](/docs/chapters/ch15)의 확장 개념 — 현재 별도 유닛으로 다루지 않음 |
+| the + 형용사 (복수보통명사) | [ch10 관사·대명사·형용사·부사](/docs/chapters/ch10) |
+| 도치를 유발하는 표현 | [ch16 특수구문](/docs/chapters/ch16)(도치) |
 | 문제 유형별 접근법, 선택지 소거법 | 특정 챕터 없음 — 문제 풀이 기술 |
 
 문법을 원리로 이해하는 것(ch01~18)과, 실전에서 그 지식을 빠르게 꺼내 쓰는 것(이 문서)은 서로 다른 훈련입니다. 원리 없이 실전 요령만 익히면 낯선 문장에서 응용이 안 되고, 원리만 알고 실전 훈련이 없으면 시험장에서 시간 안에 다 풀지 못합니다. 두 가지를 함께 훈련하는 것이 가장 효율적입니다.
@@ -511,4 +608,4 @@ was not enough
 
 ## 참고
 
-이 문서를 정리하면서 여러 영어 독해 강의와 일반적인 독해 지도 자료에서 아이디어를 얻었습니다(백업: `youtube_backup/`). 다만 이 문서의 설명과 예문은 모두 새로 작성한 것이며, 특정 자료의 문장이나 고유한 분류·명명 체계를 그대로 옮기지 않았습니다. 각 항목의 기반이 되는 문법 규칙 자체는 ch01~18에서 다루는 일반적인 영어 문법 지식입니다.
+이 문서를 정리하면서 여러 영어 독해 강의와 일반적인 독해 지도 자료에서 아이디어를 얻었습니다. 다만 이 문서의 설명과 예문은 모두 새로 작성한 것이며, 특정 자료의 문장이나 고유한 분류·명명 체계를 그대로 옮기지 않았습니다. 각 항목의 기반이 되는 문법 규칙 자체는 ch01~18에서 다루는 일반적인 영어 문법 지식입니다.
