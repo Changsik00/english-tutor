@@ -54,6 +54,7 @@ const sidebars = {
     },
     'glossary',
     'reading-strategy',
+    'writing-strategy',
   ],
 };
 

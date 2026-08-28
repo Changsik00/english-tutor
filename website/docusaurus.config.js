@@ -84,6 +84,7 @@ const config = {
           },
           {to: '/units', label: '📖 전체 목차', position: 'left'},
           {to: '/vocabulary', label: '🗂 단어장', position: 'left'},
+          {to: '/nuance', label: '🎭 뉘앙스 사전', position: 'left'},
           {to: '/dashboard', label: '📊 대시보드', position: 'left'},
           {to: '/review', label: '🔁 복습', position: 'left'},
           {
@@ -102,6 +103,8 @@ const config = {
               {label: '1장부터 시작', to: '/docs/chapters/ch01'},
               {label: '용어사전', to: '/docs/glossary'},
               {label: '독해원리', to: '/docs/reading-strategy'},
+              {label: '영작문 원리', to: '/docs/writing-strategy'},
+              {label: '뉘앙스 사전', to: '/nuance'},
             ],
           },
           {
