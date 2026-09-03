@@ -1,0 +1,420 @@
+[
+  {
+    "id": "give",
+    "verb": "give",
+    "meaningKo": "주다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "give + 사람(IO) + 사물(DO)", "exampleEn": "She gave her assistant a new laptop.", "exampleKo": "그녀는 자신의 조수에게 새 노트북을 주었다."},
+      {"label": "3형식 전환", "structure": "give + 사물 + to + 사람", "exampleEn": "She gave a new laptop to her assistant.", "exampleKo": "그녀는 새 노트북을 자신의 조수에게 주었다."}
+    ]
+  },
+  {
+    "id": "tell",
+    "verb": "tell",
+    "meaningKo": "말해주다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "tell + 사람 + 내용(사물/that절)", "exampleEn": "He told the manager the truth.", "exampleKo": "그는 매니저에게 진실을 말했다."},
+      {"label": "3형식 (정보성 목적어)", "structure": "tell + 정보 자체를 뜻하는 목적어 (전달 대상 생략 가능)", "exampleEn": "She told a story about her childhood.", "exampleKo": "그녀는 어린 시절에 대한 이야기를 하나 들려주었다."}
+    ],
+    "note": "tell의 핵심 의미는 '누군가에게 정보를 전달하는 것'입니다. story, joke, lie, truth, secret, news처럼 목적어 자체가 이미 '전달되는 정보'라는 뜻을 담고 있으면, 전달 대상(사람)을 굳이 밝히지 않아도 tell의 의미가 완성됩니다(She told a joke.). 반대로 me처럼 그 자체로 정보가 아닌 대명사만 목적어로 오면, tell의 의미가 아직 완성되지 않은 것이므로 반드시 내용이 뒤따라야 합니다(Tell me that you love me / Tell me what you did). \"Tell me.\"만으로 문장을 끝내면 원어민은 무엇을 말해달라는 것인지 계속 기다리게 됩니다.",
+    "commonMistake": {
+      "wrong": "He told to the manager the truth.",
+      "right": "He told the manager the truth.",
+      "note": "tell 뒤에는 to를 붙이지 않습니다. to가 필요한 것은 say입니다."
+    },
+    "relatedVerbs": ["say", "explain"]
+  },
+  {
+    "id": "show",
+    "verb": "show",
+    "meaningKo": "보여주다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "show + 사람(IO) + 사물(DO)", "exampleEn": "The guide showed the tourists the map.", "exampleKo": "가이드는 관광객들에게 지도를 보여주었다."},
+      {"label": "3형식 전환", "structure": "show + 사물 + to + 사람", "exampleEn": "The guide showed the map to the tourists.", "exampleKo": "가이드는 지도를 관광객들에게 보여주었다."}
+    ]
+  },
+  {
+    "id": "teach",
+    "verb": "teach",
+    "meaningKo": "가르치다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "teach + 사람(IO) + 내용(DO)", "exampleEn": "She teaches the students grammar.", "exampleKo": "그녀는 학생들에게 문법을 가르친다."},
+      {"label": "3형식 전환", "structure": "teach + 내용 + to + 사람", "exampleEn": "She teaches grammar to the students.", "exampleKo": "그녀는 문법을 학생들에게 가르친다."}
+    ]
+  },
+  {
+    "id": "send",
+    "verb": "send",
+    "meaningKo": "보내다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "send + 사람(IO) + 사물(DO)", "exampleEn": "He sent his client an invoice.", "exampleKo": "그는 고객에게 청구서를 보냈다."},
+      {"label": "3형식 전환", "structure": "send + 사물 + to + 사람", "exampleEn": "He sent an invoice to his client.", "exampleKo": "그는 청구서를 고객에게 보냈다."}
+    ]
+  },
+  {
+    "id": "offer",
+    "verb": "offer",
+    "meaningKo": "제공하다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "offer + 사람(IO) + 사물(DO)", "exampleEn": "The company offered the intern a full-time position.", "exampleKo": "회사는 그 인턴에게 정규직 자리를 제안했다."},
+      {"label": "3형식 전환", "structure": "offer + 사물 + to + 사람", "exampleEn": "The company offered a full-time position to the intern.", "exampleKo": "회사는 정규직 자리를 그 인턴에게 제안했다."}
+    ]
+  },
+  {
+    "id": "lend",
+    "verb": "lend",
+    "meaningKo": "빌려주다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "lend + 사람(IO) + 사물(DO)", "exampleEn": "I lent my coworker some money.", "exampleKo": "나는 동료에게 돈을 좀 빌려주었다."},
+      {"label": "3형식 전환", "structure": "lend + 사물 + to + 사람", "exampleEn": "I lent some money to my coworker.", "exampleKo": "나는 돈을 좀 동료에게 빌려주었다."}
+    ]
+  },
+  {
+    "id": "buy",
+    "verb": "buy",
+    "meaningKo": "사주다",
+    "category": "4형식 가능 (수여동사)",
+    "patterns": [
+      {"label": "4형식", "structure": "buy + 사람(IO) + 사물(DO)", "exampleEn": "He bought his daughter a bicycle.", "exampleKo": "그는 딸에게 자전거를 사주었다."},
+      {"label": "3형식 전환", "structure": "buy + 사물 + for + 사람", "exampleEn": "He bought a bicycle for his daughter.", "exampleKo": "그는 자전거를 딸을 위해 사주었다."}
+    ],
+    "note": "buy, make, cook, find는 3형식으로 전환할 때 to가 아니라 for를 씁니다 — \"상대를 위해 대신 해준다\"는 뉘앙스가 있기 때문입니다."
+  },
+  {
+    "id": "explain",
+    "verb": "explain",
+    "meaningKo": "설명하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "explain + 사물 + to + 사람", "exampleEn": "She explained the schedule to her team.", "exampleKo": "그녀는 팀에게 일정을 설명했다."}
+    ],
+    "commonMistake": {
+      "wrong": "She explained her team the schedule.",
+      "right": "She explained the schedule to her team.",
+      "note": "explain은 사람을 직접 목적어로 받는 4형식 구조를 쓸 수 없습니다."
+    },
+    "relatedVerbs": ["describe", "suggest", "introduce", "announce", "tell"]
+  },
+  {
+    "id": "describe",
+    "verb": "describe",
+    "meaningKo": "묘사하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "describe + 사물 + to + 사람", "exampleEn": "He described the accident to the police.", "exampleKo": "그는 경찰에게 사고를 설명했다."}
+    ],
+    "commonMistake": {
+      "wrong": "He described the police the accident.",
+      "right": "He described the accident to the police.",
+      "note": "describe도 explain처럼 4형식으로 쓰이지 않습니다."
+    },
+    "relatedVerbs": ["explain"]
+  },
+  {
+    "id": "say",
+    "verb": "say",
+    "meaningKo": "말하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식 (전달 대상 없음)", "structure": "say + 발화 내용 (전달 대상 생략 가능)", "exampleEn": "She said hello as she walked in.", "exampleKo": "그녀는 들어오면서 인사를 건넸다."},
+      {"label": "3형식+to (전달 대상 명시)", "structure": "say + 내용 + to + 사람", "exampleEn": "She said goodbye to her colleagues.", "exampleKo": "그녀는 동료들에게 작별 인사를 했다."}
+    ],
+    "note": "say의 핵심 의미는 '말을 입 밖으로 내뱉는 것'입니다. hello, goodbye, a word, a prayer처럼 그 자체로 발화 내용이 되는 목적어는 누구에게 말했는지 밝히지 않아도 자연스럽습니다. 전달 대상을 밝히고 싶을 때만 to를 더합니다. 반면 say 뒤에 오는 것은 '누구'가 아니라 '무슨 말'이어야 합니다 — say me라고 하면 me라는 단어 자체를 소리 내어 말하라는 뜻이 되어버립니다.",
+    "commonMistake": {
+      "wrong": "She said her colleagues goodbye.",
+      "right": "She said goodbye to her colleagues.",
+      "note": "say와 tell을 혼동하기 쉽습니다. tell은 사람을 목적어로 바로 받지만(tell + 사람 + 내용), say는 사람 앞에 반드시 to가 필요합니다."
+    },
+    "relatedVerbs": ["tell"]
+  },
+  {
+    "id": "suggest",
+    "verb": "suggest",
+    "meaningKo": "제안하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "suggest + 사물/that절 + to + 사람", "exampleEn": "He suggested a new approach to the committee.", "exampleKo": "그는 위원회에 새로운 접근법을 제안했다."}
+    ],
+    "commonMistake": {
+      "wrong": "He suggested the committee a new approach.",
+      "right": "He suggested a new approach to the committee.",
+      "note": "suggest도 4형식으로 쓰이지 않는 대표적인 동사입니다."
+    },
+    "relatedVerbs": ["explain"]
+  },
+  {
+    "id": "introduce",
+    "verb": "introduce",
+    "meaningKo": "소개하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "introduce + 사람A + to + 사람B", "exampleEn": "She introduced her colleague to the client.", "exampleKo": "그녀는 자신의 동료를 고객에게 소개했다."}
+    ],
+    "commonMistake": {
+      "wrong": "She introduced the client her colleague.",
+      "right": "She introduced her colleague to the client.",
+      "note": "introduce는 사람 두 명이 목적어와 to-목적어로 나뉘어 들어갑니다."
+    },
+    "relatedVerbs": ["explain"]
+  },
+  {
+    "id": "announce",
+    "verb": "announce",
+    "meaningKo": "발표하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "announce + 사물 + to + 사람", "exampleEn": "The CEO announced the merger to the staff.", "exampleKo": "CEO는 직원들에게 합병을 발표했다."}
+    ],
+    "commonMistake": {
+      "wrong": "The CEO announced the staff the merger.",
+      "right": "The CEO announced the merger to the staff.",
+      "note": "announce도 explain 계열과 같은 패턴을 따릅니다."
+    },
+    "relatedVerbs": ["explain"]
+  },
+  {
+    "id": "ask",
+    "verb": "ask",
+    "meaningKo": "묻다, 요청하다",
+    "category": "여러 패턴을 가진 동사",
+    "patterns": [
+      {"label": "4형식", "structure": "ask + 사람 + 사물(질문)", "exampleEn": "I asked him a question.", "exampleKo": "나는 그에게 질문을 하나 했다."},
+      {"label": "3형식+for", "structure": "ask + 사람 + for + 사물", "exampleEn": "I asked him for help.", "exampleKo": "나는 그에게 도움을 요청했다."},
+      {"label": "5형식", "structure": "ask + 사람 + to부정사", "exampleEn": "I asked him to help me.", "exampleKo": "나는 그에게 나를 도와달라고 부탁했다."}
+    ],
+    "note": "뒤에 오는 것이 '질문 내용'이면 그대로 목적어로, '요청하는 대상(도움 등)'이면 for, '시켜서 하게 할 행동'이면 to부정사를 씁니다."
+  },
+  {
+    "id": "provide",
+    "verb": "provide",
+    "meaningKo": "제공하다",
+    "category": "여러 패턴을 가진 동사",
+    "patterns": [
+      {"label": "3형식+with", "structure": "provide + 사람 + with + 사물", "exampleEn": "The company provides employees with health insurance.", "exampleKo": "회사는 직원들에게 건강보험을 제공한다."},
+      {"label": "3형식+to/for", "structure": "provide + 사물 + to/for + 사람", "exampleEn": "The company provides health insurance to employees.", "exampleKo": "회사는 건강보험을 직원들에게 제공한다."}
+    ]
+  },
+  {
+    "id": "remind",
+    "verb": "remind",
+    "meaningKo": "상기시키다",
+    "category": "여러 패턴을 가진 동사",
+    "patterns": [
+      {"label": "3형식+about/of", "structure": "remind + 사람 + about/of + 사물", "exampleEn": "Please remind me about the meeting.", "exampleKo": "회의에 대해 저에게 다시 알려주세요."},
+      {"label": "5형식", "structure": "remind + 사람 + to부정사", "exampleEn": "Please remind me to call him.", "exampleKo": "그에게 전화하라고 저에게 다시 알려주세요."}
+    ],
+    "note": "기억해야 할 '것'이면 about/of, 기억해서 '해야 할 행동'이면 to부정사를 씁니다."
+  },
+  {
+    "id": "prevent",
+    "verb": "prevent",
+    "meaningKo": "막다, 예방하다",
+    "category": "여러 패턴을 가진 동사",
+    "patterns": [
+      {"label": "3형식+from", "structure": "prevent + 사람/사물 + from + -ing", "exampleEn": "The rain prevented me from going outside.", "exampleKo": "비 때문에 나는 밖에 나갈 수 없었다."}
+    ],
+    "note": "prevent는 목적어 뒤에 바로 동사원형이나 to부정사를 쓸 수 없고, 항상 from -ing가 뒤따릅니다."
+  },
+  {
+    "id": "warn",
+    "verb": "warn",
+    "meaningKo": "경고하다",
+    "category": "여러 패턴을 가진 동사",
+    "patterns": [
+      {"label": "3형식+about/of", "structure": "warn + 사람 + about/of + 사물", "exampleEn": "She warned him about the risk.", "exampleKo": "그녀는 그에게 위험에 대해 경고했다."},
+      {"label": "5형식", "structure": "warn + 사람 + (not) to부정사", "exampleEn": "She warned him not to be late.", "exampleKo": "그녀는 그에게 늦지 말라고 경고했다."}
+    ]
+  },
+  {
+    "id": "inform",
+    "verb": "inform",
+    "meaningKo": "알리다",
+    "category": "여러 패턴을 가진 동사",
+    "patterns": [
+      {"label": "3형식+of/about", "structure": "inform + 사람 + of/about + 사물", "exampleEn": "We informed the customers of the delay.", "exampleKo": "우리는 고객들에게 지연에 대해 알렸다."}
+    ],
+    "note": "inform은 explain과 달리 사람을 목적어로 바로 받지만, 그 뒤에 오는 '내용'에는 반드시 of/about이 필요합니다. 명사 두 개를 나란히 쓰지 않도록 주의하세요.",
+    "commonMistake": {
+      "wrong": "We informed the delay to the customers.",
+      "right": "We informed the customers of the delay.",
+      "note": "inform의 목적어는 항상 '사람'이고, '내용'은 of/about으로 연결됩니다."
+    }
+  },
+  {
+    "id": "discuss",
+    "verb": "discuss",
+    "meaningKo": "논의하다",
+    "category": "전치사 불필요 (완전타동사)",
+    "patterns": [
+      {"label": "3형식", "structure": "discuss + 사물 (전치사 없음)", "exampleEn": "They discussed the budget for two hours.", "exampleKo": "그들은 두 시간 동안 예산에 대해 논의했다."}
+    ],
+    "commonMistake": {
+      "wrong": "They discussed about the budget.",
+      "right": "They discussed the budget.",
+      "note": "discuss는 이미 '~에 대해 논하다'라는 뜻을 포함하고 있어 about이 필요 없습니다."
+    },
+    "relatedVerbs": ["mention"]
+  },
+  {
+    "id": "mention",
+    "verb": "mention",
+    "meaningKo": "언급하다",
+    "category": "전치사 불필요 (완전타동사)",
+    "patterns": [
+      {"label": "3형식", "structure": "mention + 사물 (전치사 없음)", "exampleEn": "He mentioned the delay during the call.", "exampleKo": "그는 통화 중에 지연에 대해 언급했다."}
+    ],
+    "commonMistake": {
+      "wrong": "He mentioned about the delay.",
+      "right": "He mentioned the delay.",
+      "note": "discuss와 같은 이유로 about이 붙지 않습니다."
+    },
+    "relatedVerbs": ["discuss"]
+  },
+  {
+    "id": "enter",
+    "verb": "enter",
+    "meaningKo": "들어가다",
+    "category": "전치사 불필요 (완전타동사)",
+    "patterns": [
+      {"label": "3형식", "structure": "enter + 장소 (전치사 없음)", "exampleEn": "She entered the room quietly.", "exampleKo": "그녀는 조용히 그 방에 들어갔다."}
+    ],
+    "commonMistake": {
+      "wrong": "She entered into the room.",
+      "right": "She entered the room.",
+      "note": "enter into는 '협상/계약에 들어가다'처럼 추상적인 의미일 때만 씁니다 (enter into an agreement)."
+    }
+  },
+  {
+    "id": "reach",
+    "verb": "reach",
+    "meaningKo": "도달하다",
+    "category": "전치사 불필요 (완전타동사)",
+    "patterns": [
+      {"label": "3형식", "structure": "reach + 장소/목표 (전치사 없음)", "exampleEn": "The team reached the airport just in time.", "exampleKo": "팀은 딱 맞춰 공항에 도착했다."}
+    ],
+    "commonMistake": {
+      "wrong": "The team reached to the airport.",
+      "right": "The team reached the airport.",
+      "note": "arrive at과 혼동해 reach에도 전치사를 붙이는 실수가 흔합니다."
+    },
+    "relatedVerbs": ["arrive"]
+  },
+  {
+    "id": "marry",
+    "verb": "marry",
+    "meaningKo": "결혼하다",
+    "category": "전치사 불필요 (완전타동사)",
+    "patterns": [
+      {"label": "3형식", "structure": "marry + 사람 (전치사 없음)", "exampleEn": "He married his college sweetheart.", "exampleKo": "그는 대학 시절 연인과 결혼했다."}
+    ],
+    "commonMistake": {
+      "wrong": "He married with his college sweetheart.",
+      "right": "He married his college sweetheart.",
+      "note": "'결혼한 상태'를 말할 때는 be married to를 씁니다 (He is married to her)."
+    }
+  },
+  {
+    "id": "resemble",
+    "verb": "resemble",
+    "meaningKo": "닮다",
+    "category": "전치사 불필요 (완전타동사)",
+    "patterns": [
+      {"label": "3형식", "structure": "resemble + 사람/사물 (전치사 없음)", "exampleEn": "She resembles her mother in many ways.", "exampleKo": "그녀는 여러 면에서 어머니를 닮았다."}
+    ],
+    "commonMistake": {
+      "wrong": "She resembles to her mother.",
+      "right": "She resembles her mother.",
+      "note": "resemble은 진행형으로도 잘 쓰지 않는 상태동사이면서, 전치사도 필요 없는 완전타동사입니다."
+    }
+  },
+  {
+    "id": "listen",
+    "verb": "listen",
+    "meaningKo": "듣다",
+    "category": "전치사 필수 (자동사)",
+    "patterns": [
+      {"label": "1형식+to", "structure": "listen + to + 대상", "exampleEn": "He listens to music while working.", "exampleKo": "그는 일하면서 음악을 듣는다."}
+    ],
+    "commonMistake": {
+      "wrong": "He listens music.",
+      "right": "He listens to music.",
+      "note": "listen은 자동사라서 목적어를 바로 받을 수 없습니다."
+    }
+  },
+  {
+    "id": "look",
+    "verb": "look",
+    "meaningKo": "보다",
+    "category": "전치사 필수 (자동사)",
+    "patterns": [
+      {"label": "1형식+at", "structure": "look + at + 대상 (보다)", "exampleEn": "She looked at the report carefully.", "exampleKo": "그녀는 보고서를 꼼꼼히 살펴보았다."},
+      {"label": "1형식+for", "structure": "look + for + 대상 (찾다)", "exampleEn": "She is looking for her keys.", "exampleKo": "그녀는 열쇠를 찾고 있다."}
+    ],
+    "note": "look은 뒤에 오는 전치사에 따라 뜻이 완전히 달라집니다: at(보다), for(찾다), after(돌보다)."
+  },
+  {
+    "id": "wait",
+    "verb": "wait",
+    "meaningKo": "기다리다",
+    "category": "전치사 필수 (자동사)",
+    "patterns": [
+      {"label": "1형식+for", "structure": "wait + for + 대상", "exampleEn": "We waited for the bus in the rain.", "exampleKo": "우리는 빗속에서 버스를 기다렸다."}
+    ],
+    "commonMistake": {
+      "wrong": "We waited the bus.",
+      "right": "We waited for the bus.",
+      "note": "wait은 자동사이므로 for 없이 목적어를 바로 받을 수 없습니다."
+    }
+  },
+  {
+    "id": "arrive",
+    "verb": "arrive",
+    "meaningKo": "도착하다",
+    "category": "전치사 필수 (자동사)",
+    "patterns": [
+      {"label": "1형식+at", "structure": "arrive + at + 지점/건물", "exampleEn": "They arrived at the airport.", "exampleKo": "그들은 공항에 도착했다."},
+      {"label": "1형식+in", "structure": "arrive + in + 도시/국가", "exampleEn": "They arrived in Seoul.", "exampleKo": "그들은 서울에 도착했다."}
+    ],
+    "commonMistake": {
+      "wrong": "They arrived Seoul.",
+      "right": "They arrived in Seoul.",
+      "note": "reach는 전치사 없이, arrive는 전치사와 함께 쓴다는 차이를 기억하세요."
+    },
+    "relatedVerbs": ["reach"]
+  },
+  {
+    "id": "depend",
+    "verb": "depend",
+    "meaningKo": "달려있다, 의존하다",
+    "category": "전치사 필수 (자동사)",
+    "patterns": [
+      {"label": "1형식+on", "structure": "depend + on + 대상", "exampleEn": "The outcome depends on the weather.", "exampleKo": "결과는 날씨에 달려 있다."}
+    ],
+    "commonMistake": {
+      "wrong": "The outcome depends the weather.",
+      "right": "The outcome depends on the weather.",
+      "note": "depend는 on 없이는 쓰이지 않습니다."
+    }
+  },
+  {
+    "id": "belong",
+    "verb": "belong",
+    "meaningKo": "속하다",
+    "category": "전치사 필수 (자동사)",
+    "patterns": [
+      {"label": "1형식+to", "structure": "belong + to + 대상", "exampleEn": "This bag belongs to my sister.", "exampleKo": "이 가방은 내 여동생의 것이다."}
+    ],
+    "commonMistake": {
+      "wrong": "This bag belongs my sister.",
+      "right": "This bag belongs to my sister.",
+      "note": "belong은 항상 to와 함께 쓰이는 대표적인 자동사입니다."
+    }
+  }
+]

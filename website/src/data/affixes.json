@@ -1,0 +1,570 @@
+[
+  {
+    "id": "tion-sion",
+    "affix": "-tion / -sion / -ation",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 명사",
+    "posFrom": "동사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~하는 것, ~함 (행위·상태)",
+    "words": [
+      {"base": "inform", "derived": "information", "meaningKo": "정보"},
+      {"base": "decide", "derived": "decision", "meaningKo": "결정"},
+      {"base": "examine", "derived": "examination", "meaningKo": "검사, 시험"},
+      {"base": "act", "derived": "action", "meaningKo": "행동"}
+    ],
+    "exampleEn": "The committee reached a decision after a thorough examination of the proposal.",
+    "exampleKo": "위원회는 제안서를 철저히 검토한 후 결정에 도달했다."
+  },
+  {
+    "id": "ment",
+    "affix": "-ment",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 명사",
+    "posFrom": "동사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~한 결과, ~하는 행동",
+    "words": [
+      {"base": "develop", "derived": "development", "meaningKo": "개발"},
+      {"base": "agree", "derived": "agreement", "meaningKo": "합의"},
+      {"base": "pay", "derived": "payment", "meaningKo": "지불"},
+      {"base": "move", "derived": "movement", "meaningKo": "움직임"}
+    ],
+    "exampleEn": "Both companies signed the agreement after months of development.",
+    "exampleKo": "두 회사는 몇 달간의 개발 끝에 합의서에 서명했다."
+  },
+  {
+    "id": "ance-ence",
+    "affix": "-ance / -ence",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 명사",
+    "posFrom": "동사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~하는 상태, ~함",
+    "words": [
+      {"base": "perform", "derived": "performance", "meaningKo": "성과, 공연"},
+      {"base": "exist", "derived": "existence", "meaningKo": "존재"},
+      {"base": "differ", "derived": "difference", "meaningKo": "차이"},
+      {"base": "assist", "derived": "assistance", "meaningKo": "도움"}
+    ],
+    "exampleEn": "The new assistant's performance made a noticeable difference to the team.",
+    "exampleKo": "새 조수의 성과는 팀에 눈에 띄는 차이를 만들었다."
+  },
+  {
+    "id": "er-or",
+    "affix": "-er / -or",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 명사",
+    "posFrom": "동사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~하는 사람, ~하는 도구",
+    "note": "동사에 -er/-or을 붙이면 그 행동을 하는 주체(사람·기계)를 가리키는 명사가 됩니다.",
+    "words": [
+      {"base": "teach", "derived": "teacher", "meaningKo": "교사"},
+      {"base": "act", "derived": "actor", "meaningKo": "배우"},
+      {"base": "invent", "derived": "inventor", "meaningKo": "발명가"},
+      {"base": "print", "derived": "printer", "meaningKo": "프린터"}
+    ],
+    "exampleEn": "The inventor showed the printer to a group of curious teachers.",
+    "exampleKo": "그 발명가는 호기심 많은 교사들에게 프린터를 보여주었다."
+  },
+  {
+    "id": "al-noun",
+    "affix": "-al (동사 → 명사)",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 명사",
+    "posFrom": "동사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~하는 행위",
+    "note": "-al은 동사를 명사로 바꾸기도 하고(arrival) 명사를 형용사로 바꾸기도 합니다(natural) — 뒤에 오는 문맥으로 구별해야 합니다.",
+    "words": [
+      {"base": "arrive", "derived": "arrival", "meaningKo": "도착"},
+      {"base": "refuse", "derived": "refusal", "meaningKo": "거절"},
+      {"base": "propose", "derived": "proposal", "meaningKo": "제안"},
+      {"base": "approve", "derived": "approval", "meaningKo": "승인"}
+    ],
+    "exampleEn": "The proposal received final approval shortly after his arrival.",
+    "exampleKo": "그가 도착한 직후 그 제안은 최종 승인을 받았다."
+  },
+  {
+    "id": "ness",
+    "affix": "-ness",
+    "type": "suffix",
+    "category": "접미사 · 형용사 → 명사",
+    "posFrom": "형용사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~한 성질, ~한 상태",
+    "note": "-y로 끝나는 형용사는 y를 i로 바꾸고 -ness를 붙입니다 (happy→happiness).",
+    "words": [
+      {"base": "kind", "derived": "kindness", "meaningKo": "친절함"},
+      {"base": "happy", "derived": "happiness", "meaningKo": "행복"},
+      {"base": "dark", "derived": "darkness", "meaningKo": "어둠"},
+      {"base": "weak", "derived": "weakness", "meaningKo": "약점"}
+    ],
+    "exampleEn": "Her kindness and quiet happiness impressed everyone at the shelter.",
+    "exampleKo": "그녀의 친절함과 조용한 행복은 보호소의 모든 사람들에게 감명을 주었다."
+  },
+  {
+    "id": "ity-ty",
+    "affix": "-ity / -ty",
+    "type": "suffix",
+    "category": "접미사 · 형용사 → 명사",
+    "posFrom": "형용사",
+    "posTo": "명사",
+    "posChange": true,
+    "meaningKo": "~한 성질 (격식체)",
+    "words": [
+      {"base": "active", "derived": "activity", "meaningKo": "활동"},
+      {"base": "real", "derived": "reality", "meaningKo": "현실"},
+      {"base": "able", "derived": "ability", "meaningKo": "능력"},
+      {"base": "curious", "derived": "curiosity", "meaningKo": "호기심"}
+    ],
+    "exampleEn": "Her ability to stay curious kept every activity interesting.",
+    "exampleKo": "호기심을 잃지 않는 그녀의 능력은 모든 활동을 흥미롭게 만들었다."
+  },
+  {
+    "id": "ful",
+    "affix": "-ful",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~이 가득한",
+    "words": [
+      {"base": "care", "derived": "careful", "meaningKo": "조심스러운"},
+      {"base": "help", "derived": "helpful", "meaningKo": "도움이 되는"},
+      {"base": "beauty", "derived": "beautiful", "meaningKo": "아름다운"},
+      {"base": "power", "derived": "powerful", "meaningKo": "강력한"}
+    ],
+    "exampleEn": "The helpful assistant gave careful, powerful advice.",
+    "exampleKo": "그 도움이 되는 조수는 신중하고 강력한 조언을 해주었다."
+  },
+  {
+    "id": "less",
+    "affix": "-less",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~이 없는 (-ful의 반의어)",
+    "words": [
+      {"base": "care", "derived": "careless", "meaningKo": "부주의한"},
+      {"base": "hope", "derived": "hopeless", "meaningKo": "희망이 없는"},
+      {"base": "home", "derived": "homeless", "meaningKo": "집 없는"},
+      {"base": "use", "derived": "useless", "meaningKo": "쓸모없는"}
+    ],
+    "exampleEn": "The careless mistake made the entire plan seem useless.",
+    "exampleKo": "그 부주의한 실수는 전체 계획을 쓸모없게 만들어 보였다."
+  },
+  {
+    "id": "ous",
+    "affix": "-ous",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~한 성질을 가진, ~이 풍부한",
+    "words": [
+      {"base": "danger", "derived": "dangerous", "meaningKo": "위험한"},
+      {"base": "fame", "derived": "famous", "meaningKo": "유명한"},
+      {"base": "nerve", "derived": "nervous", "meaningKo": "긴장한"},
+      {"base": "ambition", "derived": "ambitious", "meaningKo": "야심 찬"}
+    ],
+    "exampleEn": "The famous but ambitious climber ignored the dangerous weather.",
+    "exampleKo": "유명하지만 야심 찬 그 등반가는 위험한 날씨를 무시했다."
+  },
+  {
+    "id": "al-adj",
+    "affix": "-al (명사 → 형용사)",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~에 관한, ~적인",
+    "words": [
+      {"base": "nature", "derived": "natural", "meaningKo": "자연스러운"},
+      {"base": "culture", "derived": "cultural", "meaningKo": "문화적인"},
+      {"base": "person", "derived": "personal", "meaningKo": "개인적인"},
+      {"base": "nation", "derived": "national", "meaningKo": "국가적인"}
+    ],
+    "exampleEn": "She gave a personal opinion about the cultural and national significance of the festival.",
+    "exampleKo": "그녀는 그 축제의 문화적, 국가적 의미에 대해 개인적인 의견을 밝혔다."
+  },
+  {
+    "id": "ic",
+    "affix": "-ic",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~의, ~적인",
+    "words": [
+      {"base": "history", "derived": "historic", "meaningKo": "역사적인"},
+      {"base": "economy", "derived": "economic", "meaningKo": "경제의"},
+      {"base": "science", "derived": "scientific", "meaningKo": "과학적인"},
+      {"base": "symbol", "derived": "symbolic", "meaningKo": "상징적인"}
+    ],
+    "exampleEn": "The historic agreement had both economic and symbolic significance.",
+    "exampleKo": "그 역사적인 합의는 경제적으로도 상징적으로도 의미가 있었다."
+  },
+  {
+    "id": "y-adj",
+    "affix": "-y",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~한 (가벼운 성질 묘사)",
+    "words": [
+      {"base": "rain", "derived": "rainy", "meaningKo": "비가 오는"},
+      {"base": "wind", "derived": "windy", "meaningKo": "바람이 부는"},
+      {"base": "sleep", "derived": "sleepy", "meaningKo": "졸린"},
+      {"base": "luck", "derived": "lucky", "meaningKo": "운이 좋은"}
+    ],
+    "exampleEn": "On rainy, windy days, she always feels sleepy but still considers herself lucky.",
+    "exampleKo": "비가 오고 바람이 부는 날이면 그녀는 항상 졸리지만 그래도 자신이 운이 좋다고 생각한다."
+  },
+  {
+    "id": "ly-adj",
+    "affix": "-ly (명사 → 형용사, 예외)",
+    "type": "suffix",
+    "category": "접미사 · 명사 → 형용사",
+    "posFrom": "명사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~다운, ~한 (부사 아님에 주의)",
+    "note": "명사에 -ly가 붙으면 부사가 아니라 형용사가 됩니다. friendly, lovely처럼 -ly로 끝나는 형용사는 부사형이 따로 없어 'in a friendly way'처럼 우회해서 씁니다.",
+    "words": [
+      {"base": "friend", "derived": "friendly", "meaningKo": "친근한"},
+      {"base": "love", "derived": "lovely", "meaningKo": "사랑스러운"},
+      {"base": "cost", "derived": "costly", "meaningKo": "비용이 많이 드는"},
+      {"base": "time", "derived": "timely", "meaningKo": "시기적절한"}
+    ],
+    "exampleEn": "The manager gave a friendly but timely warning about the costly mistake.",
+    "exampleKo": "그 매니저는 비용이 많이 드는 실수에 대해 친근하지만 시기적절한 경고를 했다."
+  },
+  {
+    "id": "ive",
+    "affix": "-ive",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 형용사",
+    "posFrom": "동사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~하는 경향이 있는",
+    "words": [
+      {"base": "act", "derived": "active", "meaningKo": "활동적인"},
+      {"base": "create", "derived": "creative", "meaningKo": "창의적인"},
+      {"base": "attract", "derived": "attractive", "meaningKo": "매력적인"},
+      {"base": "support", "derived": "supportive", "meaningKo": "도움을 주는"}
+    ],
+    "exampleEn": "The team's active, creative approach made the proposal attractive to investors.",
+    "exampleKo": "팀의 활동적이고 창의적인 접근은 그 제안을 투자자들에게 매력적으로 만들었다."
+  },
+  {
+    "id": "able-ible",
+    "affix": "-able / -ible",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 형용사",
+    "posFrom": "동사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~할 수 있는",
+    "words": [
+      {"base": "rely", "derived": "reliable", "meaningKo": "믿을 수 있는"},
+      {"base": "understand", "derived": "understandable", "meaningKo": "이해할 수 있는"},
+      {"base": "access", "derived": "accessible", "meaningKo": "접근 가능한"},
+      {"base": "afford", "derived": "affordable", "meaningKo": "감당할 수 있는"}
+    ],
+    "exampleEn": "The new system is reliable, affordable, and easily accessible.",
+    "exampleKo": "그 새 시스템은 믿을 수 있고, 감당할 수 있으며, 쉽게 접근할 수 있다."
+  },
+  {
+    "id": "ant-ent",
+    "affix": "-ant / -ent",
+    "type": "suffix",
+    "category": "접미사 · 동사 → 형용사",
+    "posFrom": "동사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~하는 (능동의 성질)",
+    "words": [
+      {"base": "rely", "derived": "reliant", "meaningKo": "의존하는"},
+      {"base": "differ", "derived": "different", "meaningKo": "다른"},
+      {"base": "depend", "derived": "dependent", "meaningKo": "의존적인"},
+      {"base": "observe", "derived": "observant", "meaningKo": "관찰력이 있는"}
+    ],
+    "exampleEn": "The observant intern noticed a different, less dependent way to organize the files.",
+    "exampleKo": "관찰력이 있는 그 인턴은 덜 의존적인 방식으로 파일을 정리하는 다른 방법을 알아챘다."
+  },
+  {
+    "id": "ize-ise",
+    "affix": "-ize / -ise",
+    "type": "suffix",
+    "category": "접미사 · 명사·형용사 → 동사",
+    "posFrom": "명사/형용사",
+    "posTo": "동사",
+    "posChange": true,
+    "meaningKo": "~화하다, ~하게 만들다",
+    "words": [
+      {"base": "modern", "derived": "modernize", "meaningKo": "현대화하다"},
+      {"base": "real", "derived": "realize", "meaningKo": "깨닫다, 실현하다"},
+      {"base": "symbol", "derived": "symbolize", "meaningKo": "상징하다"},
+      {"base": "summary", "derived": "summarize", "meaningKo": "요약하다"}
+    ],
+    "exampleEn": "The company decided to modernize its factory after realizing how outdated it had become.",
+    "exampleKo": "그 회사는 공장이 얼마나 구식이 되었는지 깨달은 후 공장을 현대화하기로 결정했다."
+  },
+  {
+    "id": "ify",
+    "affix": "-ify",
+    "type": "suffix",
+    "category": "접미사 · 명사·형용사 → 동사",
+    "posFrom": "명사/형용사",
+    "posTo": "동사",
+    "posChange": true,
+    "meaningKo": "~화하다, ~하게 만들다",
+    "words": [
+      {"base": "simple", "derived": "simplify", "meaningKo": "단순화하다"},
+      {"base": "class", "derived": "classify", "meaningKo": "분류하다"},
+      {"base": "beauty", "derived": "beautify", "meaningKo": "아름답게 하다"},
+      {"base": "identity", "derived": "identify", "meaningKo": "확인하다, 식별하다"}
+    ],
+    "exampleEn": "The new software helps classify and identify errors, simplifying the whole process.",
+    "exampleKo": "그 새 소프트웨어는 오류를 분류하고 식별하는 데 도움을 주어 전체 과정을 단순화한다."
+  },
+  {
+    "id": "en-verb",
+    "affix": "-en (형용사 → 동사)",
+    "type": "suffix",
+    "category": "접미사 · 명사·형용사 → 동사",
+    "posFrom": "형용사",
+    "posTo": "동사",
+    "posChange": true,
+    "meaningKo": "~하게 만들다, ~해지다",
+    "words": [
+      {"base": "wide", "derived": "widen", "meaningKo": "넓히다"},
+      {"base": "short", "derived": "shorten", "meaningKo": "짧게 하다"},
+      {"base": "dark", "derived": "darken", "meaningKo": "어둡게 하다"},
+      {"base": "weak", "derived": "weaken", "meaningKo": "약화시키다"}
+    ],
+    "exampleEn": "The city plans to widen the road and shorten the commute for residents.",
+    "exampleKo": "그 도시는 도로를 넓히고 주민들의 통근 시간을 줄일 계획이다."
+  },
+  {
+    "id": "ly-adv",
+    "affix": "-ly (형용사 → 부사)",
+    "type": "suffix",
+    "category": "접미사 · 형용사 → 부사",
+    "posFrom": "형용사",
+    "posTo": "부사",
+    "posChange": true,
+    "meaningKo": "~하게",
+    "note": "가장 규칙적인 접미사입니다: 대부분의 형용사에 -ly만 붙이면 부사가 됩니다.",
+    "words": [
+      {"base": "quick", "derived": "quickly", "meaningKo": "빠르게"},
+      {"base": "successful", "derived": "successfully", "meaningKo": "성공적으로"},
+      {"base": "careful", "derived": "carefully", "meaningKo": "조심스럽게"},
+      {"base": "honest", "derived": "honestly", "meaningKo": "솔직하게"}
+    ],
+    "exampleEn": "She carefully and honestly explained why the project had successfully finished so quickly.",
+    "exampleKo": "그녀는 그 프로젝트가 왜 그렇게 빠르게 성공적으로 끝났는지 신중하고 솔직하게 설명했다."
+  },
+  {
+    "id": "un-in-im-il-ir",
+    "affix": "un- / in- / im- / il- / ir-",
+    "type": "prefix",
+    "category": "접두사 · 부정",
+    "posFrom": "형용사",
+    "posTo": "형용사",
+    "posChange": false,
+    "meaningKo": "~않은, ~이 아닌",
+    "note": "뒤에 오는 첫 글자에 따라 형태가 달라집니다: m/p 앞에서는 im-, l 앞에서는 il-, r 앞에서는 ir-, 그 외에는 un-이나 in-을 씁니다.",
+    "words": [
+      {"base": "happy", "derived": "unhappy", "meaningKo": "불행한"},
+      {"base": "possible", "derived": "impossible", "meaningKo": "불가능한"},
+      {"base": "legal", "derived": "illegal", "meaningKo": "불법의"},
+      {"base": "regular", "derived": "irregular", "meaningKo": "불규칙한"},
+      {"base": "complete", "derived": "incomplete", "meaningKo": "불완전한"}
+    ],
+    "exampleEn": "It seemed impossible to fix the irregular, incomplete schedule without making someone unhappy.",
+    "exampleKo": "누군가를 불행하게 만들지 않고 그 불규칙하고 불완전한 일정을 고치는 것은 불가능해 보였다."
+  },
+  {
+    "id": "dis-",
+    "affix": "dis-",
+    "type": "prefix",
+    "category": "접두사 · 부정",
+    "posFrom": "동사/명사",
+    "posTo": "동사/명사",
+    "posChange": false,
+    "meaningKo": "반대, 제거",
+    "words": [
+      {"base": "agree", "derived": "disagree", "meaningKo": "동의하지 않다"},
+      {"base": "connect", "derived": "disconnect", "meaningKo": "연결을 끊다"},
+      {"base": "like", "derived": "dislike", "meaningKo": "싫어하다"},
+      {"base": "appear", "derived": "disappear", "meaningKo": "사라지다"}
+    ],
+    "exampleEn": "He disagreed with the plan and quietly disconnected from the discussion.",
+    "exampleKo": "그는 그 계획에 동의하지 않았고 조용히 논의에서 발을 뺐다."
+  },
+  {
+    "id": "mis-",
+    "affix": "mis-",
+    "type": "prefix",
+    "category": "접두사 · 부정",
+    "posFrom": "동사",
+    "posTo": "동사",
+    "posChange": false,
+    "meaningKo": "잘못된, 잘못",
+    "words": [
+      {"base": "understand", "derived": "misunderstand", "meaningKo": "오해하다"},
+      {"base": "lead", "derived": "mislead", "meaningKo": "오도하다"},
+      {"base": "spell", "derived": "misspell", "meaningKo": "철자를 틀리다"},
+      {"base": "place", "derived": "misplace", "meaningKo": "잘못 두다, 분실하다"}
+    ],
+    "exampleEn": "Please don't misunderstand me; I only misspelled his name by accident.",
+    "exampleKo": "오해하지 말아주세요. 저는 그저 실수로 그의 이름 철자를 틀렸을 뿐이에요."
+  },
+  {
+    "id": "re-",
+    "affix": "re-",
+    "type": "prefix",
+    "category": "접두사 · 반복·정도·시간·관계",
+    "posFrom": "동사",
+    "posTo": "동사",
+    "posChange": false,
+    "meaningKo": "다시",
+    "words": [
+      {"base": "write", "derived": "rewrite", "meaningKo": "다시 쓰다"},
+      {"base": "consider", "derived": "reconsider", "meaningKo": "재고하다"},
+      {"base": "build", "derived": "rebuild", "meaningKo": "재건하다"},
+      {"base": "read", "derived": "reread", "meaningKo": "다시 읽다"}
+    ],
+    "exampleEn": "After rereading the report, she decided to rewrite the entire conclusion.",
+    "exampleKo": "그 보고서를 다시 읽은 후, 그녀는 결론 전체를 다시 쓰기로 결정했다."
+  },
+  {
+    "id": "over-under",
+    "affix": "over- / under-",
+    "type": "prefix",
+    "category": "접두사 · 반복·정도·시간·관계",
+    "posFrom": "동사",
+    "posTo": "동사",
+    "posChange": false,
+    "meaningKo": "지나친 / 부족한",
+    "words": [
+      {"base": "eat", "derived": "overeat", "meaningKo": "과식하다"},
+      {"base": "estimate", "derived": "underestimate", "meaningKo": "과소평가하다"},
+      {"base": "react", "derived": "overreact", "meaningKo": "과잉반응하다"},
+      {"base": "pay", "derived": "underpay", "meaningKo": "임금을 적게 주다"}
+    ],
+    "exampleEn": "Never underestimate a manager who tends to overreact to small mistakes.",
+    "exampleKo": "작은 실수에 과잉반응하는 경향이 있는 관리자를 절대 과소평가하지 마라."
+  },
+  {
+    "id": "pre-post",
+    "affix": "pre- / post-",
+    "type": "prefix",
+    "category": "접두사 · 반복·정도·시간·관계",
+    "posFrom": "동사/명사",
+    "posTo": "동사/명사",
+    "posChange": false,
+    "meaningKo": "이전 / 이후",
+    "note": "postpone처럼 어근(pone)이 단독으로 쓰이지 않는 경우도 있습니다.",
+    "words": [
+      {"base": "view", "derived": "preview", "meaningKo": "미리보기"},
+      {"base": "war", "derived": "postwar", "meaningKo": "전후의"},
+      {"base": "heat", "derived": "preheat", "meaningKo": "예열하다"},
+      {"base": "pone", "derived": "postpone", "meaningKo": "연기하다"}
+    ],
+    "exampleEn": "They decided to postpone the meeting and preview the postwar economic report instead.",
+    "exampleKo": "그들은 회의를 연기하고 대신 전후 경제 보고서를 미리 살펴보기로 했다."
+  },
+  {
+    "id": "co-inter",
+    "affix": "co- / inter-",
+    "type": "prefix",
+    "category": "접두사 · 반복·정도·시간·관계",
+    "posFrom": "동사/명사/형용사",
+    "posTo": "동사/명사/형용사",
+    "posChange": false,
+    "meaningKo": "함께 / 사이에",
+    "words": [
+      {"base": "operate", "derived": "cooperate", "meaningKo": "협력하다"},
+      {"base": "national", "derived": "international", "meaningKo": "국제적인"},
+      {"base": "act", "derived": "interact", "meaningKo": "상호작용하다"},
+      {"base": "worker", "derived": "coworker", "meaningKo": "동료"}
+    ],
+    "exampleEn": "Employees from different countries learned to cooperate and interact with their new coworkers.",
+    "exampleKo": "여러 나라에서 온 직원들은 새로운 동료들과 협력하고 상호작용하는 법을 배웠다."
+  },
+  {
+    "id": "en-em-verb",
+    "affix": "en- / em-",
+    "type": "prefix",
+    "category": "접두사 · 품사 변경(예외)",
+    "posFrom": "형용사/명사",
+    "posTo": "동사",
+    "posChange": true,
+    "meaningKo": "~하게 만들다",
+    "note": "대부분의 접두사와 달리 품사 자체를 동사로 바꾸는 예외적인 접두사입니다.",
+    "words": [
+      {"base": "able", "derived": "enable", "meaningKo": "가능하게 하다"},
+      {"base": "rich", "derived": "enrich", "meaningKo": "풍요롭게 하다"},
+      {"base": "large", "derived": "enlarge", "meaningKo": "확대하다"},
+      {"base": "power", "derived": "empower", "meaningKo": "권한을 주다"}
+    ],
+    "exampleEn": "The new tool enables the team and empowers junior staff to enlarge their responsibilities.",
+    "exampleKo": "그 새 도구는 팀을 가능하게 하고, 신입 직원들이 책임 범위를 넓히도록 권한을 부여한다."
+  },
+  {
+    "id": "be-verb",
+    "affix": "be-",
+    "type": "prefix",
+    "category": "접두사 · 품사 변경(예외)",
+    "posFrom": "명사/형용사",
+    "posTo": "동사",
+    "posChange": true,
+    "meaningKo": "~하게 만들다, ~을 대상으로 삼다",
+    "words": [
+      {"base": "friend", "derived": "befriend", "meaningKo": "친구가 되다"},
+      {"base": "little", "derived": "belittle", "meaningKo": "경시하다, 얕보다"},
+      {"base": "calm", "derived": "becalm", "meaningKo": "진정시키다"},
+      {"base": "witch", "derived": "bewitch", "meaningKo": "매혹하다"}
+    ],
+    "exampleEn": "She quickly befriended the new intern instead of belittling his early mistakes.",
+    "exampleKo": "그녀는 신입 인턴의 초기 실수를 얕보는 대신 재빨리 그와 친구가 되었다."
+  },
+  {
+    "id": "a-adj",
+    "affix": "a-",
+    "type": "prefix",
+    "category": "접두사 · 품사 변경(예외)",
+    "posFrom": "명사/동사",
+    "posTo": "형용사",
+    "posChange": true,
+    "meaningKo": "~한 상태의",
+    "note": "이 형용사들은 명사 앞이 아니라 주로 be동사 뒤(서술적 용법)에서 쓰입니다: an asleep man(X) → a sleeping man(O), 하지만 He is asleep(O).",
+    "words": [
+      {"base": "sleep", "derived": "asleep", "meaningKo": "잠든"},
+      {"base": "live", "derived": "alive", "meaningKo": "살아있는"},
+      {"base": "float", "derived": "afloat", "meaningKo": "떠 있는"},
+      {"base": "wake", "derived": "awake", "meaningKo": "깨어있는"}
+    ],
+    "exampleEn": "Even though he seemed asleep, he was actually wide awake and alive with ideas.",
+    "exampleKo": "그는 잠든 것처럼 보였지만, 사실은 완전히 깨어서 아이디어로 가득했다."
+  }
+]

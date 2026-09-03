@@ -55,6 +55,7 @@ const sidebars = {
     'glossary',
     'reading-strategy',
     'writing-strategy',
+    'word-formation',
   ],
 };
 
