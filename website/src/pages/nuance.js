@@ -1,5 +1,6 @@
 import React, {useMemo, useState} from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import clusters from '@site/src/data/nuanceClusters.json';
 import NuanceModal from '@site/src/components/nuance/NuanceModal';
 import styles from '@site/src/components/nuance/nuance.module.css';
@@ -45,6 +46,9 @@ export default function NuanceDictionary() {
           격식에 따라 전혀 다른 단어로 갈립니다. 이 사전은 그런 <strong>한국어 개념 하나에 몰려있는 영어 단어
           묶음</strong>을 품사·발음·강도·용도로 비교해서 보여줍니다. 카드를 클릭하면 상세 표가 열립니다.
           현재 중학교 수준의 핵심 개념 {clusters.length}개, 단어 {totalWords}개를 다룹니다.
+          say/tell, look/see처럼 동사가 포함된 개념은 여기서 격식·강도 차이를 비교하고, 그 동사가
+          문장에서 목적어를 어떻게 받는지(구조)는 <Link to="/verbs">동사 패턴 사전</Link>에서
+          확인하세요.
         </p>
         <input
           className={unitsStyles.searchInput}

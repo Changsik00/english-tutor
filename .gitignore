@@ -1,6 +1,7 @@
 .claude/
 .obsidian/
 .DS_Store
+.serena/
 
 # YouTube 자막 전문 백업은 저작권 있는 강의 전문이라 로컬에만 보관하고
 # 퍼블릭 저장소에는 커밋하지 않는다. 메타데이터 인덱스(README.md)만 추적한다.

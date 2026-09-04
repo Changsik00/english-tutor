@@ -53,9 +53,16 @@ const sidebars = {
       ],
     },
     'glossary',
-    'reading-strategy',
-    'writing-strategy',
-    'word-formation',
+    {
+      type: 'category',
+      label: '학습 전략 (원리)',
+      items: [
+        'reading-strategy',
+        'writing-strategy',
+        'word-formation',
+        'verb-principle',
+      ],
+    },
   ],
 };
 

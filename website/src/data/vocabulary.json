@@ -231,61 +231,6 @@
     "unit": "014"
   },
   {
-    "id": "voca-ch03-give",
-    "word": "give",
-    "pos": "동사",
-    "meaningKo": "주다",
-    "pattern": "to로 3형식 전환되는 수여동사",
-    "exampleEn": "She gave the report to her manager.",
-    "exampleKo": "그녀는 매니저에게 보고서를 주었다.",
-    "chapter": "ch03",
-    "unit": "017"
-  },
-  {
-    "id": "voca-ch03-send",
-    "word": "send",
-    "pos": "동사",
-    "meaningKo": "보내다",
-    "pattern": "to로 3형식 전환되는 수여동사",
-    "exampleEn": "He sent the invoice to the client.",
-    "exampleKo": "그는 고객에게 청구서를 보냈다.",
-    "chapter": "ch03",
-    "unit": "017"
-  },
-  {
-    "id": "voca-ch03-show",
-    "word": "show",
-    "pos": "동사",
-    "meaningKo": "보여주다",
-    "pattern": "to로 3형식 전환되는 수여동사",
-    "exampleEn": "I showed my ticket to the staff.",
-    "exampleKo": "나는 직원에게 티켓을 보여주었다.",
-    "chapter": "ch03",
-    "unit": "017"
-  },
-  {
-    "id": "voca-ch03-teach",
-    "word": "teach",
-    "pos": "동사",
-    "meaningKo": "가르치다",
-    "pattern": "to로 3형식 전환되는 수여동사",
-    "exampleEn": "She teaches grammar to beginners.",
-    "exampleKo": "그녀는 초보자들에게 문법을 가르친다.",
-    "chapter": "ch03",
-    "unit": "017"
-  },
-  {
-    "id": "voca-ch03-tell",
-    "word": "tell",
-    "pos": "동사",
-    "meaningKo": "말해주다",
-    "pattern": "to로 3형식 전환되는 수여동사",
-    "exampleEn": "He told the truth to his friend.",
-    "exampleKo": "그는 친구에게 진실을 말했다.",
-    "chapter": "ch03",
-    "unit": "017"
-  },
-  {
     "id": "voca-ch04-know",
     "word": "know",
     "pos": "동사",

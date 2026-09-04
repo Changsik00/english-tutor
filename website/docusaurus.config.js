@@ -83,10 +83,17 @@ const config = {
             label: '📚 교재',
           },
           {to: '/units', label: '📖 전체 목차', position: 'left'},
-          {to: '/vocabulary', label: '🗂 단어장', position: 'left'},
-          {to: '/nuance', label: '🎭 뉘앙스 사전', position: 'left'},
-          {to: '/affixes', label: '🧩 접사 사전', position: 'left'},
-          {to: '/verbs', label: '🔧 동사 패턴 사전', position: 'left'},
+          {
+            type: 'dropdown',
+            label: '🗂 사전',
+            position: 'left',
+            items: [
+              {to: '/vocabulary', label: '🗂 단어장 (패턴별 어휘)'},
+              {to: '/nuance', label: '🎭 뉘앙스 사전'},
+              {to: '/affixes', label: '🧩 접사 사전'},
+              {to: '/verbs', label: '🔧 동사 패턴 사전'},
+            ],
+          },
           {to: '/dashboard', label: '📊 대시보드', position: 'left'},
           {to: '/review', label: '🔁 복습', position: 'left'},
           {
@@ -103,13 +110,26 @@ const config = {
             title: '교재',
             items: [
               {label: '1장부터 시작', to: '/docs/chapters/ch01'},
+              {label: '전체 목차', to: '/units'},
               {label: '용어사전', to: '/docs/glossary'},
+            ],
+          },
+          {
+            title: '학습 전략 (원리)',
+            items: [
               {label: '독해원리', to: '/docs/reading-strategy'},
               {label: '영작문 원리', to: '/docs/writing-strategy'},
+              {label: '조어원리', to: '/docs/word-formation'},
+              {label: '동사원리', to: '/docs/verb-principle'},
+            ],
+          },
+          {
+            title: '사전',
+            items: [
+              {label: '단어장', to: '/vocabulary'},
               {label: '뉘앙스 사전', to: '/nuance'},
               {label: '접사 사전', to: '/affixes'},
               {label: '동사 패턴 사전', to: '/verbs'},
-              {label: '조어원리', to: '/docs/word-formation'},
             ],
           },
           {

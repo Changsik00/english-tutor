@@ -95,12 +95,13 @@
     "patterns": [
       {"label": "3형식", "structure": "explain + 사물 + to + 사람", "exampleEn": "She explained the schedule to her team.", "exampleKo": "그녀는 팀에게 일정을 설명했다."}
     ],
+    "note": "give처럼 대상을 상대에게 전달까지 완결하는 동사와 달리, explain의 의미는 '내용을 정교하게 풀어내는 과정'에서 멈춥니다. 그 결과가 상대방에게 가닿는 것까지는 explain 혼자 담당하지 못해서, 전달을 나타내는 to를 별도로 빌려와야 사람까지 의미가 닿습니다. describe/introduce/announce/suggest도 같은 이유입니다 — 자세한 원리는 동사원리 문서를 참고하세요.",
     "commonMistake": {
       "wrong": "She explained her team the schedule.",
       "right": "She explained the schedule to her team.",
       "note": "explain은 사람을 직접 목적어로 받는 4형식 구조를 쓸 수 없습니다."
     },
-    "relatedVerbs": ["describe", "suggest", "introduce", "announce", "tell"]
+    "relatedVerbs": ["describe", "suggest", "introduce", "announce", "tell", "demonstrate", "report"]
   },
   {
     "id": "describe",
@@ -110,12 +111,13 @@
     "patterns": [
       {"label": "3형식", "structure": "describe + 사물 + to + 사람", "exampleEn": "He described the accident to the police.", "exampleKo": "그는 경찰에게 사고를 설명했다."}
     ],
+    "note": "describe의 의미도 explain과 마찬가지로 '내용을 자세히 그려내는 과정'에서 멈춥니다. 전달까지 담당하지 못하므로 to가 필요합니다.",
     "commonMistake": {
       "wrong": "He described the police the accident.",
       "right": "He described the accident to the police.",
       "note": "describe도 explain처럼 4형식으로 쓰이지 않습니다."
     },
-    "relatedVerbs": ["explain"]
+    "relatedVerbs": ["explain", "demonstrate"]
   },
   {
     "id": "say",
@@ -142,6 +144,7 @@
     "patterns": [
       {"label": "3형식", "structure": "suggest + 사물/that절 + to + 사람", "exampleEn": "He suggested a new approach to the committee.", "exampleKo": "그는 위원회에 새로운 접근법을 제안했다."}
     ],
+    "note": "suggest도 '제안 내용을 떠올려 제시하는 과정'에 의미가 집중되어 있어, 전달까지는 담당하지 못합니다.",
     "commonMistake": {
       "wrong": "He suggested the committee a new approach.",
       "right": "He suggested a new approach to the committee.",
@@ -157,6 +160,7 @@
     "patterns": [
       {"label": "3형식", "structure": "introduce + 사람A + to + 사람B", "exampleEn": "She introduced her colleague to the client.", "exampleKo": "그녀는 자신의 동료를 고객에게 소개했다."}
     ],
+    "note": "introduce도 '두 사람을 서로 알게 만드는 과정'에 의미가 머물러 있어, 대상에게 직접 전달하는 힘까지는 없습니다.",
     "commonMistake": {
       "wrong": "She introduced the client her colleague.",
       "right": "She introduced her colleague to the client.",
@@ -172,12 +176,45 @@
     "patterns": [
       {"label": "3형식", "structure": "announce + 사물 + to + 사람", "exampleEn": "The CEO announced the merger to the staff.", "exampleKo": "CEO는 직원들에게 합병을 발표했다."}
     ],
+    "note": "announce도 explain 계열과 같은 이유(내용을 공표하는 과정에 의미가 집중)로 4형식이 되지 않습니다.",
     "commonMistake": {
       "wrong": "The CEO announced the staff the merger.",
       "right": "The CEO announced the merger to the staff.",
       "note": "announce도 explain 계열과 같은 패턴을 따릅니다."
     },
-    "relatedVerbs": ["explain"]
+    "relatedVerbs": ["explain", "report"]
+  },
+  {
+    "id": "demonstrate",
+    "verb": "demonstrate",
+    "meaningKo": "시연하다, 입증하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "demonstrate + 사물 + to + 사람", "exampleEn": "The engineer demonstrated the new device to the clients.", "exampleKo": "엔지니어는 고객들에게 새 장치를 시연해 보였다."}
+    ],
+    "note": "demonstrate도 '직접 보여주며 입증하는 과정'에 의미가 머물러 있어, explain 계열과 같은 이유로 4형식이 되지 않습니다.",
+    "commonMistake": {
+      "wrong": "The engineer demonstrated the clients the new device.",
+      "right": "The engineer demonstrated the new device to the clients.",
+      "note": "겉보기엔 '보여주다'라서 show와 비슷해 보이지만, demonstrate는 explain 계열의 구조를 따릅니다."
+    },
+    "relatedVerbs": ["explain", "show"]
+  },
+  {
+    "id": "report",
+    "verb": "report",
+    "meaningKo": "보고하다",
+    "category": "3형식 고정 (4형식 불가)",
+    "patterns": [
+      {"label": "3형식", "structure": "report + 사물 + to + 사람", "exampleEn": "She reported the results to her supervisor.", "exampleKo": "그녀는 상사에게 결과를 보고했다."}
+    ],
+    "note": "report도 '조사하고 정리해서 알리는 과정'에 의미가 집중되어 있어 explain 계열과 같은 패턴을 따릅니다.",
+    "commonMistake": {
+      "wrong": "She reported her supervisor the results.",
+      "right": "She reported the results to her supervisor.",
+      "note": "tell과 뜻이 비슷해 보여도 report는 4형식으로 쓰이지 않습니다."
+    },
+    "relatedVerbs": ["explain", "announce"]
   },
   {
     "id": "ask",

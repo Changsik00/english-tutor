@@ -1,5 +1,6 @@
 import React, {useMemo, useState} from 'react';
 import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
 import verbs from '@site/src/data/verbPatterns.json';
 import VerbModal from '@site/src/components/verb/VerbModal';
 import styles from '@site/src/components/verb/verb.module.css';
@@ -46,7 +47,10 @@ export default function VerbPatternDictionary() {
           골라 각 동사가 요구하는 문장 구조(패턴)를 예문과 함께 정리했습니다. explain처럼 4형식이
           불가능한 동사, ask처럼 여러 패턴을 가진 동사, discuss처럼 전치사가 필요 없는 동사, listen처럼
           전치사가 반드시 필요한 동사를 구분해서 모아두었습니다. 카드를 클릭하면 상세 패턴과 흔한
-          실수가 열립니다.
+          실수가 열립니다. 왜 이런 차이가 생기는지 원리부터 이해하고 싶다면{' '}
+          <Link to="/docs/verb-principle">동사원리</Link> 문서를 참고하세요. say/tell처럼 한국어로는
+          비슷해 보이는 동사의 격식·강도 차이가 궁금하다면 <Link to="/nuance">뉘앙스 사전</Link>도
+          함께 보세요.
         </p>
         <input
           className={unitsStyles.searchInput}
