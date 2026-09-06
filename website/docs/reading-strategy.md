@@ -186,9 +186,22 @@ ch01~18은 "왜 이 규칙이 존재하는가"를 5가지 원리(어순, 정보�
 > The employees / who had worked overtime for three consecutive weeks / finally received the bonus they deserved.
 > → 3주 연속으로 야근을 했던 직원들이 마침내 그들이 받을 자격이 있는 보너스를 받았다.
 
+### 수식어가 어디에 붙는지 판별하는 법 — 뼈대(S+V+O) 찾기 4원칙
+
+한국어는 꾸미는 말이 계속 앞에 쌓이지만, 영어는 명사 뒤로 수식어가 줄줄이 붙습니다. 문제는 그 수식어 하나하나가 **바로 앞 명사를 꾸미는 건지, 분사·동사를 꾸미는 건지, 문장 전체에 붙는 건지**가 겉모습만으로는 구별이 안 갈 때가 많다는 것입니다. 원어민은 이걸 의식적으로 따지지 않지만, 실제로는 아래 네 가지 신호를 순서대로(위에서부터) 적용해서 순식간에 판단합니다.
+
+1. **콤마가 1순위 신호**: 콤마 없이 명사 바로 뒤에 오는 구는 그 **명사를 수식**합니다(제한적 수식, "어떤 ~인지"를 좁혀줌). 반대로 **콤마로 시작하는 구는 물리적으로 가까운 명사가 아니라 문장의 주어(또는 앞 절 전체)로 돌아가서 붙습니다.** 얼마나 멀리 떨어져 있어도 상관없습니다 — 콤마가 "지금부터는 주어 얘기로 리셋"이라는 신호이기 때문입니다.
+2. **콤마가 없으면 인접성(가까운 것 우선) 원칙**: 특별한 신호가 없는 한, 수식어는 일단 **바로 앞에 있는 명사**에 붙는다고 가정합니다. 전치사구·분사구·관계사절이 여러 개 이어지면 사슬처럼 하나씩 그 앞 것에 붙습니다.
+3. **동사(또는 분사)가 원래 요구하는 필수 성분인지 확인**: sit at, depend on, struggle to, daydream about처럼 동사 자체가 특정 전치사나 to부정사를 요구하는 경우, 그 뒤에 이어지는 구는 근처 명사가 아니라 **그 동사(분사)에 먼저 붙습니다.** 이건 Chapter 3(문장의 형식) Unit 019-1에서 다룬 자동사·타동사 판별과 같은 원리 — 동사가 뒤 구조를 미리 정해 놓기 때문입니다.
+4. **의미적 그럴듯함으로 최종 확인**: 문법적으로 두 가지 해석이 다 가능하면, 실제로 말이 되는 쪽을 고릅니다. ("a hat with a red ribbon" 조합은 자연스럽지만 "a bag with a red ribbon"이라면 문맥에 따라 사람이 리본 단 가방일 수도, 리본 자체가 가방 근처에 있는 것일 수도 있는 것처럼, 완전히 문법만으로는 안 풀리는 경우도 실제로 있습니다.)
+
+문장 맨 앞에 분사구가 콤마와 함께 나올 때는 규칙 1이 확정적으로 작동합니다: 그 분사의 의미상 주어는 반드시 뒤에 나오는 주절의 주어와 같아야 하기 때문에("Walking down the street, I saw a dog." → 걷고 있는 것은 반드시 I), 이 문장 앞 분사구는 자동으로 주어를 꾸미는 것으로 확정됩니다.
+
 ### 종합 예문
 
-아래 문장에는 위에서 다룬 표지들이 여러 개 동시에 들어 있습니다. 한 번에 보지 말고, 표지가 나올 때마다 `/`로 끊으며 읽어보세요.
+뼈대 찾기 4원칙을 실전에 적용해 봅니다. 아래 세 문장은 일부러 수식어를 최대한 겹겹이 쌓았습니다. 문장 전체를 한 번에 보지 말고, 콤마와 표지가 나올 때마다 `/`로 끊어가며 "이 구가 방금 지나온 어떤 것에 붙는지"를 하나씩 확인해 보세요.
+
+**예문 1**
 
 > The committee, which reviewed the proposal submitted by the marketing team, decided to postpone the launch because the budget approved last quarter was not enough to cover the additional advertising costs.
 
@@ -203,6 +216,58 @@ decided
 was not enough
 / to cover the additional advertising costs. [to부정사]
 ```
+
+**예문 2**
+
+> The CEO, frustrated by the delays caused by suppliers struggling to meet demand during the shortage, announced a new policy limiting orders placed by clients located outside the region, hoping to stabilize the supply chain before the holiday season.
+
+- `The CEO,` 뒤에 바로 콤마 → `frustrated by...`는 (책상 앞 명사가 아니라) **주어 The CEO를 수식**합니다.
+- `caused by suppliers` — 콤마 없이 `the delays` 바로 뒤 → **delays 수식** (원칙 2, 인접성).
+- `struggling to meet demand` — 콤마 없이 `suppliers` 바로 뒤 → **suppliers 수식**. `to meet demand`는 struggle이 원래 to부정사를 요구하는 동사이므로 struggling에 붙습니다(원칙 3).
+- `during the shortage` — `struggling to meet demand`라는 사건 전체에 붙는 시간 부사구.
+- `announced` — 이 문장의 **진짜 본동사**입니다. 주어(The CEO)로부터 20단어 넘게 떨어져 있습니다.
+- `limiting orders` → **a new policy 수식**(콤마 없음). `placed by clients` → **orders 수식**. `located outside the region` → **clients 수식**. 넷 다 콤마 없이 사슬처럼 바로 앞 명사에 붙는 원칙 2의 전형적인 예입니다.
+- `, hoping to stabilize...` — 마지막 콤마 → 근처 region이 아니라 **주절 전체(announced한 주체, The CEO)로 복귀**해서 붙는 분사구문(동시동작: "발표하면서 ~하기를 바랐다").
+
+```
+The CEO,                                              [기본 주어]
+/ frustrated by the delays                            [과거분사(주어 수식, 콤마) - the CEO 수식]
+/ caused by suppliers                                 [과거분사 - the delays 수식]
+/ struggling to meet demand                           [현재분사 - suppliers 수식]
+/ during the shortage,                                [전치사구 - struggling 사건 전체 수식]
+announced
+/ a new policy
+/ limiting orders                                     [현재분사 - a new policy 수식]
+/ placed by clients                                   [과거분사 - orders 수식]
+/ located outside the region,                         [과거분사 - clients 수식]
+/ hoping to stabilize the supply chain                [현재분사(콤마) - 주절 전체 수식, 동시동작]
+/ before the holiday season.                          [전치사구]
+```
+→ 뼈대만 남기면: **The CEO ... announced a new policy** — 나머지는 전부 이 두 성분에 매달린 수식어입니다.
+
+**예문 3**
+
+> Having grown up in a small town surrounded by mountains, she often found herself daydreaming about the ocean she had only seen in photographs pinned to the wall of her childhood bedroom, wondering if the waves sounded the way she imagined.
+
+- `Having grown up in a small town surrounded by mountains,` — 문장 맨 앞 분사구 + 콤마 → 규칙 1의 "확정" 케이스. 뒤에 나오는 주절의 주어 **she**를 수식하는 완료분사구문(주절보다 먼저 일어난 일: "자란 뒤에"). 그 안의 `surrounded by mountains`는 콤마 없이 `a small town` 바로 뒤 → **town 수식**.
+- `she often found herself daydreaming about the ocean` — 이 부분이 **주절**입니다. found(V) + herself(O) + daydreaming(OC, 현재분사)의 5형식 구조(Chapter 3(문장의 형식) Unit 018-019와 같은 틀). `about the ocean`은 daydream이 원래 about을 요구하는 동사이므로 daydreaming에 붙습니다(원칙 3).
+- `she had only seen in photographs` — the ocean 뒤에 콤마 없이 바로 "주어+동사"가 이어지므로 목적격 관계대명사(that/which) 생략 → **the ocean 수식**. `in photographs`는 seen에 붙는 필수 부사구입니다.
+- `pinned to the wall` — 콤마 없이 `photographs` 바로 뒤 → **photographs 수식**. `of her childhood bedroom` — 콤마 없이 `the wall` 바로 뒤 → **the wall 수식**.
+- `, wondering if the waves sounded the way she imagined.` — 마지막 콤마 → 근처 bedroom이 아니라 **주절 전체(she found)로 복귀**하는 분사구문(동시동작). 그 안의 `if the waves sounded...`는 명사절(wonder의 목적어, Chapter 13(접속사) Unit 080), `the way she imagined`는 선행사 the way + 관계부사 how가 생략된 구조(Chapter 14(관계사) Unit 097)입니다.
+
+```
+Having grown up in a small town surrounded by mountains,   [분사구문(콤마, 문두) - 주어(she) 수식]
+she found herself daydreaming                               [주절: S+V+O+OC(5형식)]
+/ about the ocean                                            [전치사구 - daydreaming 수식]
+/ she had only seen                                          [관계사절(that 생략) - the ocean 수식]
+/ in photographs                                             [전치사구 - seen 수식]
+/ pinned to the wall                                         [과거분사 - photographs 수식]
+/ of her childhood bedroom,                                  [전치사구 - the wall 수식]
+/ wondering if the waves sounded the way she imagined.       [분사구문(콤마) - 주절 전체 수식, 동시동작]
+```
+→ 뼈대만 남기면: **she found herself daydreaming (about the ocean)** — 관계사절, 분사, 명사절, 관계부사가 전부 이 짧은 뼈대에 겹겹이 매달린 것뿐입니다.
+
+세 예문 모두 결국 같은 절차의 반복입니다: **콤마가 나오면 주어/주절로 리셋 → 콤마가 없으면 바로 앞 것에 사슬처럼 연결 → 동사가 요구하는 전치사/to부정사인지 먼저 확인 → 그래도 애매하면 의미로 판단.** 이 절차에 익숙해지면 문장이 아무리 길어져도 "지금 이 구가 어디에 붙는지 몰라서" 막히는 일이 크게 줄어듭니다.
 
 ### 학술적·격식체 지문의 명사화(Nominalization)
 
