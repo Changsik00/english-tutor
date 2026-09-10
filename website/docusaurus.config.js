@@ -52,6 +52,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/Changsik00/english-tutor/tree/main/website/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
           // 기본 admonition 키워드(tip/info/warning 등)에 커스텀 콜아웃 3종을 추가.
           // design.md '콜아웃 5종' 참고.
           admonitions: {
