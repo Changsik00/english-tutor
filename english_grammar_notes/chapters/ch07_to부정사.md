@@ -747,6 +747,58 @@ to부정사가 나타내는 동작을 실제로 하는 주체를 **to부정사�
 
 ---
 
+## Unit 045-1. It takes/costs + 시간·돈 + (for 사람) + to부정사
+
+### 핵심 개념
+
+**It takes + 시간 (+ for 사람) + to부정사**: (사람이) ~하는 데 시간이 …만큼 걸리다
+**It costs + 돈 (+ for 사람) + to부정사**: (사람이) ~하는 데 돈이 …만큼 들다
+
+이 구문의 It은 Unit 040·045에서 배운 가주어 It과 같은 성질입니다 — 뒤의 to부정사(구)가
+진짜 내용이고, 문장 앞의 It은 자리만 채우는 형식적 주어입니다. 다만 be동사가 아니라
+take/cost라는 **일반동사**가 술어라는 점, 그리고 "시간/돈"이라는 목적어가 함께 온다는 점이
+Unit 045의 「It is + 형용사 + for/of + 목적격 + to V」와 다릅니다.
+
+### 예문
+
+1. **It takes** about two hours **to drive** to the airport. (공항까지 운전해서 가는 데 약 두 시간이 걸린다.)
+2. **It took me** three days **to finish** the report. (나는 그 보고서를 끝내는 데 사흘이 걸렸다.) — take는 사람을 for 없이 목적격으로 바로 쓰는 경우가 많습니다.
+3. **It will cost you** a lot of money **to renovate** this house. (이 집을 수리하는 데 많은 돈이 들 것이다.)
+4. **How long does it take to get** to the station? (역까지 가는 데 얼마나 걸립니까?)
+5. **It costs** about 50 dollars **for a family** of four **to watch** this movie. (이 영화를 네 식구가 보는 데 약 50달러가 든다.)
+6. **It didn't take long for the news to spread.** (그 소식이 퍼지는 데 오래 걸리지 않았다.)
+
+### 주의사항
+
+- take 뒤에서 사람을 나타낼 때는 **for + 목적격**(for me)뿐 아니라, **목적어 자리에 사람을
+  바로**(It takes **me** two hours.) 쓰기도 합니다. 두 형태 모두 가능하다는 점을 알아둡니다.
+- Unit 045의 「It is + 형용사 + for/of + 목적격 + to V」와 혼동하지 않도록 주의합니다: 이
+  구문은 be동사가 아니라 take/cost가 본동사이며, "시간/돈"이라는 목적어가 함께 옵니다.
+- 의문문은 **How long/How much + does/did + it + take/cost ~** 형태로 자주 쓰입니다.
+
+### 연습문제
+
+1. 다음 문장을 우리말로 해석하시오: It takes 10 minutes to walk to the station.
+2. 빈칸에 알맞은 말을 쓰시오. (그 다리를 짓는 데 5년이 걸렸다.) → It ______ five years ______ build the bridge.
+3. 다음 문장을 의문문으로 바꾸시오: It costs 20 dollars to enter the museum. → How ______ ______ it ______ to enter the museum?
+4. 다음 우리말을 영작하시오. (it, take, finish 사용): 나는 그 프로젝트를 끝내는 데 이틀이 걸렸다.
+5. 다음 문장에서 어법상 틀린 부분을 찾아 고치시오: It takes of him two hours to commute every day.
+
+### 정답 및 해설
+
+1. **역까지 걸어가는 데 10분이 걸린다.**
+   해설: It takes + 시간 + to V(~하는 데 시간이 걸리다) 구문입니다.
+2. **took / to**
+   해설: 과거 시제이므로 took, 뒤에는 to부정사(to build)가 옵니다.
+3. **much / does / cost**
+   해설: 돈이 얼마나 드는지 묻는 의문문은 How much does it cost ~?로 만듭니다.
+4. **It took me two days to finish the project.**
+   해설: 시간을 나타내는 It takes 구문에서 사람은 목적격(me)으로 take 뒤에 바로 씁니다.
+5. **of him → for him (또는 him)**
+   해설: 시간·돈이 드는 대상은 사람의 성격을 평가하는 것이 아니므로 of가 아니라 for를 쓰거나, take 뒤에 목적격을 바로 씁니다(It took him two hours ~).
+
+---
+
 ## Unit 046. too ~ to부정사, ~ enough to부정사
 
 ### 핵심 개념
