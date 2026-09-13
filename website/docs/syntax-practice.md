@@ -32,177 +32,386 @@ ch01~04(기초 문법)는 아직 관계사·분사·접속사 같은 "문장을 
 
 ## 진행 현황
 
-- ch01: 완성 (15문항)
-- ch02~16: 준비 중 — ch01 형식에 대한 피드백을 반영해 순차적으로 채워 나갑니다.
+- ch01: 완성 (Unit 001~009 전체, 유닛별 핵심 포인트 설명 + 구문분석 3문항 + 영작 2문항 + 자주 하는 실수 = 총 50문항)
+- ch02~16: 준비 중 — ch01과 같은 형식(유닛별 핵심 포인트 + 구문분석 3 + 영작 2)으로 순차적으로 채워 나갑니다.
 
 ---
 
 ## Chapter 01 실전 연습 (Unit 001~009: 문장의 기본 구조, 8품사, 문장 성분, 명사, 대명사, be동사, 일반동사)
 
-### 문제 1 (Unit 001 — 문장의 기본 구조)
+### 이 챕터에서 다루는 것
 
-**(A) 구문분석**: My sister makes delicious cookies every weekend.
+아직 관계사·분사·접속사절 같은 "문장을 늘리는 도구"를 배우기 전 단계입니다. 그래서 여기서 말하는 "구문분석"은 긴 문장을 끊어 읽는 훈련이 아니라, **동사를 먼저 찾고 그 동사의 진짜 주체(주어)와 목적어·보어를 정확히 짚어내는 훈련**입니다. 문장마다 "왜 이게 주어인지", "왜 이 동사에 -s가 붙는지" 같은 판단 근거를 함께 답이 아니라 설명으로 달아두었으니, 정답을 맞혔더라도 근거까지 소리 내어 설명해 보는 것을 권합니다.
 
-> 구조: My sister(S) / makes(V) / delicious cookies(O) / every weekend(수식어)
-> 해석: 내 여동생은 주말마다 맛있는 쿠키를 만든다.
+---
 
-**(B) 영작**: 그 학생은 매일 아침 신문을 읽는다. (student, read, newspaper, every morning)
+### Unit 001 — 문장의 기본 구조 (S+V 뼈대와 확장)
 
-> 모범답안: The student reads a newspaper every morning.
+:::info[💡 핵심 포인트]
 
-### 문제 2 (Unit 002-1 — 명사, 대명사, 동사)
+한국어는 조사(은/는/이/가, 을/를)가 단어의 역할을 표시해 주기 때문에 순서를 바꿔도 뜻이 통하지만, 영어는 조사가 없어서 **단어의 위치 자체가 문법**입니다. 그래서 구문분석의 첫 걸음은 언제나 "이 문장의 동사가 뭐지?"를 찾는 것이고, 영작의 첫 걸음은 "주어 다음에 동사부터 놓았는가?"를 확인하는 것입니다.
 
-**(A) 구문분석**: She quickly finished her homework before dinner.
+:::
 
-> 구조: She(대명사/주어) / quickly(부사) finished(동사) / her homework(대명사+명사/목적어) / before dinner(전치사+명사)
-> 해석: 그녀는 저녁 식사 전에 숙제를 빨리 끝냈다.
+**(A) 구문분석**
 
-**(B) 영작**: 그는 그 소식을 그녀에게 조용히 말했다. (tell, news, quietly)
+1. Our new manager carefully reviewed every contract before the deadline.
+   - 구조: Our new manager(S) / carefully(부사, reviewed 수식) reviewed(V) / every contract(O) / before the deadline(전치사구, 시간)
+   - 해석: 우리의 새 매니저는 마감 전에 모든 계약서를 꼼꼼히 검토했다.
+   - 포인트: 부사 carefully가 주어와 동사 사이에 끼어 있어도 문장의 뼈대는 여전히 S(manager)+V(reviewed)+O(contract)입니다. 뼈대를 찾을 때는 부사를 일단 걷어내고 보는 습관을 들이세요.
 
-> 모범답안: He quietly told her the news. / He told her the news quietly.
+2. In the meeting room, ten employees waited quietly for the CEO.
+   - 구조: In the meeting room(전치사구, 문두로 나온 수식어) / ten employees(S) / waited(V) / quietly(부사) / for the CEO(전치사구)
+   - 해석: 회의실에서, 열 명의 직원들이 CEO를 조용히 기다렸다.
+   - 포인트: 전치사구가 문장 맨 앞에 나오면 주어처럼 보이기 쉽지만, "In the meeting room"은 "회의실이 무엇을 했다"는 뜻이 아니라 장소를 나타내는 수식어일 뿐입니다. 진짜 주어는 그 뒤에 나오는 ten employees입니다.
 
-### 문제 3 (Unit 002-2 — 형용사, 부사, 전치사, 접속사)
+3. Reading a good book before bed always relaxes me.
+   - 구조: Reading a good book before bed(동명사구, S) / always(빈도부사) relaxes(V) / me(O)
+   - 해석: 자기 전에 좋은 책을 읽는 것은 항상 나를 편안하게 해 준다.
+   - 포인트: 주어 자리에는 명사뿐 아니라 "~하는 것"에 해당하는 동명사구도 올 수 있습니다(자세한 내용은 ch08). 지금은 "동사원형+ing로 시작해도 그 덩어리 전체가 하나의 주어가 될 수 있다"는 것만 기억해도 충분합니다.
 
-**(A) 구문분석**: The old bridge over the river is very dangerous but beautiful.
+**(B) 영작**
 
-> 구조: The old bridge(형용사+명사, 주어) / over the river(전치사구, bridge 수식) / is(동사) / very dangerous but beautiful(부사+형용사+접속사+형용사, 보어)
-> 해석: 그 강 위의 오래된 다리는 매우 위험하지만 아름답다.
+1. 그 회사는 지난달에 두 개의 새 지점을 열었다. (company, open, two new branches, last month)
+   > 모범답안: The company opened two new branches last month.
+   - 자주 하는 실수: "Last month the company two new branches opened."처럼 한국어 어순 그대로 옮기면 틀립니다. 시간 부사구(last month)의 위치는 비교적 자유롭지만, 주어+동사+목적어의 순서 자체는 절대 바뀌지 않습니다.
 
-**(B) 영작**: 그 작은 카페는 역 근처에 있고 항상 붐빈다. (small cafe, near the station, crowded)
+2. 우리 부서 사람들은 보통 8시에 출근한다. (people in our department, usually, arrive, at 8)
+   > 모범답안: People in our department usually arrive at 8.
+   - 자주 하는 실수: 주어를 "우리 부서"로 착각해 "Our department people usually arrive..."처럼 쓰기 쉽지만, 진짜 동작의 주체는 "사람들(people)"이고 "우리 부서"는 그 사람들을 꾸며주는 전치사구(in our department)일 뿐입니다.
 
-> 모범답안: The small cafe near the station is always crowded.
+---
 
-### 문제 4 (Unit 003 — 문장 성분)
+### Unit 002-1 — 8품사 (1): 명사, 대명사, 동사
 
-**(A) 구문분석**: The manager made the new intern a mentor.
+:::info[💡 핵심 포인트]
 
-> 구조: The manager(S) / made(V) / the new intern(O) / a mentor(OC, 목적격보어 — intern = mentor)
-> 해석: 그 매니저는 새 인턴을 멘토로 삼았다(임명했다).
+품사는 단어의 "종류"이고, 곧 배울 Unit 003의 문장 성분은 그 단어가 문장에서 하는 "역할"입니다. 이 유닛에서 구문분석이 자주 걸고넘어지는 부분은 명사/동사 구별 자체보다, **대명사가 정확히 무엇을 대신하고 있는지**를 앞뒤 문맥에서 짚어내는 것입니다.
 
-**(B) 영작**: 그 소식은 그녀를 슬프게 만들었다. (news, sad — 5형식으로)
+:::
 
-> 모범답안: The news made her sad.
+**(A) 구문분석**
 
-### 문제 5 (Unit 004 — 가산명사·불가산명사)
+1. The manager gave the new intern some useful feedback.
+   - 구조: The manager(명사, S) / gave(동사, V) / the new intern(명사, 간접목적어) / some useful feedback(명사, 직접목적어)
+   - 해석: 그 매니저는 새 인턴에게 유용한 피드백을 좀 주었다.
+   - 포인트: feedback은 셀 수 없는 명사라서 복수형(feedbacks)이 아니라 some으로 양을 나타냅니다(Unit 004와 연결).
 
-**(A) 구문분석**: I need some information and a few pieces of advice before the meeting.
+2. They finally replaced it with a better one.
+   - 구조: They(대명사, 복수 3인칭 S) / replaced(동사, V) / it(대명사, 목적격 — 앞서 언급된 특정 사물을 가리킴) / with a better one(one = 앞서 나온 명사를 대신하는 부정대명사)
+   - 해석: 그들은 마침내 그것을 더 나은 것으로 교체했다.
+   - 포인트: it과 one은 둘 다 "그것"으로 해석되기 쉽지만 다릅니다. it은 앞에서 언급한 바로 그 대상을 그대로 가리키고, one은 같은 종류의 "또 다른 하나"를 가리킵니다.
 
-> 구조: information(불가산, some 수식) / a few pieces of advice(advice는 불가산이라 piece로 단위화)
-> 해석: 나는 회의 전에 약간의 정보와 몇 가지 조언이 필요하다.
+3. Everyone in the room admired her patience.
+   - 구조: Everyone(부정대명사, S — 형태는 단수) / in the room(전치사구, everyone 수식) / admired(동사, V) / her(소유격, patience 수식) patience(명사, O)
+   - 해석: 방에 있던 모두가 그녀의 인내심에 감탄했다.
+   - 포인트: everyone은 뜻은 "여러 사람"이지만 문법적으로는 단수 취급을 받아 동사도 단수형(과거형이라 이 문장에서는 admired로 구별이 안 되지만, 현재형이면 admires가 됩니다).
 
-**(B) 영작**: 그녀는 물 한 잔과 빵 두 조각을 원했다. (a glass of water, two slices of bread)
+**(B) 영작**
 
-> 모범답안: She wanted a glass of water and two slices of bread.
+1. 그는 그것을 상자 안에 조심스럽게 넣었다. (앞 문장에서 이미 언급된 물건 = it, put-put, carefully, in the box)
+   > 모범답안: He carefully put it in the box. / He put it carefully in the box.
+   - 자주 하는 실수: 이미 앞에서 언급된 대상이므로 "the thing"처럼 다시 명사로 풀어 쓰지 않고 대명사 it으로 받아야 자연스럽습니다.
 
-### 문제 6 (Unit 005 — 인칭대명사·지시대명사)
+2. 아무도 그 답을 몰랐다. (nobody, know-knew, the answer)
+   > 모범답안: Nobody knew the answer.
+   - 자주 하는 실수: nobody도 everyone처럼 단수 취급합니다. "Nobody know"가 아니라 "Nobody knows"(현재형 기준)로 3인칭 단수 규칙이 그대로 적용됩니다.
 
-**(A) 구문분석**: These are not mine; they belong to him.
+---
 
-> 구조: These(지시대명사, 주어) / are not(be동사 부정) / mine(소유대명사, 보어) / they(인칭대명사, 주어) / belong to him(동사+전치사+목적격)
-> 해석: 이것들은 내 것이 아니다. 그것들은 그의 것이다.
+### Unit 002-2 — 8품사 (2): 형용사, 부사, 전치사, 접속사, 감탄사
 
-**(B) 영작**: 저것은 그녀의 것이 아니라 우리의 것이다. (that, hers, ours)
+:::info[💡 핵심 포인트]
 
-> 모범답안: That is not hers; it is ours.
+형용사는 명사를 꾸미거나 보어 자리에서 주어를 설명하고, 부사는 동사·형용사·문장 전체를 꾸밉니다. 구문분석에서는 "이 단어가 형용사인가 부사인가"를 형태(-ly)로만 판단하지 말고, **무엇을 꾸미는지**로 확인하는 습관이 중요합니다.
 
-### 문제 7 (Unit 006 — be동사 현재형·부정문·의문문)
+:::
 
-**(A) 구문분석**: Is your brother a doctor, or is he still a student?
+**(A) 구문분석**
 
-> 구조: Is(be동사, 의문문 도치) / your brother(주어) / a doctor(보어) / or / is he still a student(반복되는 be동사 의문문)
-> 해석: 네 형은 의사니, 아니면 아직 학생이니?
+1. She looked nervous but answered confidently.
+   - 구조: She(S) / looked(연결동사, V) nervous(형용사, 보어) / but(등위접속사) / answered(V) confidently(부사, answered 수식)
+   - 해석: 그녀는 초조해 보였지만 자신 있게 대답했다.
+   - 포인트: looked 뒤의 nervous는 "그녀가 초조하게(부사) 보였다"가 아니라 "그녀가 초조한 상태로(형용사) 보였다"는 뜻이라 형용사가 옵니다. look, feel, sound 같은 연결동사 뒤에는 부사가 아니라 형용사가 보어로 옵니다.
 
-**(B) 영작**: 나는 배고프지 않지만, 그들은 배고프다. (hungry)
+2. Wow, the view from the top of the mountain was breathtaking!
+   - 구조: Wow(감탄사) / the view(S) from the top of the mountain(전치사구가 연쇄 — of the mountain이 the top을 꾸미고, from the top이 the view를 꾸밈) / was(V) breathtaking(형용사, 보어)
+   - 해석: 와, 산꼭대기에서 본 경치는 숨이 멎을 정도였다!
+   - 포인트: 전치사구는 이렇게 사슬처럼 이어질 수 있습니다. 각 전치사구가 바로 앞의 명사를 꾸민다고 보면 순서대로 풀립니다.
 
-> 모범답안: I am not hungry, but they are hungry.
+3. He works quickly, so he always finishes early.
+   - 구조: He works quickly(절 1) / so(등위접속사, 결과) / he always finishes early(절 2)
+   - 해석: 그는 빨리 일한다, 그래서 그는 항상 일찍 끝낸다.
+   - 포인트: 등위접속사(and, but, so, or) 앞뒤에는 각각 완전한 문장(주어+동사)이 옵니다. 앞뒤 중 하나라도 주어나 동사가 빠지면 문장이 성립하지 않습니다.
 
-### 문제 8 (Unit 007 — be동사 과거형·부정문·의문문)
+**(B) 영작**
 
-**(A) 구문분석**: Were you and your friends at the party last night?
+1. 그 시험은 어려웠지만 공정했다. (exam, difficult, fair)
+   > 모범답안: The exam was difficult but fair.
+   - 자주 하는 실수: "difficult"와 "fair" 둘 다 형용사이므로 be동사(was) 뒤에 바로 이어 쓸 수 있습니다. 굳이 "was difficult but it was fair"처럼 동사를 반복할 필요가 없습니다.
 
-> 구조: Were(be동사 과거, 의문문 도치) / you and your friends(복수 주어) / at the party(전치사구, 보어 역할) / last night(시간 부사)
-> 해석: 어젯밤에 너와 네 친구들은 파티에 있었니?
+2. 그녀는 방 안으로 조용히 들어왔다. (quietly, walk-walked, into the room)
+   > 모범답안: She walked quietly into the room. / She quietly walked into the room.
+   - 자주 하는 실수: 전치사 into(안으로 들어가는 방향)와 in(안에 있는 상태)을 혼동하기 쉽습니다. "걸어서 들어오는 동작"이므로 into가 맞습니다.
 
-**(B) 영작**: 그 가게는 어제 문을 열지 않았다. (the store, open — was가 아니라 be동사+형용사로)
+---
 
-> 모범답안: The store was not open yesterday.
+### Unit 003 — 문장 성분 (주어, 서술어, 목적어, 보어, 수식어)
 
-### 문제 9 (Unit 008 — 일반동사 현재형·과거형)
+:::info[💡 핵심 포인트]
 
-**(A) 구문분석**: She studies English every day, but she rarely speaks it.
+이 책의 원칙은 "동사를 먼저 찾고, 그 동사의 주체를 거꾸로 찾는다"입니다. 문장에서 의미상 중요해 보이는 단어를 주어로 착각하지 않도록, 아래 문제들은 일부러 "그럴듯해 보이지만 진짜 주어가 아닌 명사"를 문장 앞쪽에 배치했습니다.
 
-> 구조: She(S) / studies(V, 3인칭단수) / English(O) / every day(부사) / but / she(S) / rarely(빈도부사) speaks(V) / it(O)
-> 해석: 그녀는 매일 영어를 공부하지만, 그것을 거의 말하지 않는다.
+:::
 
-**(B) 영작**: 그는 작년에 새 자동차를 샀지만, 그것을 거의 운전하지 않는다. (buy-bought, drive, hardly)
+**(A) 구문분석**
 
-> 모범답안: He bought a new car last year, but he hardly drives it.
+1. There are three empty seats near the window.
+   - 구조: There(유도부사, 자리채우기 — 문장 성분 아님) / are(V) / three empty seats(진짜 S) / near the window(전치사구, seats 수식)
+   - 해석: 창가 근처에 빈 좌석이 세 개 있다.
+   - 포인트: There is/are 구문에서 There는 의미가 없는 자리채우개일 뿐이고, be동사 뒤에 나오는 명사(three empty seats)가 진짜 주어입니다. 그래서 동사의 수도 There가 아니라 뒤의 명사에 맞춥니다(seats가 복수라서 are).
 
-### 문제 10 (Unit 008 — 불규칙 동사 과거형)
+2. The heavy rain last night made the road slippery.
+   - 구조: The heavy rain(S) last night(수식어, 시간) / made(V) / the road(O) / slippery(OC, 목적격보어 — road = slippery 상태)
+   - 해석: 어젯밤 내린 폭우가 도로를 미끄럽게 만들었다.
+   - 포인트: 동사(made)를 먼저 찾으면 "무엇이 만들었는가"를 되짚어 rain이 주어임을 확인할 수 있습니다. last night은 그 rain을 꾸미는 수식어일 뿐 문장 성분에서 핵심이 아닙니다.
 
-**(A) 구문분석**: I went to the library and found the book I had been looking for.
+3. What she said surprised everyone in the office.
+   - 구조: What she said(명사절 전체가 S) / surprised(V) / everyone(O) / in the office(전치사구, everyone 수식)
+   - 해석: 그녀가 말한 것이 사무실의 모두를 놀라게 했다.
+   - 포인트: 단어 하나가 아니라 절 전체("그녀가 말한 것")가 주어 자리에 통째로 들어갈 수 있습니다(명사절, 자세한 내용은 ch13·ch14). 지금은 "동사(surprised) 앞의 덩어리 전체가 주어일 수 있다"는 감각만 잡아 두세요.
 
-> 구조: I(S) / went(V, go의 불규칙 과거) / to the library(전치사구) / and / found(V, find의 불규칙 과거) / the book(O)
-> 해석: 나는 도서관에 가서 내가 찾고 있던 책을 발견했다.
+**(B) 영작**
 
-**(B) 영작**: 그녀는 어제 그 파일을 잃어버렸지만 결국 그것을 찾았다. (lose-lost, find-found, eventually)
+1. 회의실에는 창문이 세 개 있다. (there are, windows, in the meeting room)
+   > 모범답안: There are three windows in the meeting room.
+   - 자주 하는 실수: "The meeting room has three windows."도 맞는 문장이지만, "there are/is" 구문을 연습하는 것이 목적이라면 진짜 주어(windows)에 동사(are)를 맞추는 것이 핵심입니다. "There is three windows"처럼 뒤 명사의 수를 무시하고 무조건 is를 쓰는 실수가 흔합니다.
 
-> 모범답안: She lost the file yesterday, but she eventually found it.
+2. 그 이메일이 모두를 혼란스럽게 만들었다. (email, confused, make-made)
+   > 모범답안: The email made everyone confused.
+   - 자주 하는 실수: "confused"(목적격보어, 형용사)를 "confusedly"처럼 부사로 바꿔 쓰지 않도록 주의합니다. everyone이 "혼란한 상태"가 된 것이므로 상태를 나타내는 형용사가 옵니다.
 
-### 문제 11 (Unit 009 — 일반동사 부정문)
+---
 
-**(A) 구문분석**: My parents don't drink coffee, but my sister doesn't drink tea either.
+### Unit 004 — 셀 수 있는 명사와 셀 수 없는 명사
 
-> 구조: My parents(복수 S) / don't drink(do 부정+동사원형) / coffee(O) / my sister(단수 S) / doesn't drink(does 부정+동사원형) / tea(O) / either(부정문의 too)
-> 해석: 내 부모님은 커피를 마시지 않지만, 내 여동생도 차를 마시지 않는다.
+:::info[💡 핵심 포인트]
 
-**(B) 영작**: 그 아이들은 채소를 좋아하지 않는다. (children, vegetables)
+불가산명사는 복수형(-s)을 쓸 수 없고, 양을 셀 때는 반드시 단위 명사(piece, loaf, glass 등)를 빌려옵니다. 이 규칙을 어기는 실수가 영작에서 가장 흔하게 나옵니다.
 
-> 모범답안: The children don't like vegetables.
+:::
 
-### 문제 12 (Unit 009 — 일반동사 의문문)
+**(A) 구문분석**
 
-**(A) 구문분석**: Did she call you, or did you call her first?
+1. I bought two loaves of bread and some cheese for the picnic.
+   - 구조: I(S) / bought(V) / two loaves of bread(O1, bread=불가산이라 loaf로 단위화) and some cheese(O2, cheese=불가산) / for the picnic(전치사구)
+   - 해석: 나는 소풍을 위해 빵 두 덩어리와 치즈를 좀 샀다.
+   - 포인트: bread와 cheese는 둘 다 셀 수 없는 명사라서 그 자체로는 복수형이 될 수 없습니다. "두 덩어리"라는 개수는 loaves(단위)에 실어서 표현합니다.
 
-> 구조: Did she call you(과거 의문문, do조동사+주어+동사원형) / or / did you call her first(같은 구조 반복)
-> 해석: 그녀가 너에게 전화했니, 아니면 네가 먼저 그녀에게 전화했니?
+2. There isn't much information available yet.
+   - 구조: There isn't(단수 be동사 부정) / much information(불가산명사, 진짜 주어 — 단수 취급) / available yet(형용사구, information 수식)
+   - 해석: 아직 이용 가능한 정보가 많지 않다.
+   - 포인트: information은 항상 단수 취급하는 불가산명사이므로 "isn't"(단수)가 오고, 수량은 many가 아니라 much로 나타냅니다.
 
-**(B) 영작**: 그들은 지난주에 그 프로젝트를 끝냈니? (finish, the project, last week)
+3. She has three pieces of luggage and a few bags.
+   - 구조: She(S) / has(V) / three pieces of luggage(O1, luggage=불가산이라 piece로 단위화) and a few bags(O2, bag=가산명사라 그대로 복수형)
+   - 해석: 그녀는 짐 세 개와 가방 몇 개를 가지고 있다.
+   - 포인트: luggage(짐 전체를 가리키는 불가산명사)와 bag(낱개로 셀 수 있는 가산명사)을 한 문장에서 대조하면 두 규칙의 차이가 뚜렷이 드러납니다.
 
-> 모범답안: Did they finish the project last week?
+**(B) 영작**
 
-### 문제 13 (종합 — 명사·대명사·be동사)
+1. 나는 조언 몇 가지와 정보 조금이 필요하다. (need, a few pieces of advice, a little information)
+   > 모범답안: I need a few pieces of advice and a little information.
+   - 자주 하는 실수: "a few advices"처럼 불가산명사 advice에 복수형 -s를 붙이는 실수가 매우 흔합니다. 개수는 advice 자체가 아니라 piece에 붙습니다. 또한 가산명사엔 a few(몇몇), 불가산명사엔 a little(약간)을 씁니다.
 
-**(A) 구문분석**: This is not my umbrella; mine is the blue one over there.
+2. 식탁 위에 사과 세 개와 물 한 병이 있다. (there are, apples, a bottle of water, on the table)
+   > 모범답안: There are three apples and a bottle of water on the table.
+   - 자주 하는 실수: water는 불가산명사라서 "three waters"라고 쓸 수 없고, bottle 같은 단위 명사를 빌려서 양을 나타내야 합니다.
 
-> 구조: This(지시대명사, S) / is not(be동사 부정) / my umbrella(보어) / mine(소유대명사, S) / is(be동사) / the blue one(보어, one=umbrella 대신) / over there(부사구)
-> 해석: 이것은 내 우산이 아니다. 내 것은 저기 있는 파란 것이다.
+---
 
-**(B) 영작**: 이 가방들은 그의 것이 아니라 그녀의 것이다. (these bags, his, hers)
+### Unit 005 — 인칭대명사와 지시대명사
 
-> 모범답안: These bags are not his; they are hers.
+:::info[💡 핵심 포인트]
 
-### 문제 14 (종합 — 문장 성분·품사 식별)
+인칭대명사는 문장에서의 역할(주어/소유/목적/소유대명사)에 따라 형태가 통째로 바뀝니다. 구문분석에서는 이 대명사가 "누구/무엇을 대신하는지"를, 영작에서는 "지금 이 자리가 주격인지 목적격인지"를 먼저 확인해야 합니다.
 
-**(A) 구문분석**: The loud noise outside made everyone in the office nervous.
+:::
 
-> 구조: The loud noise(형용사+명사, S) / outside(부사, noise 수식) / made(V) / everyone(O) / in the office(전치사구, everyone 수식) / nervous(OC, 형용사)
-> 해석: 밖의 시끄러운 소음이 사무실에 있는 모두를 초조하게 만들었다.
+**(A) 구문분석**
 
-**(B) 영작**: 그 갑작스러운 소식이 그 가족을 행복하게 만들었다. (sudden news, family, happy)
+1. These books are hers, but those over there are mine.
+   - 구조: These books(지시대명사+명사, S) / are(V) / hers(소유대명사, 보어) / those over there(지시대명사, S) / are(V) / mine(소유대명사, 보어)
+   - 해석: 이 책들은 그녀의 것이지만, 저기 있는 저것들은 내 것이다.
+   - 포인트: hers와 mine은 "그녀의 것", "나의 것"이라는 뜻으로 그 자체가 명사(보어) 역할을 합니다. her books, my books라고 다시 명사를 반복할 필요가 없습니다.
 
-> 모범답안: The sudden news made the family happy.
+2. He told her that it wasn't his fault.
+   - 구조: He(주격, S) / told(V) / her(목적격, 간접목적어) / that it wasn't his fault(명사절, 직접목적어 — it은 앞서 언급된 상황을 가리키는 비인칭 대명사)
+   - 해석: 그는 그것이 자기 잘못이 아니라고 그녀에게 말했다.
+   - 포인트: 같은 3인칭이라도 He(주격)와 her(목적격), his(소유격)의 형태가 문장 속 역할에 따라 전부 다릅니다.
 
-### 문제 15 (종합 — 시제 대조 및 영작)
+3. Whose idea was this, yours or theirs?
+   - 구조: Whose idea(의문형용사+명사, 보어) / was(V) / this(지시대명사, S) / yours or theirs(소유대명사, 보어와 병렬)
+   - 해석: 이것은 누구의 생각이었니, 네 것이니 아니면 그들의 것이니?
+   - 포인트: whose는 "누구의"라는 뜻의 의문형용사로 뒤에 명사(idea)를 데리고 다니지만, yours/theirs는 그 자체로 "너의 것/그들의 것"이라는 명사(소유대명사)입니다.
 
-**(A) 구문분석**: I am not a teacher now, but I was a student here ten years ago.
+**(B) 영작**
 
-> 구조: I(S) / am not(be동사 현재 부정) / a teacher(보어) / now(부사) / but / I(S) / was(be동사 과거) / a student(보어) / here(부사) / ten years ago(시간 부사구)
-> 해석: 나는 지금 선생님이 아니지만, 10년 전에는 여기서 학생이었다.
+1. 이것들은 우리의 것이 아니라 그들의 것이다. (these, ours, theirs)
+   > 모범답안: These are not ours; they are theirs.
+   - 자주 하는 실수: "This are not our."처럼 지시대명사의 단/복수(this/these)와 be동사의 수를 안 맞추거나, 소유격(our)과 소유대명사(ours)를 혼동하는 실수가 흔합니다. 뒤에 명사가 없으면 소유대명사(ours, theirs)를 써야 합니다.
 
-**(B) 영작**: 그들은 지금 바쁘지 않지만, 어제는 매우 바빴다. (busy, very)
+2. 그는 그녀에게 그것을 다시 설명했다. (explain-explained, it, again)
+   > 모범답안: He explained it to her again.
+   - 자주 하는 실수: explain은 4형식(explain her it)으로 쓰지 않고 반드시 "explain + 목적어 + to + 사람" 순서를 씁니다(동사원리.md의 give형 vs explain형 동사 차이와 연결).
 
-> 모범답안: They are not busy now, but they were very busy yesterday.
+---
+
+### Unit 006 — be동사의 현재형, 부정문, 의문문
+
+:::info[💡 핵심 포인트]
+
+be동사는 주어의 인칭·수에 따라 am/are/is로 형태가 완전히 바뀌는 유일한 현재형 동사입니다. neither, each, either처럼 뜻은 "여러 명 중 일부"처럼 느껴져도 문법적으로는 단수 취급하는 표현들을 특히 주의해야 합니다.
+
+:::
+
+**(A) 구문분석**
+
+1. Neither of us is ready for the interview yet.
+   - 구조: Neither of us(부정대명사구, S — 단수 취급) / is(V, 단수) / ready for the interview(형용사구, 보어) / yet(부사)
+   - 해석: 우리 둘 중 누구도 아직 면접 준비가 되지 않았다.
+   - 포인트: "of us"가 있어서 복수처럼 느껴지지만, neither 자체가 "둘 중 어느 쪽도 아닌"이라는 단수 개념이라 동사는 is를 씁니다.
+
+2. Is the information on the website up to date?
+   - 구조: Is(be동사, 의문문 도치) / the information on the website(S, information=불가산 단수) / up to date(형용사구, 보어)
+   - 해석: 웹사이트의 정보가 최신인가요?
+   - 포인트: on the website는 information을 꾸미는 전치사구일 뿐이므로, 동사는 website가 아니라 information(단수)에 맞춰 is가 됩니다.
+
+3. We are not satisfied with the current plan, but the client is.
+   - 구조: We(S) / are not(V, 부정) / satisfied with the current plan(형용사구, 보어) / but / the client(S) / is(V — 뒤의 satisfied가 반복을 피해 생략됨)
+   - 해석: 우리는 현재 계획에 만족하지 않지만, 그 고객은 만족한다.
+   - 포인트: 뒤 절의 "is" 뒤에는 원래 satisfied with the current plan이 반복되어야 하지만, 앞에서 이미 나왔으므로 생략되었습니다. be동사만 남기고 반복을 생략하는 것은 영어에서 매우 흔합니다.
+
+**(B) 영작**
+
+1. 나는 지금 회의 중이 아니다. (in a meeting, now)
+   > 모범답안: I am not in a meeting now.
+   - 자주 하는 실수: "회의 중이다"를 동사로 착각해 "I don't meeting"처럼 쓰는 실수가 있습니다. "~중이다"는 be동사+전치사구(in a meeting)로 표현합니다.
+
+2. 그들은 그 소식에 대해 확신이 없다. (sure about, the news)
+   > 모범답안: They are not sure about the news.
+   - 자주 하는 실수: "sure"는 형용사이므로 be동사 뒤에 바로 옵니다. "They don't sure"처럼 일반동사 부정문 형태(don't)를 be동사 문장에 섞어 쓰지 않도록 주의합니다.
+
+---
+
+### Unit 007 — be동사의 과거형, 부정문, 의문문
+
+:::info[💡 핵심 포인트]
+
+be동사의 과거형은 인칭이 아니라 **단수/복수**로만 갈립니다(was=단수, were=복수). 현재형(am/is/are)이 세 갈래인 것과 다르다는 점이 자주 헷갈리는 지점입니다.
+
+:::
+
+**(A) 구문분석**
+
+1. Were the reports ready before the client arrived?
+   - 구조: Were(be동사 과거, 의문문 도치) / the reports(S, 복수) / ready(형용사, 보어) / before the client arrived(부사절)
+   - 해석: 고객이 도착하기 전에 보고서들이 준비되어 있었니?
+   - 포인트: 주어가 복수(reports)이므로 was가 아니라 were를 씁니다. before 뒤에 나오는 절(the client arrived)은 시간을 나타내는 부사절입니다(ch13에서 자세히).
+
+2. The weather was terrible, but the event was still a success.
+   - 구조: The weather(단수, S) / was(V) / terrible(형용사, 보어) / but / the event(단수, S) / was(V) / a success(명사, 보어)
+   - 해석: 날씨는 끔찍했지만, 행사는 그래도 성공적이었다.
+   - 포인트: 보어 자리에 형용사(terrible)뿐 아니라 명사(a success)도 올 수 있습니다. 둘 다 "주어가 어떠하다/무엇이다"를 설명하는 역할은 같습니다.
+
+3. I wasn't aware that the deadline had changed.
+   - 구조: I(S) / wasn't(be동사 과거 부정) / aware that the deadline had changed(형용사+명사절, 보어)
+   - 해석: 나는 마감일이 바뀌었다는 것을 알지 못했다.
+   - 포인트: aware 뒤에 that절이 붙어서 "무엇을 몰랐는지"를 구체적으로 설명합니다. had changed는 아직 배우지 않은 과거완료 형태인데, "안 것보다 더 이전에 바뀐 일"이라는 시간차만 지금은 느낌으로 알아 두면 충분합니다(ch04에서 자세히).
+
+**(B) 영작**
+
+1. 그 상점들은 휴일에 문을 닫지 않았다. (stores, closed, on the holiday)
+   > 모범답안: The stores were not closed on the holiday.
+   - 자주 하는 실수: 주어가 복수(stores)인데 was를 쓰는 실수가 흔합니다. 복수 주어에는 반드시 were를 씁니다.
+
+2. 너와 네 팀은 그 발표 준비가 되어 있었니? (you and your team, ready for, the presentation)
+   > 모범답안: Were you and your team ready for the presentation?
+   - 자주 하는 실수: "you and your team"처럼 두 대상이 and로 연결되면 전체가 복수 취급을 받으므로 Was가 아니라 Were로 의문문을 시작합니다.
+
+---
+
+### Unit 008 — 일반동사의 현재형과 과거형
+
+:::info[💡 핵심 포인트]
+
+이 책은 3인칭 단수를 "he/she/it 세 단어"로 외우지 말라고 강조합니다. 정확한 정의는 "나(1인칭)도 아니고 너(2인칭)도 아닌 모든 것"입니다. 그래서 my phone, the cloud, everyone처럼 he/she/it이 안 보이는 주어도 전부 3인칭 단수 규칙(-s)의 적용 대상입니다.
+
+:::
+
+**(A) 구문분석**
+
+1. My phone battery dies so quickly these days.
+   - 구조: My phone battery(3인칭 단수 S — he/she/it은 아니지만 "나도 너도 아닌 것") / dies(V, 3인칭 단수 -s) / so quickly(부사구) / these days(부사)
+   - 해석: 요즘 내 휴대폰 배터리가 너무 빨리 닳는다.
+   - 포인트: my phone battery에는 he/she/it이 하나도 없지만, 화자(I)도 청자(you)도 아니므로 3인칭 단수이고 동사에 -s가 붙어 dies가 됩니다.
+
+2. The company launched three products last year, but only one succeeded.
+   - 구조: The company(S) / launched(V, 과거) / three products(O) / last year(부사) / but / only one(S) / succeeded(V, 과거)
+   - 해석: 그 회사는 작년에 제품 세 개를 출시했지만, 하나만 성공했다.
+   - 포인트: 과거형에는 인칭에 따른 구별이 없습니다(3인칭 단수든 아니든 launched, succeeded 형태가 그대로 유지). -s 규칙은 현재형에서만 적용됩니다.
+
+3. Everyone in this building shares the same parking lot.
+   - 구조: Everyone(S, 단수 취급) in this building(전치사구, everyone 수식) / shares(V, 3인칭 단수 -s) / the same parking lot(O)
+   - 해석: 이 건물의 모두가 같은 주차장을 공유한다.
+   - 포인트: everyone은 뜻은 여러 명이지만 문법적으로는 단수이므로 shares처럼 -s가 붙습니다(Unit 002-1의 everyone/nobody와 같은 규칙).
+
+**(B) 영작**
+
+1. 그 소음이 매일 밤 나를 깨운다. (noise, wake-woke, every night)
+   > 모범답안: The noise wakes me up every night.
+   - 자주 하는 실수: noise는 he/she/it이 아니지만 3인칭 단수이므로 "wake"가 아니라 "wakes"를 써야 합니다. 사람이 아닌 사물 주어라서 -s를 빠뜨리는 실수가 흔합니다.
+
+2. 그녀의 팀은 작년에 그 상을 받았다. (team, win-won, the award, last year)
+   > 모범답안: Her team won the award last year.
+   - 자주 하는 실수: team처럼 여러 사람을 가리키는 명사라도 하나의 단체로 볼 때는 단수 취급합니다("Her team win"이 아니라 원래도 과거형은 -s가 없으므로 이 문제에선 티가 안 나지만, 현재형이라면 "Her team wins"가 맞다는 점을 함께 기억해 두세요).
+
+---
+
+### Unit 009 — 일반동사의 부정문과 의문문 (do-support)
+
+:::info[💡 핵심 포인트]
+
+일반동사의 부정문·의문문은 do/does/did가 시제와 인칭 정보를 모두 떠맡고, 본동사는 반드시 동사원형으로 남습니다. does나 did가 이미 나왔는데 본동사에 다시 -s나 -ed를 붙이는 것이 가장 흔한 실수입니다.
+
+:::
+
+**(A) 구문분석**
+
+1. Doesn't this printer support wireless connection?
+   - 구조: Doesn't(does+not 축약, 의문문 도치) / this printer(S, 3인칭 단수) / support(동사원형 — does가 이미 3인칭 단수 정보를 가져갔으므로 원형) / wireless connection(O)
+   - 해석: 이 프린터는 무선 연결을 지원하지 않나요?
+   - 포인트: 주어가 3인칭 단수(printer)라서 does를 썼지만, 정작 본동사 support에는 -s를 붙이지 않습니다. -s는 does 하나로 충분합니다.
+
+2. Did the manager approve the request, or did she reject it?
+   - 구조: Did the manager approve the request(과거 의문문 1) / or / did she reject it(과거 의문문 2)
+   - 해석: 그 매니저가 요청을 승인했나요, 아니면 그녀가 그것을 거절했나요?
+   - 포인트: 두 절 모두 did가 과거 시제 정보를 가져갔기 때문에 approve, reject 둘 다 동사원형입니다. approved, rejected처럼 다시 과거형으로 쓰면 틀립니다.
+
+3. My parents don't usually eat out, but they did last weekend.
+   - 구조: My parents don't usually eat out(현재 부정) / but / they did(대동사 did = ate out, 과거 긍정) / last weekend(부사)
+   - 해석: 내 부모님은 보통 외식을 하지 않지만, 지난 주말에는 했다.
+   - 포인트: 뒤 절의 did는 앞의 eat out을 반복하지 않기 위해 쓰는 대동사입니다. "they did eat out"에서 반복되는 부분(eat out)을 생략하고 did만 남긴 것입니다.
+
+**(B) 영작**
+
+1. 그는 그 이메일을 받지 못했나요? (receive-received, the email)
+   > 모범답안: Didn't he receive the email? / Did he not receive the email?
+   - 자주 하는 실수: "Doesn't he received"처럼 did(과거)와 does(현재)를 섞어 쓰거나, 본동사에 -ed를 중복해서 붙이는 실수가 흔합니다. did가 나왔으면 본동사는 무조건 원형(receive)입니다.
+
+2. 그녀는 커피를 좋아하지 않지만, 차는 좋아한다. (like, coffee, tea)
+   > 모범답안: She doesn't like coffee, but she likes tea.
+   - 자주 하는 실수: 앞 절은 doesn't 뒤라서 동사원형(like)을, 뒤 절은 부정문이 아니라서 3인칭 단수 -s가 그대로 남은 형태(likes)를 씁니다. 한 문장 안에서도 부정문이냐 긍정문이냐에 따라 동사 형태가 달라진다는 점에 주의합니다.
 
 ---
 
