@@ -1,5 +1,5 @@
 ---
-id: syntax-practice/overview
+id: overview
 title: "구문실전연습 개요"
 ---
 
