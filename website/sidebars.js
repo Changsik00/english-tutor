@@ -59,9 +59,16 @@ const sidebars = {
       items: [
         'reading-strategy',
         'writing-strategy',
-        'syntax-practice',
         'word-formation',
         'verb-principle',
+      ],
+    },
+    {
+      type: 'category',
+      label: '구문실전연습 (챕터별 문제은행)',
+      items: [
+        'syntax-practice/overview',
+        'syntax-practice/ch01',
       ],
     },
   ],
