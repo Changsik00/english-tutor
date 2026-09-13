@@ -69,6 +69,8 @@ const sidebars = {
       items: [
         'syntax-practice/overview',
         'syntax-practice/ch01',
+        'syntax-practice/ch02',
+        'syntax-practice/ch03',
       ],
     },
   ],
