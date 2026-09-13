@@ -50,7 +50,7 @@ ch01~04(기초 문법)는 아직 관계사·분사·접속사 같은 "문장을 
 | 11 | [ch11](/docs/syntax-practice/ch11) | Unit 068~072 | 완성 (35문항) |
 | 12 | [ch12](/docs/syntax-practice/ch12) | Unit 073~076 | 완성 (25문항) |
 | 13 | [ch13](/docs/syntax-practice/ch13) | Unit 077~088 | 완성 (65문항) |
-| 14 | ch14 | Unit 089~097 | 준비 중 |
+| 14 | [ch14](/docs/syntax-practice/ch14) | Unit 089~097-3 | 완성 (62문항) |
 | 15 | ch15 | Unit 098~100 | 준비 중 |
 | 16 | ch16 | Unit 101~107 | 준비 중 |
 
