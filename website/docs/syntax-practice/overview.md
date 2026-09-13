@@ -42,8 +42,8 @@ ch01~04(기초 문법)는 아직 관계사·분사·접속사 같은 "문장을 
 | 03 | [ch03](/docs/syntax-practice/ch03) | Unit 015~019 | 완성 (40문항) |
 | 04 | [ch04](/docs/syntax-practice/ch04) | Unit 020~027 | 완성 (45문항) |
 | 05 | [ch05](/docs/syntax-practice/ch05) | Unit 028~033 | 완성 (45문항) |
-| 06 | ch06 | Unit 034~038 | 준비 중 |
-| 07 | ch07 | Unit 039~047 | 준비 중 |
+| 06 | [ch06](/docs/syntax-practice/ch06) | Unit 034~038 | 완성 (50문항) |
+| 07 | [ch07](/docs/syntax-practice/ch07) | Unit 039~047 | 완성 (62문항) |
 | 08 | ch08 | Unit 048~051 | 준비 중 |
 | 09 | ch09 | Unit 052~058 | 준비 중 |
 | 10 | ch10 | Unit 059~067 | 준비 중 |

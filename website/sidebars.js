@@ -73,6 +73,8 @@ const sidebars = {
         'syntax-practice/ch03',
         'syntax-practice/ch04',
         'syntax-practice/ch05',
+        'syntax-practice/ch06',
+        'syntax-practice/ch07',
       ],
     },
   ],
