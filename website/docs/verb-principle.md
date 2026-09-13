@@ -17,7 +17,7 @@ title: "동사원리"
 - **4부**: 사역동사·준사역동사에도 같은 원리가 적용된다
 - **5부**: 동사 패턴 사전과의 연결, 실전 적용 순서
 
-**함께 보면 좋은 원리 문서**: [독해원리](/docs/reading-strategy)(긴 문장을 끊어 읽는 법) · [작문원리](/docs/writing-strategy)(문장을 만드는 법) · [조어원리](/docs/word-formation)(접사로 품사 바꾸는 법)
+**함께 보면 좋은 원리 문서**: [독해원리](/docs/reading-strategy)(긴 문장을 끊어 읽는 법) · [작문원리](/docs/writing-strategy)(문장을 만드는 법) · [구문실전연습](/docs/syntax-practice)(누적 구문분석·영작 문제은행) · [조어원리](/docs/word-formation)(접사로 품사 바꾸는 법)
 
 :::
 

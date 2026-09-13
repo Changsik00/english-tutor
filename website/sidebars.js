@@ -59,6 +59,7 @@ const sidebars = {
       items: [
         'reading-strategy',
         'writing-strategy',
+        'syntax-practice',
         'word-formation',
         'verb-principle',
       ],
