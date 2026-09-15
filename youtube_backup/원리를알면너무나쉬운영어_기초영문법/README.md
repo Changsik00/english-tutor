@@ -1,0 +1,53 @@
+# 원리를 알면 너무나 쉬운 영어 — "기초영문법" 재생목록 백업 인덱스
+
+채널: [원리를 알면 너무나 쉬운 영어](https://www.youtube.com/@EnglishAAA)
+재생목록: 기초영문법 (PLAler8kMEp8dPR8FMzvsz22toEZxx9VLZ)
+총 37개 영상 전수 백업
+
+## 안내
+
+- 각 `lectures/*.md` 파일은 YouTube **자동 생성 한국어 자막**(1개 영상은 한국어 자막이 반복적으로 429 에러가 나서 영어 자막으로 대체: 024_18S-qLbTLXc)을 dedupe(중복 줄 제거)만 하고 이어붙인 것입니다. 사람이 교정하지 않았으므로 오탈자/동음이의어 오인식이 있을 수 있습니다. 정확한 내용은 원본 영상을 확인하세요.
+- 원본 저작권은 채널(원리를 알면 너무나 쉬운 영어)에 있습니다. 이 백업은 개인 학습·연구 목적의 로컬 보관용이며, 우리 프로젝트 콘텐츠에 문장을 그대로 복사해 넣지 않습니다.
+- 이 저장소는 퍼블릭 GitHub 저장소이므로, `lectures/` 폴더(자막 전문)는 `.gitignore`에 등록되어 **git에 커밋되지 않습니다**. 이 인덱스(README.md)만 저장소에 남습니다.
+- 이 재생목록에 포함된 영상 1개(감정분사)는 이미 별도 폴더(`원리를알면너무나쉬운영어_분사`)에서 검토를 마치고 책에 반영했습니다. 아래 표의 "비고" 칸에 표시했습니다.
+- 이 단계는 **수집(백업)만 완료한 상태**이며, 나머지 영상들의 강의 내용을 검토해서 책에 반영할지는 아직 논의 전입니다.
+
+| # | 제목 | 재생시간 | 파일 | 비고 |
+|---|---|---|---|---|
+| 1 | there is+ 단수/there are +복수,  또 하나의 진실, 정보의 법칙:  외우기만 했던 영문법의 새로운 문이 열립니다. 꼬리에 꼬리를 물고 많은 문법이 이해 됩니다. | 9:34 | [lectures/001_F5C8Lx9A-Zk_there_is+_단수there_are_+복수,_또_하나의_진실,_정보의_법칙_외우기만_했던_영문법의_새로운.md](lectures/001_F5C8Lx9A-Zk_there_is+_단수there_are_+복수,_또_하나의_진실,_정보의_법칙_외우기만_했던_영문법의_새로운.md) |  |
+| 2 | 주어와 필수부사의 도치, 정보의 법칙 2, 문법을 공부하기 전에 꼭 알아야 하는 법칙, 영어의 어순, A puppy is on the bench. 이 문장 어디에 문제가 있을까요? | 10:38 | [lectures/002_rFBkHFTDAkM_주어와_필수부사의_도치,_정보의_법칙_2,_문법을_공부하기_전에_꼭_알아야_하는_법칙,_영어의_어순,_A_p.md](lectures/002_rFBkHFTDAkM_주어와_필수부사의_도치,_정보의_법칙_2,_문법을_공부하기_전에_꼭_알아야_하는_법칙,_영어의_어순,_A_p.md) |  |
+| 3 | 도치, 회화에 정말 유용함, 영어의 어순, 어순의 원리, 정보의 법칙 3 , Here it comes와 Here comes the bus, 현재시제 심화 | 15:02 | [lectures/003_O1GCdVOqHHg_도치,_회화에_정말_유용함,_영어의_어순,_어순의_원리,_정보의_법칙_3_,_Here_it_comes와_He.md](lectures/003_O1GCdVOqHHg_도치,_회화에_정말_유용함,_영어의_어순,_어순의_원리,_정보의_법칙_3_,_Here_it_comes와_He.md) |  |
+| 4 | 조동사, 도우미 동사(helping verb), be 동사, can/could, may/might, will/would, must, should, have, do | 12:05 | [lectures/004_L6Y_14moQiQ_조동사,_도우미_동사(helping_verb),_be_동사,_cancould,_maymight,_willwo.md](lectures/004_L6Y_14moQiQ_조동사,_도우미_동사(helping_verb),_be_동사,_cancould,_maymight,_willwo.md) |  |
+| 5 | may, might, may have +p.p, must have + p.p.,의 차이, 발음, 대화 전 꼭 알아야할 may의 감춰진 진실 | 9:04 | [lectures/005_lZ_EPnknTZc_may,_might,_may_have_+p.p,_must_have_+_p.p.,의_차이,_발음,_대화_전_꼭.md](lectures/005_lZ_EPnknTZc_may,_might,_may_have_+p.p,_must_have_+_p.p.,의_차이,_발음,_대화_전_꼭.md) |  |
+| 6 | can, could, could have + p.p., can과 could의 차이, could의 의미, helping verb, back shift, could've + p.p. | 11:25 | [lectures/006_Cl0iJhaIw0c_can,_could,_could_have_+_p.p.,_can과_could의_차이,_could의_의미,_he.md](lectures/006_Cl0iJhaIw0c_can,_could,_could_have_+_p.p.,_can과_could의_차이,_could의_의미,_he.md) |  |
+| 7 | 부정문의 도치, 회화에서 주의할 점, 영어 어순의 유래와 도치, never, neither, nor, only, only if, only once, hardly, seldom 도치 | 15:21 | [lectures/007_zUXEWB0cLeM_부정문의_도치,_회화에서_주의할_점,_영어_어순의_유래와_도치,_never,_neither,_nor,_onl.md](lectures/007_zUXEWB0cLeM_부정문의_도치,_회화에서_주의할_점,_영어_어순의_유래와_도치,_never,_neither,_nor,_onl.md) |  |
+| 8 | [가정법] 원리를 알면 너무나 쉬운 가정법, 가정법 과거, 가정법 과거완료, 혼합가정법 | 21:57 | [lectures/008_bp3927pD3WA_[가정법]_원리를_알면_너무나_쉬운_가정법,_가정법_과거,_가정법_과거완료,_혼합가정법.md](lectures/008_bp3927pD3WA_[가정법]_원리를_알면_너무나_쉬운_가정법,_가정법_과거,_가정법_과거완료,_혼합가정법.md) |  |
+| 9 | if의 줄임꼴, 숙어처럼 사용되는 if possible, if necessary, if so, if not | 6:56 | [lectures/009_wg7PjOEw7L4_if의_줄임꼴,_숙어처럼_사용되는_if_possible,_if_necessary,_if_so,.md](lectures/009_wg7PjOEw7L4_if의_줄임꼴,_숙어처럼_사용되는_if_possible,_if_necessary,_if_so,.md) |  |
+| 10 | even if, even though의 차이와 사용법, 먼저 알아야 할 if/though의 뜻 차이, 조건이란 성립할 수도 성립 안 할 수도 있다는 것을 생각하면 놀랍지도 않은 일 | 6:51 | [lectures/010_aZq5XJ-KpIo_even_if,_even_though의_차이와_사용법,_먼저_알아야_할_ifthough의_뜻_차이,_조건이란.md](lectures/010_aZq5XJ-KpIo_even_if,_even_though의_차이와_사용법,_먼저_알아야_할_ifthough의_뜻_차이,_조건이란.md) |  |
+| 11 | if not ~, if not all, if not most 등 표현의 객관성을 올려 주는 if의 줄임꼴 | 8:27 | [lectures/011_Ysss7dX7ZG0_if_not_~,_if_not_all,_if_not_most_등_표현의_객관성을_올려_주는_if의_줄임꼴.md](lectures/011_Ysss7dX7ZG0_if_not_~,_if_not_all,_if_not_most_등_표현의_객관성을_올려_주는_if의_줄임꼴.md) |  |
+| 12 | some과 any의 의미 차이와 활용 및 뉘앙스 차이, 왜 관사(a/an, the)를 쓸까요? some과 any를 많이 사용하지 않고 있다면 무슨 문제가 있을까요? | 20:35 | [lectures/012_qYCo6eKepww_some과_any의_의미_차이와_활용_및_뉘앙스_차이,_왜_관사(aan,_the)를_쓸까요_so.md](lectures/012_qYCo6eKepww_some과_any의_의미_차이와_활용_및_뉘앙스_차이,_왜_관사(aan,_the)를_쓸까요_so.md) |  |
+| 13 | 단수로 쓰이는 some과 any, 긍정문에 쓰이는 any, some과 any, not just any, not just | 6:46 | [lectures/013_lSE4NzxwOEY_단수로_쓰이는_some과_any,_긍정문에_쓰이는_any,_some과_any,_not_just_any.md](lectures/013_lSE4NzxwOEY_단수로_쓰이는_some과_any,_긍정문에_쓰이는_any,_some과_any,_not_just_any.md) |  |
+| 14 | many, much, a lot of, lots of 정확히 구별하여 쓰기, 불필요한 오해가 생기지 않으려면 꼭 봐야할 영상입니다. | 7:27 | [lectures/014_b5VffPmgxlw_many,_much,_a_lot_of,_lots_of_정확히_구별하여_쓰기,_불필요한_오해가_생기지_않으려면.md](lectures/014_b5VffPmgxlw_many,_much,_a_lot_of,_lots_of_정확히_구별하여_쓰기,_불필요한_오해가_생기지_않으려면.md) |  |
+| 15 | many와 much, 긍정문에서 사용법, only so much, only so many, 는 저절로 이해되지요^^ | 7:21 | [lectures/015_btc2X7ZMaV8_many와_much,_긍정문에서_사용법,_only_so_much,_only_so_many,_는_저절로_이해되.md](lectures/015_btc2X7ZMaV8_many와_much,_긍정문에서_사용법,_only_so_much,_only_so_many,_는_저절로_이해되.md) |  |
+| 16 | few, little, few, a little, 의미 차이와 꼭 알아야할 활용법, 해석만 가지고 영어의 의미를 이해하면 절대 안되는 이유 | 8:33 | [lectures/016_sDErXiN-Y4Y_few,_little,_few,_a_little,_의미_차이와_꼭_알아야할_활요.md](lectures/016_sDErXiN-Y4Y_few,_little,_few,_a_little,_의미_차이와_꼭_알아야할_활요.md) |  |
+| 17 | little if any, few if any,  (약간 어려움 주의보), 부정적 문장의 객관성 유지, little, if any, few, if any | 4:56 | [lectures/017_6NHegrioysI_little_if_any,_few_if_any,_(약간_어려움_주의보),_부정적_문장의_객관성.md](lectures/017_6NHegrioysI_little_if_any,_few_if_any,_(약간_어려움_주의보),_부정적_문장의_객관성.md) |  |
+| 18 | 비교급의 수식 : far, much, a lot, a whole lot, way, ...: even은 다음 영상에서... | 8:38 | [lectures/018_9nAhVal9GJk_비교급의_수식_far,_much,_a_lot,_a_whole_lot,_way,_..._even.md](lectures/018_9nAhVal9GJk_비교급의_수식_far,_much,_a_lot,_a_whole_lot,_way,_..._even.md) |  |
+| 19 | even 다시 알아야할 비교급의 수식어 | 5:38 | [lectures/019_5uNH8oq3e-s_even_다시_알아야할_비교급의_수식어.md](lectures/019_5uNH8oq3e-s_even_다시_알아야할_비교급의_수식어.md) |  |
+| 20 | used to : would, be used to, get used to의 차이와 찐 일상 활용법 | 12:49 | [lectures/020_MQzy-KCEVd4_used_to_would,_be_used_to,_get_used_to의_차이와_찐_일상_활용법.md](lectures/020_MQzy-KCEVd4_used_to_would,_be_used_to,_get_used_to의_차이와_찐_일상_활용법.md) |  |
+| 21 | be different from, be different to, be different than의 차이와 사용법 그리고 변화의 추세 | 6:59 | [lectures/021_pOb2SwgBd6w_be_different_from,_be_different_to,_be_different_than의_차이와_사.md](lectures/021_pOb2SwgBd6w_be_different_from,_be_different_to,_be_different_than의_차이와_사.md) |  |
+| 22 | than I, than I am, than me, 앗! 주어의 자리에 목적격이 쓰이네요? | 4:29 | [lectures/022_hwFDz0bj40U_than_I,_than_I_am,_than_me,_앗!_주어의_자리에_목적격이_쓰이네요.md](lectures/022_hwFDz0bj40U_than_I,_than_I_am,_than_me,_앗!_주어의_자리에_목적격이_쓰이네요.md) |  |
+| 23 | 조건절 if, 조건절 0, 1, 2, 3 중 조건절 0번과 1번입니다.  if절은 현재가 미래를 대신한다구요? 그럴까요? 이것을 이해하면 가정법(조건절 3번과 4번)은 더 쉬워요~ | 12:12 | [lectures/023_PzHQclprQvA_조건절_if,_조건절_0,_1,_2,_3_중_조건절_0번과_1번입니다._if절은_현재가_미래를_대신한다구요.md](lectures/023_PzHQclprQvA_조건절_if,_조건절_0,_1,_2,_3_중_조건절_0번과_1번입니다._if절은_현재가_미래를_대신한다구요.md) |  |
+| 24 | The Conjunction 'that': Expressing Your Thoughts and Beliefs (This is essential grammar since we ... | 8:21 | [lectures/024_18S-qLbTLXc_The_Conjunction_'that'_Expressing_Your_Thoughts_and_Beliefs.md](lectures/024_18S-qLbTLXc_The_Conjunction_'that'_Expressing_Your_Thoughts_and_Beliefs.md) |  |
+| 25 | 2형식 동사, 5형식 동사, 지각동사, 감각동사, seem, stay, remain, become, turn, grow, get, 지각동사 see와 hear | 11:35 | [lectures/025_oUTuV6xvdSQ_2형식_동사,_5형식_동사,_지각동사,_감각동사,_seem,_stay,_remain,_become,_turn.md](lectures/025_oUTuV6xvdSQ_2형식_동사,_5형식_동사,_지각동사,_감각동사,_seem,_stay,_remain,_become,_turn.md) |  |
+| 26 | 수여동사, 목적어가 두 개인 동사(verbs with two objects, ditransitive verbs), 전치사 for와 to 구별하는 법, 3형식과 4형식 왜 바꿀까요? | 11:14 | [lectures/026_7p-RzwfqIU8_수여동사,_목적어가_두_개인_동사(verbs_with_two_objects,_ditransitive_verb.md](lectures/026_7p-RzwfqIU8_수여동사,_목적어가_두_개인_동사(verbs_with_two_objects,_ditransitive_verb.md) |  |
+| 27 | 현재분사, 과거분사, 분사 1: 분사의 형용사로서의 기본 원리, 참ㅠ 분사란 말이 오역이라니요ㅠ 그래서 우리가 고생을 하고 있네요. | 9:26 | [lectures/027_QLGyRCpsbbE_현재분사,_과거분사,_분사_1_분사의_형용사로서의_기본_원리,_참ㅠ_분사란_말이_오역이라니요ㅠ_그래서_우리가.md](lectures/027_QLGyRCpsbbE_현재분사,_과거분사,_분사_1_분사의_형용사로서의_기본_원리,_참ㅠ_분사란_말이_오역이라니요ㅠ_그래서_우리가.md) |  |
+| 28 | 과거분사, 분사 : 2. 현재진행형과 수동태(분사의 동사적 성질) | 10:20 | [lectures/028_QcVT3w9-PB0_과거분사,_분사_2._현재진행형과_수동태(분사의_동사적_성질).md](lectures/028_QcVT3w9-PB0_과거분사,_분사_2._현재진행형과_수동태(분사의_동사적_성질).md) |  |
+| 29 | 분사, 영어의 분사, 3. 성질(원인)의 ing와 감정(결과)의 ed가 중요한 이유? 1. 우리말 뜻이 비슷해 상대방에게 실수를 할 수 있음. 2. 그래서 시험에도 자주 나옴 | 12:39 | [lectures/029_P3z8-8zLTTg_분사,_영어의_분사,_3._성질(원인)의_ing와_감정(결과)의_ed가_중요한_이유_1._우리말_뜻이_비슷해.md](lectures/029_P3z8-8zLTTg_분사,_영어의_분사,_3._성질(원인)의_ing와_감정(결과)의_ed가_중요한_이유_1._우리말_뜻이_비슷해.md) | 감정분사(ing/ed) — 원리를알면너무나쉬운영어_분사 폴더에서 검토·반영 완료 (ch09 Unit 055) |
+| 30 | 전치사, at, on, about, in. on Christmas와 at Christmas 차이를 아시나요?  정말 몰랐던 진실. 끝까지 한 번만 보면 기적이 일어납니다. | 11:08 | [lectures/030_ct4vlF1AU98_전치사,_at,_on,_about,_in._on_Christmas와_at_Christmas_차이를_아시나요.md](lectures/030_ct4vlF1AU98_전치사,_at,_on,_about,_in._on_Christmas와_at_Christmas_차이를_아시나요.md) |  |
+| 31 | as A as B 그냥 숙어 아닙니다. 무조건 외우지 마세요. | 12:50 | [lectures/031_uqLGFzD0XF8_as_A_as_B_그냥_숙어_아닙니다._무조건_외우지_마세요..md](lectures/031_uqLGFzD0XF8_as_A_as_B_그냥_숙어_아닙니다._무조건_외우지_마세요..md) |  |
+| 32 | more A than B, as A as B, so ~ as to, so ~ that | 22:24 | [lectures/032_sVJMHvWdoc4_more_A_than_B,_as_A_as_B,_so_~_as_to,_so_~_that.md](lectures/032_sVJMHvWdoc4_more_A_than_B,_as_A_as_B,_so_~_as_to,_so_~_that.md) |  |
+| 33 | 관계대명사 주격과 목적격 | 16:05 | [lectures/033_EdyO1YgoqtY_관계대명사_주격과_목적격.md](lectures/033_EdyO1YgoqtY_관계대명사_주격과_목적격.md) |  |
+| 34 | 과거와 현재완료의 비교, 현재완료 | 10:45 | [lectures/034__bBx3vqICDE_과거와_현재완료의_비교,_현재완료.md](lectures/034__bBx3vqICDE_과거와_현재완료의_비교,_현재완료.md) |  |
+| 35 | 미래 시제 will (simple future, 단순미래 will), 대화 중에는 어떻게 미래를 표현해야 할까요? will의 활용을 모르면 고집스럽거나 즉흥적으로 보일 수 있어요. | 6:11 | [lectures/035__0FMHCFUAR8_미래_시제_will_(simple_future,_단순미래_will),_대화_중에는_어떻게_미래를_표현해야_할.md](lectures/035__0FMHCFUAR8_미래_시제_will_(simple_future,_단순미래_will),_대화_중에는_어떻게_미래를_표현해야_할.md) |  |
+| 36 | 미래 시제 2. will과 be going to 비교 (future tenses), 구별해서 사용해야 상대방에게 오해를 받지 않아요. | 7:23 | [lectures/036_P2aGcR3or-U_미래_시제_2._will과_be_going_to_비교_(future_tenses),_구별해서_사용해야_상대방.md](lectures/036_P2aGcR3or-U_미래_시제_2._will과_be_going_to_비교_(future_tenses),_구별해서_사용해야_상대방.md) |  |
+| 37 | A super fun drama about a daughter of a Joseon Dynasty noble family who time-travels to the moder... | 50:29 | [lectures/037_CBAOCxnABeI_A_super_fun_drama_about_a_daughter_of_a_Joseon_Dynasty_noble.md](lectures/037_CBAOCxnABeI_A_super_fun_drama_about_a_daughter_of_a_Joseon_Dynasty_noble.md) |  |
