@@ -61,6 +61,7 @@ const sidebars = {
         'writing-strategy',
         'word-formation',
         'verb-principle',
+        'noun-centered-principle',
       ],
     },
     {

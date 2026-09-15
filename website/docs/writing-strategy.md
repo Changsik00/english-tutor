@@ -17,7 +17,7 @@ title: "영작문 원리"
 - **4부**: 패턴별 집중 연습
 - **5부**: 교재 챕터와의 연결, 실전 적용 순서
 
-**함께 보면 좋은 원리 문서**: [독해원리](/docs/reading-strategy)(긴 문장을 끊어 읽는 법) · [구문실전연습](/docs/syntax-practice/overview)(누적 구문분석·영작 문제은행) · [조어원리](/docs/word-formation)(접사로 품사 바꾸는 법) · [동사원리](/docs/verb-principle)(동사가 문장구조를 결정하는 원리)
+**함께 보면 좋은 원리 문서**: [독해원리](/docs/reading-strategy)(긴 문장을 끊어 읽는 법) · [구문실전연습](/docs/syntax-practice/overview)(누적 구문분석·영작 문제은행) · [조어원리](/docs/word-formation)(접사로 품사 바꾸는 법) · [동사원리](/docs/verb-principle)(동사가 문장구조를 결정하는 원리) · [명사중심원리](/docs/noun-centered-principle)(영어는 명사, 한국어는 서술어 중심)
 
 :::
 
