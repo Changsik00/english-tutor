@@ -168,11 +168,32 @@
 .scalePoint {
   position: absolute;
   top: -22px;
-  transform: translateX(-50%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 0.85rem;
+  width: max-content;
+  max-width: 200px;
+}
+
+/* 가운데(10~90%) 지점: 중앙 정렬, 좌우 대칭으로 자람 */
+.scalePointCenter {
+  transform: translateX(-50%);
+  align-items: center;
+  text-align: center;
+}
+
+/* 왼쪽 끝 근처 지점: 왼쪽 정렬로 고정, 텍스트는 오른쪽으로 자람 (남은 공간 부족으로 세로로 깨지는 것 방지) */
+.scalePointStart {
+  transform: translateX(0);
+  align-items: flex-start;
+  text-align: left;
+}
+
+/* 오른쪽 끝 근처 지점: 오른쪽 정렬로 고정, 텍스트는 왼쪽으로 자람 */
+.scalePointEnd {
+  transform: translateX(-100%);
+  align-items: flex-end;
+  text-align: right;
 }
 
 .scalePointMark {
@@ -227,5 +248,8 @@
   .box {
     min-width: 52px;
     padding: 0.4rem 0.6rem;
+  }
+  .scalePoint {
+    max-width: 40vw;
   }
 }
